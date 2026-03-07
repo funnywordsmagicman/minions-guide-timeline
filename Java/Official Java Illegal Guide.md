@@ -189,7 +189,8 @@
 ## Beta
 
 ### Beta 1.0
-- Destroyed containers now force close their gui, but the Destroyed Container GUI Reference dupe is still possible since there is a 1-tick window before the close.
+- Destroyed containers now force close their gui.
+  - The Destroyed Container GUI Reference dupe is still possible due to a [1-tick window](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference:~:text=YouTube-,The%20second%20method,-works%20from%20Beta) before the close.
 - The player can't store items in the inventories' crafting fields anymore.
 
 ### Beta 1.2_02-launcher
