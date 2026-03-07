@@ -14,7 +14,9 @@ ________________________________________________________________________________
 **Mod:** Requires a Mod from "Mods & Extra Files" that can let you either play the version or obtain certain unobtainables
 <br>
 
-**Zero Stack:** Zero stack refers to items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than 0. These items behave like normal items in the sense that they can be taken out of and put into containers, but will "absorb" any items of the same type. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type. This can be repeated multiple times, though it will subtract 1 from the zero stack's count each time. Once you reload the world (if it's in your inventory) or any container a zero stack item is in, if its count is less than -127 it will become an overstacked item.
+**Zero Stack Item:** Zero stack items, also known as understacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than or equal to 0. These items behave like normal items in the sense that they can be taken out of and put into containers as well as dropped, but will "absorb" any items of the same type if they are stacked. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type. This can be repeated multiple times, though it will subtract 1 from the zero stack's count each time. Once you reload the world (if it's in your inventory) or any container a zero stack item is in, if its count is less than -128 it will become an overstacked item.
+
+**Overstacked Item:** Overstacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
 _____________________________________________________________________________________________________________________________________
 
 **Classic 0.0.14a_08**
@@ -103,22 +105,23 @@ ________________________________________________________________________________
 **Alpha 1.0.4**
 > [!Note]
 > In order to access the winter mode type and obtain snow and ice, the level.dat will have to be regenerated. This will reset the player position and remove all items within the inventory, as well as changing the world seed. This can be done by deleting level.dat and level.dat_old, then going to the "singleplayer" screen, and selecting the world slot that has the same name as the world save folder. This will likely have to be done several times before the winter type is set to 1
-- Snow Layers were added but can only be obtained in the Winter Type Map. Snow Layers would generate on top of all blocks during snowfall which allows for illegal block formations like snow layers on non-full blocks (e.g. stairs and slabs)
+- Snow Layers were added, but can only be obtained in the Winter Type Map.
+- Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
 
 **Alpha 1.0.5-2**
-- Added Block Replacement Bypass, this is involves placing a support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders, quintuple chests
-- Snowballs in this version would stack to 64 allowing for overstacked snowballs
+- Added Block Replacement Bypass, this is involves placing a support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
+- Snowballs stack to 64.
 
 **Alpha 1.0.6**
-- Cactus can be placed on and next to any block allowing for many illegal block formations
-
+- Cactus can be placed on and next to any block.
+  
 **Alpha 1.0.11**
-- Placing a door next to a cactus would create a half door
-- Buckets of Milk can be stackable to 64
+- Placing a door next to a cactus would create a half door.
+- Buckets of Milk stack to 64.
 
 **Alpha 1.1.1**
-- Fishing Rods would stack to 64 in this version
-- Eggs can stack to 64 in this version
+- Fishing Rods stack to 64.
+- Eggs stack to 64.
 
 **Alpha 1.2.0**
 - Zombie Pigmen and skeletons appear to hold their weapons but it is all visual, updating these two mobs past 1.3 will turn them into weaponless weaponless mobs
