@@ -408,12 +408,12 @@
 - Bounding boxes now save with the world. In order for current structures (witch huts, nether fortresses, etc.) to be saved to the world file, the player must load the appropriate chunks within the game manually. After this is completed, structures will be compatible in all snapshots starting with snapshot. All these bounding boxes will not be obtainable in their current locations in future versions.
 - These bounding boxes are stored in structure files, which are generated when the respective structure is loaded. These files are Village.dat, Fortress.dat, Temple.dat, Mineshaft.dat, and Stronghold.dat. All of these files will be discontinued in a future version.
 
-**1.6.4 Build 1 Classroom-1 (EDU)**
+### 1.6.4 Build 1 Classroom-1 (EDU)
 - A file called forcedchunks.dat generates within the world save folder, which will become unobtainable in non edu versions
 
 ## Java 1.7 - The Update that Changed the World
 
-**13w36a-1**
+### 13w36a-1
 - A method of block transmutation is now possible. This method works by firing an arrow, then pushing the arrow with a piston so it is floating, and then breaking the block it was previously on and replacing it with a golden pressure plate. This allows for several invalid data value blocks, and an easy form of update suppression by creating 6 sided pistons
 - Crafting a Carrot on a Stick with a Fishing Rod that is enchanted with Lure and Luck of the Sea allowing for a Carrot on A Stick with Lure and Luck of the Sea enchantments
 - Silk Touch and Luck of the Sea can be applied on the same enchanted book
@@ -427,31 +427,31 @@
 - You can get an unobtainable Player Kills statistic if you are in singleplayer by shooting yourself with an arrow or harming potions till you die
 - Combining Chain Armor, Tridents, or Elytra to repair them will cause the statistic of items crafted to go up one for each respective item, since none of them can be crafted, this becomes an unobtainable stastistic
 
-**13w37a**
+### 13w37a
 - Enchanted Books in loot table chests do not have enchantments
 - Chunk regeneration can occur by mining a powered redstone lamp with silk touch. This allows for an assortment of unobtainable block configurations.
 - Removed several technical blocks, these are: bed (26), piston head and extension (34 & 36), redstone wire (55), wheat crops (59), standing and wall sign (63 & 68), wooden and iron door (64 & 71), lit redstone ore (74), unlit redstone torch (75), sugar cane (83), cake (92), unpowered and powered repeater (93 & 94), locked chest (95), pumpkin and melon stem (104 & 105), nether wart (115), brewing stand (117), cauldron (118), lit redstone lamp (124), tripwire (132), flower pot (140), skull (144), and unpowered and powered comparator (149 & 150). The locked chest will convert to stained glass in the future if it is kept unloaded until the addition of stained glass.
 
-**13w37b**
+### 13w37b
 - Bounding boxes now save with the world. In order for current structures (witch huts, nether fortresses, etc.) to be saved to the world file, the player must load the appropriate chunks within the game manually. After this is completed, structures will be compatible in all snapshots starting with snapshot. All these bounding boxes will not be obtainable in their current locations in future versions.
 - These bounding boxes are stored in structure files, which are generated when the respective structure is loaded. These files are Village.dat, Fortress.dat, Temple.dat, Mineshaft.dat, and Stronghold.dat. All of these files will be discontinued in a future version.
 
-**13w49a**
+### 13w49a
 - Added Chicken Jockeys. Chickens in chicken jockeys currently lay eggs, as the "IsJockey" tag does not exist yet. Chickens also maintain agression against the player after the zombie is dead, despite not being able to deal damage.
 - Zombies, zombie villagers, and zombie pigmen (if made weaponless first) chicken jockeys could pick up eggs from 13w49a to 1.7.10.
 
-**1.7.10 Build 1 Classroom-1 (EDU)**
+### 1.7.10 Build 1 Classroom-1 (EDU)
 - Player data is saved in the playerdata folder under username.dat. This will become unobtainable in future versions as it is stored as a UUID instead of a username. Additionally, since you are logging in in offline mode, the UUID for the statistics is different, allowing for multiple statistic files in a singleplayer world.
 
-**1.7.10 Build 20 Classroom-1 (EDU)**
+### 1.7.10 Build 20 Classroom-1 (EDU)
 - Command computers can be used to run any command in the game. This is different to the teachers menu in that this can be acheived by a non op player by using the command computer datapack linked in "Mods & Extra Files". It can also be obtained in survival without using the teacher menu or commands by downgrading prismarine.
 - The disk drive, wireless modem, monitor, printer, and advanced monitor all have the numeric id of 166, and data values of 0,1,2,3, and 4, respectively. The numeric id of 166 later converts to barriers, which are unobtainable in survival by normal means. Updating these items allows for both normal barriers and invalid data value barriers to be obtained.
 - The computer process allows for the writing of external files, meaning essentially any file can be created within the world save, all of which would be discontinued. Upon world save the computer folder is generated, which is a discontinued folder.
 
-**1.7.10**
+### 1.7.10
 - Placing Skulls against non full blocks and can replace the block in front of it with a skull and will not cause block updates making it possible for Skull Suppresion
 
-**14w02a**
+### 14w02a
 - Completely reworked villager trades. Almost all trades will be discontinued in future versions, either by trade, amount, or tier it is within. Some specific trades that will be discontinued are: Shepherds Selling All 16 Wool Colors, Librarians Buying 2 Written Books, and Leatherworkers Selling Enchanted Leather Tunic. Trades are now generated based on tier and are more specifically ordered. All trades from previous versions are considered tier 0 trades, meaning all trades from this version can be stacked on top of trades from previous versions.
 - Clerics currently buy enderpearls, which will become unobtainable in future versions.
 - Clerics currently sell eyes of enders, which ill become unobtainable in future versions
@@ -460,67 +460,67 @@
 - In 14w02a (a 1.8 snapshot), farmer villagers were supposed to sell cake at tier 4. However, due to a bug farmer villagers will instead sell the Cake (Block Item) for 1 emerald. As the cake block does not have a registered item in 13w37a (a 1.7 snapshot) and above, opening this villager's GUI before reloading from disk after unlocking its tier 4 trades will crash the game whilst trying to write the villager's trades to the trade packet. When the villager is saved to disk, 0 is written as the item id, converting it to air.
 - Due to a bug, from 14w02a - 14w30c (1.8 Snapshots) bottles o' enchanting were unavailable as a last tier trade from cleric villagers.
 
-**14w02a - 1.7.10 (Downgrading)**
+### 14w02a - 1.7.10 (Downgrading)
 - Downgrading villagers from 14w02a causes all trades to become tier 0 trades. This would allow you to update back to 14w02a, and get the same trades stacked on top. This downgrade and update cycle can be repeated for well over 100 trades in the first tier. This also allows for villagers of different careers to have trades on the same villager (for example shepherd trades and fletcher trades can both be on the same villager using this bug)
 
 ## Java 1.8 - Bountiful Update
 
-**14w04a**
+### 14w04a
 - The id for cooked fish is now "cooked_fish" instead of "cooked_fished" This change partially breaks old villagers trading fish, but no discontinued trades are created. These broken villagers will allow for chunk regeneration in future versions, and by extension discontinued block configurations.
 - Placing Snow on grass would not convert the grass to snowy grass
 
-**14w21a**
+### 14w21a
 - By update suppressing a container and then placing items within that container, a technique known as item shadowing can be performed, which allows for duplicate item references. Along with item duplication, this allows for the same item to be placed inside an enchantment table at the same time, allowing for duplicate enchantments on any item that can be placed in an enchanting table.
 
-**14w25a**
+### 14w25a
 - A Wet sponge can be placed in the nether and will not update to Dry Sponge
 - Removed the item forms of flowing and stationary water and lava blocks (8, 9, 10 & 11), double stone and wooden slabs (43 & 125), fire blocks (51), Nether portal and End portal blocks (90 & 119), cocoa pods (127), and potato and carrot crops (141 & 142)
 - Torches can be placed in an assortment of invalid locations, including floating, on other torches, and on transparent blocks, all of which are discontinued block configurations. This occurs by placing them on a block that is against a solid block, instead of changing the position to a wall torch, the position is maintained as a standing torch.
 - Mining the piston hwad in this version will not break the rest of the piston but instead leav you with a headless piston
 
-**14w26c**
+### 14w26c
 - Furnaces can now only have fuel items, and empty and water buckets in the fuel slot. Mushroom blocks are still considered fuel and can be placed in the fuel slot, which will be discontinued in future versions.
 
-**14w27a**
+### 14w27a
 - There is a 1 in 1000 chance of a killer bunny spawning in place of a rabbit. This is an unobtainable mob.
 - Rabbits currently spawn with 10 health, which will be reduced in future versions, making these rabbits discontinued
 - The killer bunny is capable of killing the player, allowing for the "Killed By Rabbit" statistic, which is discontinued by association with the killer bunny
 - Placing buttons puts them into a perpetual pressed state. Placing comparators puts them into a powered state regardless of redstone input. These are both unobtainable block states.
 - Placing an iron trapdoor places it in an open state, but with powered as false. This is a discontinued combination of block states.
 
-**14w27b-2**
+### 14w27b-2
 - Planting Pumpkin and Melon seeds will cause them to be planted full grown and always facing east
 
-**14w28b**
+### 14w28b
 - Spawners can now be right clicked with a spawn egg, and they will spawn that mob. This allows for an assortment of discontinued mob spawners.
 
-**14w30b**
+### 14w30b
 - Breaking a placed banner adds a block entity tag to the item
 
-**14w32a**
+### 14w32a
 - Minecarts can pick up armor stands
 - Horse saddles from 13w16a can be updated and will convert to armor stands, allowing for armor stands in the furnace fuel slot.
 - Currently overstacked armor can be dispensed onto an armor stand, which will be discontinued in future versions. This was removed in 24w09a so you will have to keep the armor stand in unloaded chunks till 1.20.5 Prerelease 1
 - Currently placed armor stands have minor poses. In future versions armor stands will have no poses, making these discontinued armor stand variants.
 
-**15w14a**
+### **15w14a
 > [!Note]
 > In order to update to this version, the world folder must be renamed to "existence.af15"
 - Attempting to trade with a villager does not give the proper item, but instead gives a paper renamed "Thanks for your donation". This paper is a discontinued item since it is renamed without a repair cost.
 - Horses could be stacked on top of the player by right clicking them. They can be removed from riding the player by logging out, or submerging the stack into water. While both tamed and untamed horses could be added to the stack, untamed horses will randomly dismount their mounts, making them a temporary discontinued feature if the stack consists of untamed horses.
 
-**1.8.9**
+### 1.8.9
 - Currently there is a bug that allows for commands to be run in survival. This is known as Cross Word Commands, and it functions by first creating a creative world. From the creative world a redstone setup can be made to generate a large amount of lag at the same time it runs command blocks. The player then quickly logs out of the creative world and into the survival world, which has a chance to transfer the commands and have them run in survival. A creative world download will be added to "Mods & Extra Files"
 - During this version armored mobs can be stored in unloaded chunks until 18w19a or later. Keeping these mobs unloaded during this version range will create dual wielding mobs, or mobs holding boots and leggings in each hand. This allows for unobtainable mob variants. During this version, mobs can also be stored in unloaded chunks until 15w32a or later for mobs with 0 drop chance on their left hand.
 
-**1.8.9 Build 3 Classroom (EDU)**
+### 1.8.9 Build 3 Classroom (EDU)
 - Player data is saved in the playerdata folder under username.dat. This will become unobtainable in future versions as it is stored as a UUID instead of a username. Additionally, since you are logging in in offline mode, the UUID for the statistics is different, allowing for multiple statistic files in a singleplayer world.
 - Files called EduWorldSettings.ini, EduMapSettings.ini, and forcedchunks.dat generate within the world save. A folder called MCEdu is created within the world save, which includes several files that are gnenerated when the server is launched. Another folder called region_eduf1_backup is created upon world save, and contains a copy of the region files. These files and folders are exclusive to Edu versions, and will be discontinued in future versions.
 - The computer process allows for the writing of external files, meaning essentially any file can be created within the world save, all of which would be discontinued. Upon world save the computer folder is generated, which is a discontinued folder.
 
 ## Java 1.9 - Combat Update
 
-**15w31a**
+### 15w31a
 - Endermen now drop the block they are holding, allowing for an assortment of items that are normally unobtainable if the endermen from b1.8-pre1 are killed.
 - Enchanting a book in an enchantment table does not properly apply the enchantment, resulting in a blank enchanted book. This will become unobtainable in future versions.
 - Enchanted books that generate in structures have no enchantments, which allows for blank enchanted books. This will become unobtainable in future versions.
@@ -533,89 +533,89 @@
 - Currently resummoning dragons will regenerate the dragon egg, which allows for a normally unobtainable amount of dragon eggs.
 - Since 15w31a (first snapshot of 1.9) regenerating the exit portal by either killing or respawning the ender dragon would delete the blocks around it allowing for many fun things like half beds, doors and floating plants, rails, torches, gravity blocks and such until 17w47a 
 
-**15w32a**
+### 15w32a
 - Loading the mobs stored in 1.8.9 will create 0 drop chance left hand mobs
 
-**15w33a**
+### 15w33a
 - Added items picked up and items dropped statistics. These can go negative by simply dropping or picking up negative stacks of items.
 
-**15w33c**
+### 15w33c
 - Inside End City Ships instead of an Elytra a book signed by Searge generates. This is unobtainable in singleplayer.
 - Fireballs shot out of a dispenser are dragon fireballs. This allows for dragon fireballs in the overworld and nether, which can become frozen projectiles. These projectiles are normally unobtainable in these dimensions.
 - Resummoning the ender dragon also regenerates the end pillars. The ender crystals can be moved during this regeneration process, allowing for indestructable ender crystals which will be unobtainable in future versions.
 
-**15w35a**
+### 15w35a
 - Zombies and Zombie Pigmen spawn in this version with noAI. This allows for various NoAI mobs including Villagers and Drowneds
 - From 15w34a (1.9 snapshot) to 1.12.1[1], and 1.13 to 1.13.2[2], being inside of a nether portal and throwing an ender pearl will multiply the player's coordinates by ⅛ if performed in the Overworld, or 8 if performed in the Nether. This can be done to easily reach the world border. This is safest to perform on the nether roof, because the player can be spawned inside of a wall if performed below the roof, or take a dip into a lava lake. The same may happen in the overworld, but performing the warp at a Y level higher than most terrain (y=100 typically is sufficient) will cause the pearl to simply fall to the surface, allowing for safe teleportation
 
-**15w35d**
+### 15w35d
 - By placing 256 block states in a single chunk, the chunk can corrupt and potentially replace random blocks, potentially allowing for various discontinued blocks
 
-**15w37a**
+### 15w37a
 - Pistons can no longer push pistons, but can instead push obsidian. Pushing obsidian into the world border allows for block 36 with obsidian, which is unobtainable in future versions
 
-**15w38a**
+### 15w38a
 - Armor from skeleton horsemen have a chance of having duplicate enchantments or conflicting enchantments. In future versions duplicate enchantments will be removed. This allows for Helmets and bows with conflicting enchantments.
 - Sending a skeleton trapped horse to the nether allows for wither skeleton horsemen, which are unobtainable in future versions
 - Skeleton horses currently spawn with higher health than is obtainable in future versions. The main skeleton horse spawns with 53 hp, and the other skeleton horses range from 15-30 hp
 
-**15w39a**
+### 15w39a
 - Using a Bucket on a block destroys the block possible for bedrock removal
 
-**15w41a**
+### 15w41a
 - Currently any mobs can enter into a boat, this includes large mobs such as ghasts, and squids. This allows for an assortment of discontinued mobs in boats.
 - An ender dragon can enter a boat, which will be discontinued in future versions
 - Clerics now sell ender pearls instead of eye of enders, which is another discontinued trade
 
-**15w42a - 15w41b**
+### 15w42a - 15w41b
 - Downgrading a frost walker enchanted book to this version allows you to add a depth strider book to it via an anvil. These enchantments are usually mutually exclusive, thus allowing for a discontinued enchanted book combination.
 
-**15w42a**
+### 15w42a
 - Mending and Infinity can be added to a bow and an enchanted book
 - Adding Blaze powder to a Brewing Stand will set the fuel higher than in newer versions
 - trading with a librarian in 15w42a and getting either a Mending or Frost Walker enchanted book trade. Mending and Frost Walker I would be 5-19 emeralds and one book each. This was changed in the next version so it would cost 10-38 emeralds and one book. Similarly in 15w42a Frost Walker II would cost 8-32 emeralds and one book, where in the next snapshot it would cost 16-64 emeralds and one book.
 - Currently renaming any item adds the repair cost 0 tag, which will not be added to renamed items in future versions
 - From 15w42a to 15w44b, breaking frosted ice with a Silk Touch pickaxe will drop tile.air.name. This cannot be picked up by player, but it can be picked up by minecart with hopper, from which you can move it to hopper and then into other containers. Interacting with the item in a container crashes the game
 
-**15w43a**
+### 15w43a
 - Added loot tables to all chests that generate in structures. Currently blacksmith chests in villages generate with the loot table of minecraft:chests/village_blacksmith, which will be discontinued in future versions.
 
-**15w44a**
+### 15w44a
 - By placing an end crystal in the center of the exit end portal when attempting to resummon the ender dragon, there is a small chance bedrock will drop as an item, allowing it to be obtained.
 
-**15w44b**
+### 15w44b
 - Relogging during the Dragon's resummoning process will cause all of the End Crystals present to become invincible
 
-**1.9 Prerelease 1 - 16w07b (Downgrading)**
+### 1.9 Prerelease 1 - 16w07b (Downgrading)
 - By downgrading a shield from the previous version, negative durability shields can be created. This works by taking at least two shields in the previous version, and getting the durability lower than roughly 140 at least. The lower the durability, the easier to combine. Once these low durability shields are obtained, they can be downgraded to this version and combined in a crafting table. This will make the shields receive a lower durability, and can consistently be combined to as low as roughly -32400 durability. Anything lower than roughly -160 durability will remain negative when updated.
 
-**1.RV- Prerelease 1**
+### 1.RV- Prerelease 1
 - USB Charger Blocks function as redstone blocks, and emit a signal. In block form they will later convert to glazed black terracotta, allowing for glazed black terracotta to emit a redstone signal.
 
 ## Java 1.10 - Frostburn Update
 
-**16w20a**
+### 16w20a
 - Endermen can spawn in the nether and can pick up netherack. In the future Endermen aren't able to pick up netherack
 - If you kill a slime and unload it while it is dying, when reloaded it will have its health set above 0, which stops the mob from dying. However, the death timer is not reset.
 - Any spider spawned in a cold biome with direct sky access could become a stray jockey instead of a normal spider jockey. The biome can be Snowy Tundra, Snowy Mountains, Ice Spikes, Frozen River, or Frozen Ocean. There is a 0.8% chance that any spider spawned will be a stray jockey. The spider can be only spawned from a spawner, or using a spawn egg, as natural spawning couldn't spawn jockeys at the time due to bug.
 
-**16w21a**
+### 16w21a
 - Dispensers can equip shields onto entities, including armor stands.
 
-**1.10.2**
+### 1.10.2
 - Spawner minecarts can be moved into various chunks and kept unloaded until 1.13-pre2 or later, and then will be capable of regenerating chunks when loaded
 
 ## Java 1.11 - Exploration Update
 
-**16w32b**
+### 16w32b
 - When a villager is generated, the tier one trades can be from an invalid profession and career. The career can also be set too high, causing only tier one trades to be added. Also, this allows for villagers to receive no trades, which is unobtainable until they are forced to get trades in future versions. This allows for a large variety of discontinued villagers
 - Since villagers can receive invalid tier one trades, this also allows nitwits to receive tier one trades. Nitwits can normally not receive any trades, allowing for unobtainable nitwits.
 
-**16w38a**
+### 16w38a
 - The uncraftable potion is now the base potion when there are no nbt tags on a potion. By shift clicking overstacked potions into an enchantment table, an uncraftable potion can be obtained
 - The uncraftable tipped arrow is now the base tipped arrow when there are no nbt tags on the tipped arrow. By shift clicking stacked tipped arrows into an enchantment table, an uncraftable tipped arrow can be obtained, which will be discontinued in future versions.
 
-**16w39a**
+### 16w39a
 - Currently the curse of vanishing can be added to any item, allowing for a large variety of items with discontinued enchantments
 - Curse of Binding and Curse of Vanishing can be applied to Jack O' Lantern
 - Added cartographer villagers, which have trades that will be discontinued in future versions. They can also be combined with the invalid career villagers from 16w32b.
@@ -625,10 +625,10 @@
 - Explorer maps can currently be zoomed out and copied, both of which allow for discontinued map variants
 - The file Mansion.dat now generates in the data folder, which will be unobtainable in future versions
 
-**16w39b**
+### 16w39b
 - Shulker boxes with a custom name in the block entity tag but without a regular custom name can be created. This works by naming a shulker box, then placing it and breaking it. From there, remove the name in the anvil so the name is reverted back to "Shulker Box". This removes the custom name, but keeps the custom name in the block entity tag.
 
-**1.11.2 (MOD)**
+### 1.11.2 (MOD)
 > [!Note]
 > This version uses Forge 1.13.20.2235 for version 1.11.2. This version can be downloaded from the forge link in "Links", and added to the official minecraft launcher, or it can be added directly from multimc. Adding to multimc requires creating a 1.11.2 instance, then going to edit instance, then install forge, then scrolling down to the correct version of forge and selecting it.
 - Shulkers can be put into other shulkers by using a hopper. This only works due to the forge version that is being used. Nested shulkers are normally unobtainable.
@@ -636,27 +636,27 @@
 
 ## Java 1.12 - World of Color Update
 
-**17w13a-1**
+### 17w13a-1
 - Added Advancements to replace Acheivements. Support for custom advancements was added, meaning an empty folder called Advancements is generated in the data folder. This folder is unobtainable in future versions.
 
-**17w15a**
+### 17w15a
 - Added 15 New Beds, all of which are obtainable through crafting. Updating red beds convert to white beds. This will not occur in future versions, and this updating allows for enchanted white beds, white beds in invalid locations, and other assorted discontinued items.
 
-**17w16a**
+### 17w16a
 - Shulkers that spawn naturally currently are a bright purple. These purple shulkers are unobtainable normally.
 
-**17w17a**
+### 17w17a
 - All items can be overstacked. This method works by picking up items while spam clicking a crafting recipe. This allows for a large variety of overstacked items.
 
-**17w18a**
+### 17w18a
 - Placing and attempting to use a button or lever above a shulker box suppresses any updates. This allows for multiple discontinued block configurations through update suppression.
 - Ladders could be placed on glass, sea lanterns, glowstone, cauldron, leaves, ice, beacons and shulker boxes
 - Placing a ladder on a invalid block with a stair facing towards it will place the ladder facing north
 
-**1.12 Prerelease 1**
+### 1.12 Prerelease 1
 - Added a function system. This causes an empty folder named functions to generate in the data folder, which is unobtainable in future versions.
 
-**1.12.2**
+### 1.12.2
 - There is a complex method known as pallette corruption, which can allow for any block to replace random blocks in the world. This is done with async observer lines, and can allow for various blocks including command blocks and structure blocks. This is not the first version this works in, but the last major version where this can occur.  https://mcdf.wiki.gg/wiki/Java_Edition:Parallel_Asynchronous_Threads
 - RNG Manipulation can be done through a complicated process, which allows for instant tile ticks and various discontinued block configurations. This is not the first version this works in, but the last major version where this can occur.
 - There is a complex method known as Any Falling Block. This method allows for certain blocks to convert to an item by switching it with a falling block. This allows for end portal frames as items, among other things. This is not the first version this works in, but the last major version where this can occur.
@@ -665,14 +665,14 @@
 
 ## Java 1.13 - Aquatic Update
 
-**17w43a**
+### 17w43a
 - Currently non-breaking space characters can be put into the title of written books by typing the alt code "Alt + 0160". This character will not be allowed in book titles in future versions, making this a discontinued book variant.
 
-**17w45a**
+### 17w45a
 - The /xp command can be used in survival. By adding a negative amount of experience, the player's score can become negative, which is normally unobtainable.
 - The /team command can be used in survival. This allows the player to be added to a team, and thus generate a scoreboard.dat file, which is normally unobtainable. The player's name can also be colored.
 
-**17w47a**
+### 17w47a
 - Updating a villager with a pumpkin trade will convert that pumpkin to a carved pumpkin, allowing for a carved pumpkin trade. This is unobtainable in future versions.
 - Pumpkins can be enchanted with Curse of Vanishing and Curse of Binding, which allows for 4 different ivalid pumpkins
 - Fishermen now have a salmon trade, which is unobtainable in certain amounts in future versions
@@ -683,106 +683,106 @@
 - Endermen could pick up snowy grass. They could also place it down and it would keep the state. If an enderman places or picks up snowy grass in a future version it simply converts to regular grass.
 - The crafting statistic does not actually count the action of crafting, instead it counts when the item is taken from the output slot of either a crafting table or furnace. Therefore, any item taken out of the output slot of a furnace adds to the crafting stat of that item. If items are placed in a furnace output slot by any means (See invalid items in furnace under Indev 20100219), and then taken out in any version from 17w47a to 1.21.8 (present) the item will increase the respective crafting statistic.
 
-**17w47b**
+### 17w47b
 - Uncraftable potions can be obtained through fishing
 - Uncraftable tipped arrows are dropped by strays
 
-**18w01a**
+### 18w01a
 - Throwing your Ender Pearl and then, reloading it, whether it is by leaving the chunks which the Ender Pearl is in or leaving and rejoining your world. The ender pearl will then lose its "Owner" tag, allowing for an Ownerless Enderpearl
 
-**18w06a**
+### 18w06a
 - /Enchant can be used to add enchantments to items that cannot normally have a specific combination of enchantments, for example adding mending to a multiple protection helmet from horsemen
 - Unconnected chorus plants generate in the end islands, which will be discontinued in future versions
 - Before introduction of bubble columns in 18w07a, placing soul sand/magma blocks beneath full blocks of water did not create a bubble column.
 
-**18w07a**
+### 18w07a
 - Added Loyalty, Channeling, Impaling, and Riptide. Riptide is not mutually exclusive with Channeling and Loyalty currently, which allows for invalid enchantments on books and tridents.
 - Phantoms have a base attack damage of 6, which is unobtainable in future versions
 - Turtle eggs are treated as full blocks, and as such support blocks such as levers and and buttons can be placed on the side of turtle eggs. These are discontinued block configurations.
 
-**18w07b**
+### 18w07b
 - Wearing a turtle helmet, then traveling underwater until the water breathing runs out, then replenishing the air level seemingly randomly sets the air level to 300-303. Any level above 300 is unobtainable in future versions.
 
-**18w08a**
+### 18w08a
 - The deep warm ocean biome will be temporarily discontinued in future versions. Ocean monuments can currently generate in a deep warm ocean biome, which in future versions will convert to a warm ocean biome. An ocean monument in a warm ocean biome is normally unobtainable, making this a discontinued feature.
 
-**18w08b**
+### 18w08b
 - Currently fish have a base health of 20, which is higher than in future versions, thus meaning it is unobtainable in future versions
 - Added Cod, Salmon, and Pufferfish. These fish can ride in boats currently, which will be unobtainable later
 - Cod, salmon, and pufferfish buckets currently do not store any bucket nbt. In future versions fish health will be stored in buckets, making these no nbt fish buckets discontinued features.
 
-**18w09a**
+### 18w09a
 - Furnaces now store recipes. Smelting Coal Ore, Diamond Ore, Emerald Ore, Gold Ore, Iron Ore, Lapis Lazuli Ore, Redstone Ore, or Chorus Fruit add recipe values that will be changed in future versions. These stored recipes are completely unobservable, and will be removed if an item is ever taken out of the furnace output slot manually, however hoppers can be used to remove items from the output slot and stack multiple recipes.
 
-**18w10a**
+### 18w10a
 - Tropical fish buckets currently do not store health data of the fish, which will be discontinued variants of tropical fish buckets in future versions
 
-**18w10b**
+### 18w10b
 - Currently updating the default shulker boxes from earlier versions converts them into purple shulker boxes, allowing for things such as overstacked purple shulker boxes
 - Currently updating shulkers converts them to purple shulkers, which are unobtainable normally
 
-**18w10c**
+### 18w10c
 - Concrete powder can be placed adjacent to waterlogged blocks, without turning into concrete. This block combination will not be obtainable in future versions.
 
-**18w11a**
+### 18w11a
 - Currently zombies that convert to drowned can be adult jockey variants, which are unobtainable in the future version
 - Currently zombies that convert to drowned can be jockey variants. This allows for drowned jockeys in the nether, which are unobtainable in future versions.
 
-**18w14b**
+### 18w14b
 - Smelting cactus will add the stored recipe of "minecraft:cactus_green", which will be changed in future versions. This stored recipe is completely unobservable, and will be removed if an item is ever taken out of the furnace output slot manually, however hoppers can be used to remove items from the output slot and stack multiple recipes.
 
-**18w15a**
+### 18w15a
 - Currently dolphins can be equipped with armor, which is unobtainable in future versions.
 - Dolphins can ride in boats currently, which is unobtainable in future versions.
 - Bonemealing a Small Grass underneath a block will grow into a double tall grass and will break the block above it
 - Support Blocks could be placed on Conduits
 - Dolphins have the persistence required tag set to true without setting a custom name when they play with an item. Simply throw an item into the water and wait for the dolphin to play with it.
 
-**18w20a**
+### 18w20a
 - Placing a conduit defaults it to a waterlogged state, allowing for water in the nether.
 - Loading the mobs from 1.8.9 will cause them to be dual wielding and holding armor. It also causes them to have a 0 drop chance for their left hand, which is also normally not obtainable.
 - Leaving farmer villagers with melon trades unloaded until 18w21a will convert their melon trades to melon slice trades, allowing for discontinued trades.
 
-**18w20c**
+### 18w20c
 - Keeping enchanted books and villagers with enchanted book trades in unloaded chunks until 1.13 Pre-1 will convert the enchantments to numeric ids. This numeric id tag will be removed in future versions, however it will still allow for villagers trading blank enchanted books, allowing for discontinued villager variants and no nbt enchanted books.
 
-**18w21a**
+### 18w21a
 - Interacting with an enchanted item in an anvil causes it to receive the ench tag, which is a discontinued nbt tag.
 - Loading farmer villagers with melon trades from 18w20a or before will convert their melon trades to melon slice trades, allowing for discontinued trades.
 
-**18w21b**
+### 18w21b
 - Updating any named item to this version causes it to have extra text added to it, allowing for longer than possible named items.
 - Updating a villager with the map trades causes the translation string to break and receive extra text, resulting in a discontinued trade
 - Updating a vindicator named "Johnny" will cause it to receive a different name, while still keeping the "Johnny: 1b" tag. This is unobtainable normally.
 - All items that have durability can be worn down till it has 0 durability which is discontinued because in later versions items break when you use the item at 1 durability
 
-**18w22a**
+### 18w22a
 - Updating enchanted books converts all enchantments to protection, allowing for protection V and multi protection enchanted books. Multiple protection enchantments will be deleted in future versions, however protection V will be preserved.
 - Updating a villager with enchanted book trades converts the trades to protection, allowing for protection V book trades which are unobtainable normally.
 
-**1.13 Prerelease 2**
+### 1.13 Prerelease 2
 - Loading any spawner minecarts that were last loaded in 1.10.2 will regenerate the chunks containing the minecarts
 
-**1.13 Prerelease 3**
+### 1.13 Prerelease 3
 - Updating a written book from 1.9-pre1 or before causes the written book to lost many tags, resulting in a variation of a no nbt written book
 - Updating an enchanted book from 18w20c or before causes the numeric enchantment id to stay on the book, which is normally unobtainable. This change also occurs with villagers, allowing for villager trading numeric id enchanted books. This numeric id tag will be removed in future versions, however it will still allow for villagers trading blank enchanted books, allowing for discontinued villager variants.
 
-**1.13 Prerelease 6**
+### 1.13 Prerelease 6
 - Woodland mansions currently have a chance of generating a chest room on a chunk border resulting in a double chest being cut in half and having an invalid block state
 
-**1.13 Prerelease 7**
+### 1.13 Prerelease 7
 - By updating redstone underneath double chests, the double chests can be placed in invalid states
 
 ## Java 1.14 - Village and Pillage
 
-**18w43a**
+### 18w43a
 - Currently, using shears in a dispenser in this manner does not check for a lower durability bound, allowing the shears to become negative durability shears.
 - Crafting a suspicious stew with a poppy causes it to have the speed effect. This is replaced in future versions with the Night Vision effect. These speed suspicious stews can also be obtained from shipwrecks, and have different levels of duration.
 - Currently saturation effect suspicious stew has a duration longer than normally possible. This ranges from 140-200 ticks from shipwreck loot, and 100 ticks from crafting.
 - Currently armor can be dispensed onto a panda, allowing for armored pandas which are normally unobtainable
 - Mining a Shulker Box containing overstacked items from 18w43a (1.14 snapshot) to 24w07a (1.20.5 snapshot) in survival mode will drop a shulker box item with an Items tag with the overstacked items split into separate slots with the max stack size of that item.
 
-**18w45a**
+### 18w45a
 - Pillagers currently can run out of durability on crossbows, leaving them weaponless. This will not be obtainable in future versions.
 - Currently pillagers and vindicators spawn holding ominous banners that are missing one layer. Normally only complete ominous banners can be equipped.
 - Currently illager banners that are placed as blocks do not maintain the HideFlags tag, which displays the patterns on the banner. In future versions, all ominous banners will have this tag and will not lose it, making this a discontinued variant of ominous banner.
