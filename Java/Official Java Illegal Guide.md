@@ -91,7 +91,7 @@ ________________________________________________________________________________
 - By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
 **Infdev 20100611**
-- Monoliths would generate in flat terrain and they would spawn without bedrock underneath allowing for illegal terrain generation. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Mods_&_Extra_Files/External_Links.md)</sup> 
+- Monoliths would generate in flat terrain and they would spawn without bedrock underneath allowing for illegal terrain generation. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Mods%20%26%20Extra%20Files/External%20Links.md)</sup> 
 
 **Infdev 20100615**
 - Water and Lava can flow next to each other without forming stone
