@@ -25,16 +25,19 @@
 
 ![Static Badge](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
+![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item coounts.
+
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
 ![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block placements.
 
 ![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
-![Static Badge](https://img.shields.io/badge/-Statistic-267359) - This refers to illegal player statistics.
+![Static Badge](https://img.shields.io/badge/-Player&20Data-267359) - This refers to illegal player data.
 
 ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
+![Static Badge](https://img.shields.io/badge/-Item%20Dupe-%23D8CA5) - This refers to item duplication methods.
 
 
 # Timeline
