@@ -61,8 +61,8 @@ ________________________________________________________________________________
 **Infdev 20100227-1** 
 - [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
-- Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
-  <img src="https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a" alt="Brick Square Frustum" width="50%" height="50%">
+- Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum". \
+  <img src="https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a" alt="Brick Square Frustum" width="50%" height="50%"> \
 
 **Infdev 20100227-2** 
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
