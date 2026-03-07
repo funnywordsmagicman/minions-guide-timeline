@@ -86,7 +86,7 @@ ________________________________________________________________________________
 - Brick pyramids removed.
 
 **Infdev 20100607**
-- Signs added to the game.
+- [Signs](https://minecraft.fandom.com/wiki/Sign) added to the game.
 - Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
 - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
@@ -150,18 +150,18 @@ ________________________________________________________________________________
 
 **Alpha 1.0.5-2**
 - Added [Block Replacement Bypass](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass), which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
-- Snowballs stack to 64.
+- Snowballs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=the%20healing%20items.-,Alpha%20Snowball%20Stack,-When%20snowballs%20were)</sup>
 
 **Alpha 1.0.6**
-- Cacti can be placed on and next to any block.
+- Cacti can be placed on and next to any block. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Cactus_Next_to_Invalid_Block)</sup>
   
 **Alpha 1.0.11**
 - Placing a door next to cacti would create a half door. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=door%20after%20placement-,Cactus,-From%20Alpha%20v1.0.11)</sup>
-- Buckets of Milk stack to 64.
+- Buckets of Milk stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=into%20newer%20versions.-,Milk%20Bucket%20Stack,-When%20milk%20buckets)</sup>
 
 **Alpha 1.1.1**
-- Fishing Rods stack to 64.
-- Eggs stack to 64.
+- Fishing Rods stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=value%20of%2016.-,Fishing%20Rod%20Stack,-For%20a%20long)</sup>
+- Eggs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=v1.0.17_01%20are%20lost.-,Egg%20Stack,-Eggs%20could%20stack)</sup>
 
 **Alpha 1.2.0**
 - Zombie Pigmen and skeletons appear to hold their weapons, but it is all visual. Updating these two mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
