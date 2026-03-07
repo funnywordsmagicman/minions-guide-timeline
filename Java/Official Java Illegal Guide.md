@@ -1014,7 +1014,7 @@ ________________________________________________________________________________
 - Currently washing a banner in a cauldron cause it to retain the id tag while losing all of the patterns, creating a blank banner with an unnecessary nbt tag. By placing and breaking this banner it will change the tag to be an empty pattern tag. These are two variants of banners that will be discontinued in future versions.
 
 **1.19-Exp 1**
-> [!Note]]
+> [!Note]
 > In order to play your world in this version, world save insertion must be used. This requires first removing the world save from the world saves folder. From here, select create world and create a world with the same folder name as the world save. Then, while still in the create world screen, drag the world save into the saves folder, and select create world. This forces the world to load without removing the level.dat or level.dat_old files.
 - Added the swift sneak enchantment, which currently can be applied to boots. This enchantment will be a leggings exclusive enchantment in future versions, making swift sneak enchanted boots unobtainable.
 - Reinforced Deepslate can currently be pushed by pistons, allowing for reinforced deepslate in any position in the overworld and allowing it be stored in block 36 form, both of which will be discontinued when the block is recontinued.
