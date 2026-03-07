@@ -85,9 +85,9 @@ ________________________________________________________________________________
 
 **Infdev 20100607**
 - Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
-- Placing a Door one block below the height limit will result in the Bottom Half Door
-- If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. This crash will avoid the check to remove the sign item when the placement code is processed, so a sign zero stack will be left in the player's inventory upon reloading. This is easily accomplished by placing two non-opaque blocks (e.g. glass, slabs) next to each other and placing a sign on top of each. Placing the second sign will cause the first to be destroyed, which will update the second sign and destroy it, causing the crash.
-- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. If placed onto a slab that has two full blocks next to it, the ladder could be placed floating above the slab while invisible. The placement of the ladder depends on the direction of the last ladder the player placed, if no other ladders have been placed then using the slab method results in a full block ladder that is rendered invisible.
+- Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
+- If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
+- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement)</sup> 
 - By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m."
 
 **Infdev 20100611**
