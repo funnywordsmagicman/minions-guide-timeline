@@ -33,11 +33,11 @@
 
 ![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
-![Static Badge](https://img.shields.io/badge/-Playe%20Data-267359) - This refers to illegal player data.
+![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
 ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
-![Static Badge](https://img.shields.io/badge/-Item%20Dupe-%23D8CA5) - This refers to item duplication methods.
+![Static Badge](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
 
 
 # Timeline
