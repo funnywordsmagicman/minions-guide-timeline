@@ -39,7 +39,7 @@
 
   &nbsp; &nbsp; ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
 
-
+<br>
 
 ![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
@@ -49,7 +49,7 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
 
-
+<br>
 
 ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
 
@@ -57,7 +57,7 @@
 
 &nbsp; ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
 
-
+<br>
 
 ![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
@@ -67,7 +67,7 @@
 
 &nbsp; ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
 
-
+<br>
 
 ![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
@@ -75,7 +75,7 @@
 
 &nbsp; ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
-
+<br>
 
 ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
 
@@ -83,7 +83,7 @@
 
 &nbsp; &nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 
-
+<br>
 
 ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
@@ -93,11 +93,11 @@
 
 &nbsp; ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
 
-
+<br>
 
 ![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
 
-
+<br>
 
 ![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
 
@@ -125,7 +125,7 @@
 
 &nbsp; ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
 
-
+<br>
 
 ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
