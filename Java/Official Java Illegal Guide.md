@@ -31,7 +31,10 @@
 
 ![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
+![Static Badge](https://img.shields.io/badge/-Statistic-267359) - This refers to illegal player statistics.
+
 ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
+
 
 
 # Timeline
