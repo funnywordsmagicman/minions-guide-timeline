@@ -61,15 +61,26 @@ ________________________________________________________________________________
 **Infdev 20100227-1** 
 - Brick Pyramids generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
-- In some occasions, brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
+- Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
   ![Infdev_20100227-1419](https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a)
+
+**Infdev 20100227-2** 
+- Brick pyramids now generate at a height low enough to not prevent their full generation.
+- As a side effect of the height change, these pyramids no longer generate with a 1x1 hole in place of a tip.
+
 
 **Infdev 20100316** 
 > [!Caution]
 > This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. \
 > Opening Chests in this version would crash the game.
 - The Farlands generate, however they are a flat wall and unreachable by normal means.
-- Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version. 
+- Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version.
+
+**Infdev 20100327**
+- Caves could carve into brick pyramids.
+
+**Infdev 20100327**
+- Brick pyramids removed.
 
 **Infdev 20100607**
 - Top Half Doors can be created by placing two signs and placing a door on top
