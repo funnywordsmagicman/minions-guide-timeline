@@ -43,6 +43,8 @@
 
 &nbsp; ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
+&nbsp; ![Static Badge](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
+
 ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
 
 &nbsp; ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
@@ -85,7 +87,9 @@
 
 &nbsp; ![Packet](https://img.shields.io/badge/Packet-2e1540) - This refers to illegal or version-specific behavior related to packets.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
+&nbsp; ![Physics](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
+
+&nbsp; ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
 
 ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
