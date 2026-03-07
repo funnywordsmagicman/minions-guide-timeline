@@ -37,6 +37,8 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
 
+&nbsp; ![Static Badge](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
+
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
@@ -45,10 +47,13 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
-![Static Badge](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
+![Static Badge](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
-![Static Badge](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
+&nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
 
+&nbsp; ![Static Badge](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
+
+![Static Badge](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
 
 # Timeline
 
