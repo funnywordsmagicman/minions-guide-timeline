@@ -94,7 +94,7 @@
 ### Infdev 20100327
 - Brick pyramids removed.
 
-**Infdev 20100607**
+### Infdev 20100607
 - [Signs](https://minecraft.fandom.com/wiki/Sign) added to the game.
 - Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
@@ -102,30 +102,30 @@
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement)</sup> 
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
-**Infdev 20100611**
+### Infdev 20100611
 - Monoliths would generate in flat terrain without bedrock underneath. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
-**Infdev 20100615**
+### Infdev 20100615
 - Water and lava can flow beside each other without creating stone. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava)</sup>
 - Lava flows 8 blocks in the overworld. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld)</sup>
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
 - Caves do not generate in this version. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation)</sup>
 - In this version, no bedrock will spawn at the bottom of the world. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks)</sup>
 
-**Infdev 20100616-1**
+### Infdev 20100616-1
 - Lava pool generation can sometimes create holes through bedrock.
 
-**Infdev 20100617-2**
+### Infdev 20100617-2
 - The bottom-most layer of the world is made from part bedrock and part stone.
 
-**Infdev 20100624**
+### Infdev 20100624
 - The game will crash if there are any loaded chunks with water spawners due to the removal of their id.
 
-**Infdev 20100625-2**
+### Infdev 20100625-2
 - Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
 - Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data)</sup>
@@ -141,7 +141,7 @@
 
 ## Alpha
 
-**Alpha 1.0.1_01 - Infdev 20100630-2** (Downgrading)
+### Alpha 1.0.1_01 - Infdev 20100630-2 (Downgrading)
 - Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
   
   <br>
@@ -150,45 +150,45 @@
 
 - Breaking the gear's support block and updating back to Alpha 1.0.1_01 will create floating redstone.
 
-**Alpha 1.0.1_01**
+### Alpha 1.0.1_01
 - Activating a lever then breaking its support block will leave the lever floating.
 
-**Alpha 1.0.4**
+### Alpha 1.0.4
 > [!Note]
 > In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type, the level.dat will have to be regenerated. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented)</sup>.
 - [Snow Layers](https://minecraft.fandom.com/wiki/Snow) were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
-
-**Alpha 1.0.5-2**
+  
+### Alpha 1.0.5-2
 - Added [Block Replacement Bypass](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass), which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
 - Snowballs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=the%20healing%20items.-,Alpha%20Snowball%20Stack,-When%20snowballs%20were)</sup>
 
-**Alpha 1.0.6**
+### Alpha 1.0.6
 - Cacti can be placed on and next to any block. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Cactus_Next_to_Invalid_Block)</sup>
   
-**Alpha 1.0.11**
+### Alpha 1.0.11
 - Placing a door next to cacti would create a half door. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=door%20after%20placement-,Cactus,-From%20Alpha%20v1.0.11)</sup>
 - Buckets of Milk stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=into%20newer%20versions.-,Milk%20Bucket%20Stack,-When%20milk%20buckets)</sup>
 
-**Alpha 1.1.1**
+### Alpha 1.1.1
 - Fishing Rods stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=value%20of%2016.-,Fishing%20Rod%20Stack,-For%20a%20long)</sup>
 - Eggs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=v1.0.17_01%20are%20lost.-,Egg%20Stack,-Eggs%20could%20stack)</sup>
 
-**Alpha 1.2.0**
+### Alpha 1.2.0
 - Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
 - Lava only flows 4 blocks in the nether.
 
-**Alpha 1.2.2**
+### Alpha 1.2.2
 - Nether Portals can be summoned by pressing F4, which can be used to get to the Farlands and to create illegal block formations.
 - By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#:~:text=References-,Boat%20%26%20Nether%20Portal,-This%20method%20works)</sup>
 - Signs can be placed on the [Portal block](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
 
-**Alpha 1.2.6**
+### Alpha 1.2.6
 - Lava Lakes are able to cut through bedrock if spawned at the bottom of the world
 
 ## Beta
 
-**Beta 1.3.2 - Infdev 20100624**
+### Beta 1.3.2 - Infdev 20100624
 > [!Note]
 > In order to access this version, the world save folder will have to be named as World[1-5]. During this downgrade, the level.dat and level.dat_old should be removed temporarily. A world without a level.dat can be accessed by selecting the respective slot when going to the singleplayer screen. The level.dat and level.dat_old will have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version. No chunks, entities, or placed blocks will be affected during this downgrade.	
 - This version has a file format that is not used in any other version. A folder named "data" is used, and contains "entities.dat" and "zones.dat" This folder will become completely unused upon updating out of this version and nothing will be converted to a different file format. This creates several file discontinued features. 
