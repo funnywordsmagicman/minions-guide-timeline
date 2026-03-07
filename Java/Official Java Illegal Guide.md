@@ -181,27 +181,36 @@
 ### Alpha 1.2.2
 - Nether Portals can be summoned by pressing <kbd>F4</kbd>, which can be used to get to the Farlands and to create illegal block formations.
 - By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#:~:text=References-,Boat%20%26%20Nether%20Portal,-This%20method%20works)</sup>
-- Signs can be placed on the [Portal block](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
+- Signs can be placed on [nether portal blocks](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
 
 ### Alpha 1.2.6
-- Lava Lakes are able to cut through bedrock if spawned at the bottom of the world
+- Lava Lakes cut through bedrock if they generate at the bottom of the world.
 
 ## Beta
 
-### Beta 1.3.2 - Infdev 20100624
-> [!Note]
-> In order to access this version, the world save folder will have to be named as World[1-5]. During this downgrade, the level.dat and level.dat_old should be removed temporarily. A world without a level.dat can be accessed by selecting the respective slot when going to the singleplayer screen. The level.dat and level.dat_old will have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version. No chunks, entities, or placed blocks will be affected during this downgrade.	
-- This version has a file format that is not used in any other version. A folder named "data" is used, and contains "entities.dat" and "zones.dat" This folder will become completely unused upon updating out of this version and nothing will be converted to a different file format. This creates several file discontinued features. 
+### Beta 1.0
+- Destroyed containers now force close their gui, but the Destroyed Container GUI Reference dupe is still possible since there is a 1-tick window before the close.
+- The player can't store items in the inventories' crafting fields anymore.
 
 ### Beta 1.2_02-launcher
-- This is the last version that uses the Alpha file format. Since the Alpha File Format from the original world has already been converted, updating to this version will regenerate an entirely new world with the Alpha File Format. This allows for numerous folders in both the world save folder and the DIM-1 folder, that are titled with numbers and letters, which contain subfolders titled with numbers and letters, that contain .dat files, since this is how the Alpha File Format worked. There are hundreds of discontinued folders possible. 	
+- This is the last version that uses the Alpha file format. Since the Alpha File Format from previous worlds has already been converted, updating to this version will regenerate an entirely new world with the Alpha File Format.
+  
+### Beta 1.3.2 - Infdev 20100624
+> [!Note]
+> In order to access this version, the world save folder will have to be renamed to World(1-5). During this downgrade, the level.dat and level.dat_old files must be removed (either by deletion or moving them to another location) temporarily. The level.dat and level.dat_old files have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version.
+- This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version, and nothing will be converted to a different file format.
 
 ### Beta 1.3-2
-- Petrified Oak Slabs were added in this version, they can be simply crafted using the normal oak slab recipe and later they will become Petrified Oak Slabs
-- World names can contain the section symbol § and will format the name which will become unobtainable in later versions.
-- After respawning or initial spawning into a world you will be given a stack of torches, a pickaxe, an axe, a shovel, 1 bed, and then a stack of 63 beds, this will create unobtainable overstacked beds which will be unobtainble in later versions.
-- Because the Chest is a full block you are able to power blocks through chests. The best way to so that is by the repeater
-- Blowing up a Chest while spam clicking an item in and out of the chest has a chance of dropping a zero stack item which can give you understacked items
+- Petrified Oak Slabs added.
+- World names can contain the section symbol § and have formatted names.
+- Whenever a player spawns, they will be given:
+    - 64 torches
+    - A pickaxe
+    - An axe
+    - A shovel
+    - 1 bed
+    - 63 beds
+- Because chests are still full blocks, you are able to power blocks through chests.
 - Placing a redstone torch against a unsupportable block adjacent to a valid supporting block or against the ceiling next to a supporting block, these would allow the redstone torch to float on any block including air or itself.
 - Placing a bed next to a cactus would result in the lower half adjacent to cactus breaking from Beta 1.3 to Beta 1.9 Prerelease 5.
 - You can paste ASCII Control Codes and the DEL Character into the world name. Beware that with some control characters, backspacing too many times after pasting them can cause a game crash in some versions. 
@@ -219,7 +228,7 @@
 - Maps would not snap to a grid, meaning unobtainable map variants can be obtained
 
 ### Beta 1.6.0
-- Dropping any equipment that was damaged creates a zero stack. This item can picked up any number of times and fills up the player's inventory quickly. This method only works on tools, armor, and weapons that have durability.
+- Any equipment with damage greater than zero will become a zero stack when dropped. This only works on equipment that has durability. 
 
 ### Beta 1.7
 - Block Transmutation can work by building a piston and water based contraption
