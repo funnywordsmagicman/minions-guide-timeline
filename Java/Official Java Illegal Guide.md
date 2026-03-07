@@ -63,7 +63,7 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Cheats-ea4b7e)
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 
 ![Static Badge](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
