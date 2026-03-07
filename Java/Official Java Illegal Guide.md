@@ -97,7 +97,13 @@
 
 &nbsp; &nbsp; ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
 
-&nbsp; &nbsp; ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to corrupted or glitched lighting.
+&nbsp; ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to illegal or glitched lighting.
+
+&nbsp; ![Sound](https://img.shields.io/badge/Sound-6e789f) - This refers to illegal or glitched sounds.
+
+&nbsp; ![Rendering](https://img.shields.io/badge/Rendering-587550) - This refers to illegal or glitched rendering/graphics.
+
+&nbsp; ![Input](https://img.shields.io/badge/Input-756650) - This refers to illegal, glitched, or debug input/controls.
 
 &nbsp; ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
 
