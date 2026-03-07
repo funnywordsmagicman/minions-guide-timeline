@@ -277,12 +277,16 @@
 - In this version, all swords have 5 durability points. Updating any swords with 1 durability point remaining, and combining them in this version causes these swords to gain negative durability once updated. This allows for negative durability wooden, stone, iron, gold, diamond, and eventually netherite swords
 - Shooting from a bow that has 0 durability can cause the bow to become a zero stack.
 
-**11w49a**
+### 11w49a
 - Pressing B changes the clientside gamemode to creative. This allows for Bedrock, Sponge, Chainmail Armor, Ice, and Creeper, Skeleton, Spider, Zombie, Slime, Ghast, Pig Zombie, Enderman, Cave Spider, Silverfish, Blaze, Magma Cube, Pig, Sheep, Cow, Chicken, Squid, Wolf, Mooshroom, and Villager Spawn Eggs. This also allows for easy bedrock removal.
 - Using spawn eggs for mobs with weapons (e.g Skeleton, and Pig Zombie) for the B Creative Mode will spawn them without weapons
 
-**1.1**
+## Java 1.1
+
+### 1.1
 - The unicode delete character [] can be typed into a world name by pressing ctrl + backspace. This is the only version where a world can be named with both the delete character [] and the section symbol [§], making this the ideal version to name your world.
+
+## Java 1.2
 
 **12w07a**
 - The file format is now Anvil instead of MCRegion. This converts all .mcr files to .mca, however the .mcr files are maintained within the world save folder for all three dimensions. Additionally, a level.dat backup is taken named level.dat_mcr. These are all discontinued files.
@@ -299,6 +303,8 @@
 - A feature called the fill tool is toggleable. This allows for two locations to be selected and then filled with blocks. This allows for various discontinued block configurations, including multiple chests and floating buttons.
 - A file called EduWorldSettings.ini is generated within the world save. A folder called MCEdu is created within the world save, which includes a file named signLocations_en.ini and a file named tips_en.txt. Within the MCEdu folder a file called infoLocations_en.ini is created when an information block is placed and the game is saved. The teleportLocations_en.ini, teleportLocations.ini, and allowedteleports.ini files are created when a station block is placed and the game is saved. These files and folders are exclusive to Edu versions, and will be discontinued in future versions. 
 - Player data is saved in the players folder under username.dat. Additionally, server.log and server.log.lck are created within the world folder. The server log contains the entire chat output. These files are multiplayer exclusive, and will become discontinued in future versions.
+
+## Java 1.3
 
 **12w15a**
 - Shift click works with brewing stands. This allows for overstacked glass bottles in brewing stand.
@@ -325,6 +331,8 @@
 
 **0.984 Classroom (EDU)**
 - A file called EduWorldSettings.ini is generated within the world save. A folder called MCEdu is created within the world save, which includes several files that are gnenerated when the server is launched. These files and folders are exclusive to Edu versions, and will be discontinued in future versions.
+
+## Java 1.4 - Pretty Scary Update
 
 **12w32a-2**
 - Equipment droped from mobs ranges in durability. The durability can be 0 which allows for various 0 durabilit equipment pieces
@@ -366,6 +374,8 @@
 - Enchanted Books can have invalid tier levels when updating
 - There is a small chance that level 5 enchanted book trades can cost more than 64 emeralds, which will become a discontinued trade.
 
+## Java 1.5 - Redstone Update
+
 **13w01a**
 - Hoppers are currently capable of placing items in any inventory slots, allowing for invalid items in brewing stands and invalid items in furnace slots. By placing items not normal craftable in a furnace output slot, these items can register as crafted by statistics in future versions.
 - Daylight sensors can be placed in the nether and will permanently powered on
@@ -382,6 +392,8 @@
 **Minecraft 2.0-Red (April Fools)**
 - In Super Hostile Mode, lightning will strike every 2-5 minutes spawning Wool Headed Zombies, Wool Headed Skeletons, and Wool Haded Zombie Pigmen and Pigmen with Battle Signs among many others, pushing these mobs into a portal will cause them to not despawn when the lightning strike resets, you can then update to 13w16b to obtain name tags and name all the wool headed mobs and save them for future updates
 - Zombie Pigmen will spawn naturally in the nether holding Battle Signs, these Battle signs would hold certain enchantments including Sharpness/Smite/Bane of Arthropods, Looting, Fire Aspect, and Knockback. Killing the pigmen will give a chance of dropping the Battle Sign
+
+## Java 1.6 - Horse Update
 
 **13w16a-2**
 - Horse armor is craftable, and stacks to 64, allowing for overstacked horse armor in future versions.
