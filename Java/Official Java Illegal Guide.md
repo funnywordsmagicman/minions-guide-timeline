@@ -1,6 +1,6 @@
 _____________________________________________________________________________________________________________________________________
 
-***KEY WORDS***
+##KEY WORDS##
 
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
 <br>
@@ -20,6 +20,7 @@ ________________________________________________________________________________
 
 [**level.dat Regeneration:**](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented) level.dat Regeneration refers to the deletion or relocation and then forced recreation of the original level.dat file of a Minecraft world in order to regenerate debug chests or other structures that only generate on the creation of a level.dat file.
 _____________________________________________________________________________________________________________________________________
+##Classic##
 
 **Classic 0.0.14a_08**
 - Sand and Gravel do not fall into liquids.
@@ -30,6 +31,9 @@ ________________________________________________________________________________
 
 **Classic 0.0.23a_01**
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
+
+_____________________________________________________________________________________________________________________________________
+##Indev##
   
 **Indev 20100124-3**
 - [The Indev House](https://minecraft.wiki/w/Starting_House) will spawn upon loading the world.
@@ -59,6 +63,9 @@ ________________________________________________________________________________
 
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
+
+_____________________________________________________________________________________________________________________________________
+##Infdev##
 
 **Infdev 20100227-1** 
 - [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
@@ -137,14 +144,14 @@ ________________________________________________________________________________
   <img src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
   <br>
 
-- Breaking the block gears support block and updating back to Alpha 1.0.1_01 will create floating redstone.
+- Breaking the gear's support block and updating back to Alpha 1.0.1_01 will create floating redstone.
 
 **Alpha 1.0.1_01**
 - Activating a lever then breaking its support block will leave the lever floating.
 
 **Alpha 1.0.4**
 > [!Note]
-> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type and obtain snow and ice, the level.dat will have to be regenerated. This will reset the player position and remove all items within the inventory, as well as changing the world seed. This can be done by deleting level.dat and level.dat_old, then going to the "singleplayer" screen, and selecting the world slot that has the same name as the world save folder. This will likely have to be done several times before the winter type is set to 1
+> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type, the level.dat will have to be regenerated. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented)</sup>.
 - [Snow Layers](https://minecraft.fandom.com/wiki/Snow) were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
 
@@ -164,7 +171,7 @@ ________________________________________________________________________________
 - Eggs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=v1.0.17_01%20are%20lost.-,Egg%20Stack,-Eggs%20could%20stack)</sup>
 
 **Alpha 1.2.0**
-- Zombie Pigmen and skeletons appear to hold their weapons, but it is all visual. Updating these two mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
+- Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
 - Lava only flows 4 blocks in the nether.
 
 **Alpha 1.2.2**
