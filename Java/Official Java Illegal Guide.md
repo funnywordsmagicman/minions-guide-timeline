@@ -116,7 +116,7 @@ ________________________________________________________________________________
 
 <br>
 <img width="40%" height="40%" alt="Sign_Spawner_20100627" src="https://github.com/user-attachments/assets/3b54b953-0626-4a13-902b-beb00a3e179c" />
-<br>
+<br> <br>
 
 
 - Placing Doors one block under a block will cause the upper half to break the block up above it making it possible for bedrock removal
