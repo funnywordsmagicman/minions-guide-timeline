@@ -411,6 +411,8 @@
 **1.6.4 Build 1 Classroom-1 (EDU)**
 - A file called forcedchunks.dat generates within the world save folder, which will become unobtainable in non edu versions
 
+## Java 1.7 - The Update that Changed the World
+
 **13w36a-1**
 - A method of block transmutation is now possible. This method works by firing an arrow, then pushing the arrow with a piston so it is floating, and then breaking the block it was previously on and replacing it with a golden pressure plate. This allows for several invalid data value blocks, and an easy form of update suppression by creating 6 sided pistons
 - Crafting a Carrot on a Stick with a Fishing Rod that is enchanted with Lure and Luck of the Sea allowing for a Carrot on A Stick with Lure and Luck of the Sea enchantments
@@ -460,6 +462,8 @@
 
 **14w02a - 1.7.10 (Downgrading)**
 - Downgrading villagers from 14w02a causes all trades to become tier 0 trades. This would allow you to update back to 14w02a, and get the same trades stacked on top. This downgrade and update cycle can be repeated for well over 100 trades in the first tier. This also allows for villagers of different careers to have trades on the same villager (for example shepherd trades and fletcher trades can both be on the same villager using this bug)
+
+## Java 1.8 - Bountiful Update
 
 **14w04a**
 - The id for cooked fish is now "cooked_fish" instead of "cooked_fished" This change partially breaks old villagers trading fish, but no discontinued trades are created. These broken villagers will allow for chunk regeneration in future versions, and by extension discontinued block configurations.
@@ -513,6 +517,8 @@
 - Player data is saved in the playerdata folder under username.dat. This will become unobtainable in future versions as it is stored as a UUID instead of a username. Additionally, since you are logging in in offline mode, the UUID for the statistics is different, allowing for multiple statistic files in a singleplayer world.
 - Files called EduWorldSettings.ini, EduMapSettings.ini, and forcedchunks.dat generate within the world save. A folder called MCEdu is created within the world save, which includes several files that are gnenerated when the server is launched. Another folder called region_eduf1_backup is created upon world save, and contains a copy of the region files. These files and folders are exclusive to Edu versions, and will be discontinued in future versions.
 - The computer process allows for the writing of external files, meaning essentially any file can be created within the world save, all of which would be discontinued. Upon world save the computer folder is generated, which is a discontinued folder.
+
+## Java 1.9 - Combat Update
 
 **15w31a**
 - Endermen now drop the block they are holding, allowing for an assortment of items that are normally unobtainable if the endermen from b1.8-pre1 are killed.
@@ -586,6 +592,8 @@
 **1.RV- Prerelease 1**
 - USB Charger Blocks function as redstone blocks, and emit a signal. In block form they will later convert to glazed black terracotta, allowing for glazed black terracotta to emit a redstone signal.
 
+## Java 1.10 - Frostburn Update
+
 **16w20a**
 - Endermen can spawn in the nether and can pick up netherack. In the future Endermen aren't able to pick up netherack
 - If you kill a slime and unload it while it is dying, when reloaded it will have its health set above 0, which stops the mob from dying. However, the death timer is not reset.
@@ -596,6 +604,8 @@
 
 **1.10.2**
 - Spawner minecarts can be moved into various chunks and kept unloaded until 1.13-pre2 or later, and then will be capable of regenerating chunks when loaded
+
+## Java 1.11 - Exploration Update
 
 **16w32b**
 - When a villager is generated, the tier one trades can be from an invalid profession and career. The career can also be set too high, causing only tier one trades to be added. Also, this allows for villagers to receive no trades, which is unobtainable until they are forced to get trades in future versions. This allows for a large variety of discontinued villagers
@@ -624,6 +634,8 @@
 - Shulkers can be put into other shulkers by using a hopper. This only works due to the forge version that is being used. Nested shulkers are normally unobtainable.
 - The capabilites.dat file generates in the data folder, and the forcedchunks.dat file generates in the world save folder and the two DIM folders. These are all discontinued files exclusive to the mod used.
 
+## Java 1.12 - World of Color Update
+
 **17w13a-1**
 - Added Advancements to replace Acheivements. Support for custom advancements was added, meaning an empty folder called Advancements is generated in the data folder. This folder is unobtainable in future versions.
 
@@ -650,6 +662,8 @@
 - There is a complex method known as Any Falling Block. This method allows for certain blocks to convert to an item by switching it with a falling block. This allows for end portal frames as items, among other things. This is not the first version this works in, but the last major version where this can occur.
 - There is a complex method to obtain bedrock, possible by using silk touch at the exact moment an end gateway generates. This is not the first version this works in, but the last major version where this can occur.
 - There is a complex method to obtain a barrier block in block form, possible by update suppressing an igloo at the exact moment a barrier block is used within generation. This is not the first version this works in, but the last major version where this can occur.
+
+## Java 1.13 - Aquatic Update
 
 **17w43a**
 - Currently non-breaking space characters can be put into the title of written books by typing the alt code "Alt + 0160". This character will not be allowed in book titles in future versions, making this a discontinued book variant.
@@ -759,6 +773,8 @@
 **1.13 Prerelease 7**
 - By updating redstone underneath double chests, the double chests can be placed in invalid states
 
+## Java 1.14 - Village and Pillage
+
 **18w43a**
 - Currently, using shears in a dispenser in this manner does not check for a lower durability bound, allowing the shears to become negative durability shears.
 - Crafting a suspicious stew with a poppy causes it to have the speed effect. This is replaced in future versions with the Night Vision effect. These speed suspicious stews can also be obtained from shipwrecks, and have different levels of duration.
@@ -866,6 +882,8 @@
 **Combat Test 3**
 - Added the chopping enchantment. This enchantment can exist on enchanted books and on axes, and will not be obtainable in future versions. This also extends to villager trades, allowing for librarians and weaponsmiths trading chopping enchanted equipment. The chopping enchantment will be removed in future versions, however this still allows for a variant of trade where an unenchanted item is being sold instead of the enchanted item, as well as no nbt enchanted books.
 
+## Java 1.15 - Buzzy Bees
+
 **19w34a**
 - Bee nests always have some form of nbt data when mined. This can be removed by stacking two bee nests with identical nbt data together and then shift clicking one into an enchantment table. No nbt bee nests are not normally obtainable.
 - Currently a leashed bee can enter a bee hive/bee nest, allowing for a leashed bee within the nbt data. This is normally not obtainable.
@@ -877,6 +895,8 @@
 - All sword enchantments can be applied to an axe in this version, including previously unobtainable looting, fire aspect, sweeping edge, and knockback, allowing for a large assortment of discontinued enchantments. This also extends to villager trades, allowing for weaponsmiths selling sword enchantments on axes.
 - Snowballs stack to 64, allowing for overstacked snowballs in this version
 - Added the chopping enchantment. This enchantment can exist on enchanted books and on axes, and will not be obtainable in future versions. This also extends to villager trades, allowing for librarians and weaponsmiths trading chopping enchanted equipment. The chopping enchantment will be removed in future versions, however this still allows for a variant of trade where an unenchanted item is being sold instead of the enchanted item, as well as no nbt enchanted books.
+
+## Java 1.16 - Nether Update
 
 **20w06a**
 - Currently the crimson and warped items can be used a fuel within furnaces. This will be changed in future versions, meaning these items will no longer be obtainable in a furnace fuel slot.
@@ -973,6 +993,8 @@
 **1.16.3 Release Candidate 1**
 - Updating overstacked potions from the previous combat test versions allows you to combine the stacks of 16 into larger stacks, allowing for all potions stacked to 64
 
+Java 1.17 - Caves & Cliffs: Part 1
+
 **20w45a**
 - In 20w45a (a 1.17 snapshot), it was possible create overstacked bundles. To create stacked bundles, place at least 2 bundles into a bundle. At most 16 empty bundles can fit into a bundle. Fill every slot in the player's inventory with at least one item, such that every slot of the main inventory is not empty, and attempt to empty the bundle. The bundles that fall onto the ground will be overstacked. They can then be picked up. Overstacked bundles may be combined together with identical overstacked bundles to increase the stack size further.
 - Using bundles within the crafting interface allows for certain items to be overstacked. The method requires putting stacked items into a crafting recipe, and then using a bundle to remove one of the ingredients. This doesn't update the output, so taking the output increases the stack size of all remaining ingredients in the crafting grid. This allows for overstacked honey bottles, and overstacked banners and shields.
@@ -1046,6 +1068,8 @@
 - Endermen can currently pick up both azalea leaves and flowering azalea leaves. Endermen holding azalea leaves will not be obtainable in future versions.
 - Azalea leaves and flowering azalea leaves can be used to craft suspicious stew with no effect. This will not be obtainable in future versions.
 - By downgrading withers that have the glowing effect from 1.17-pre1 will allow them to become permanetely glowing as the glowing tag will be set to 1b
+
+## Java 1.18 - Caves & Cliffs: Part 2
 
 **1.18-Exp 1**
 > [!Note]
