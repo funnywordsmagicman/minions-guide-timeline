@@ -113,7 +113,7 @@ ________________________________________________________________________________
 - Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
 - Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data)</sup>
-<br><img width="901" height="829" alt="Sign_Spawner_20100627" src="https://github.com/user-attachments/assets/3b54b953-0626-4a13-902b-beb00a3e179c" /><br>
+<br><img width="50%" height="50%" alt="Sign_Spawner_20100627" src="https://github.com/user-attachments/assets/3b54b953-0626-4a13-902b-beb00a3e179c" /><br>
 - Placing Doors one block under a block will cause the upper half to break the block up above it making it possible for bedrock removal
 - Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves are solid).
 - Placing an inclined rail, and then breaking the support block, the game wouldn't update the inclined rail to a flat rail giving you an inclined rail without connections
