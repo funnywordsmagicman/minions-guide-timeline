@@ -88,10 +88,10 @@ ________________________________________________________________________________
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
 - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement)</sup> 
-- By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m."
+- By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
 **Infdev 20100611**
-- Monoliths would generate in flat terrain and they would spawn without bedrock underneath allowing for illegal terrain generation. You can use the Monolith Finder in the "Links" folder
+- Monoliths would generate in flat terrain and they would spawn without bedrock underneath allowing for illegal terrain generation. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
 **Infdev 20100615**
 - Water and Lava can flow next to each other without forming stone
