@@ -23,10 +23,7 @@
 
 ## Badges
 
-![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items. 
-<details> 
-  <summary>
-  </summary>
+![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.  <details>  <summary> </summary>
 
   &nbsp; ![Item NBT](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
 
