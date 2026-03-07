@@ -145,13 +145,13 @@
 - Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
   
   <br>
-  <img src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
+  <img width="50%" height="50%" src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
   <br>
 
-- Breaking the gear's support block and updating back to Alpha 1.0.1_01 will create floating redstone.
+- Breaking the gear's support block and updating back to Alpha 1.0.1_01 will leave floating redstone.
 
 ### Alpha 1.0.1_01
-- Activating a lever then breaking its support block will leave the lever floating.
+- Activating a lever and breaking its support will leave it floating.
 
 ### Alpha 1.0.4
 > [!Note]
