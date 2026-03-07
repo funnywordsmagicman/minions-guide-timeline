@@ -273,6 +273,14 @@
 ### Beta 1.7.2
 - [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation:~:text=Original%20discovery-,Moving%20Piston%20Merge%20Transmutation,-Warning%3A%20Game%20Crash) is possible through updating a budded piston at the same time another piston pushes a block.
 - Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
+- <details>
+  <summary>Moving Piston Merge Transmutation Block List</summary>
+| Numeric ID | Block ID	| Does it Work?	| Special Design Needed? |
+|            |          |               |                        |
+|------------|----------|---------------|------------------------|
+|            |          |               |                        |
+
+  </details>
 
 ### Beta 1.8 Prerelease 1-1
 - Endermen can pick up any block in the game allowing for discontinued endermen variants
