@@ -74,8 +74,8 @@ ________________________________________________________________________________
 > [!Caution]
 > This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. \
 > Opening containers in this version would crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316)</sup>
-- The Farlands generate, however they are a flat wall and unreachable by normal means.
-- Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version.
+- The Farlands generate, however they are a flat wall and unreachable by normal means. <sup>[More...](https://minecraft.fandom.com/wiki/Far_Lands)</sup>
+- Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
 **Infdev 20100327**
 - Caves could carve into brick pyramids.
@@ -84,7 +84,7 @@ ________________________________________________________________________________
 - Brick pyramids removed.
 
 **Infdev 20100607**
-- Top Half Doors can be created by placing two signs and placing a door on top
+- Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door
 - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. This crash will avoid the check to remove the sign item when the placement code is processed, so a sign zero stack will be left in the player's inventory upon reloading. This is easily accomplished by placing two non-opaque blocks (e.g. glass, slabs) next to each other and placing a sign on top of each. Placing the second sign will cause the first to be destroyed, which will update the second sign and destroy it, causing the crash.
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. If placed onto a slab that has two full blocks next to it, the ladder could be placed floating above the slab while invisible. The placement of the ladder depends on the direction of the last ladder the player placed, if no other ladders have been placed then using the slab method results in a full block ladder that is rendered invisible.
