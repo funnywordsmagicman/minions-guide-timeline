@@ -8,7 +8,7 @@ ________________________________________________________________________________
 **Downgrading:** [Downgrade](https://minecraft.fandom.com/wiki/Tutorials/Downgrading) from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
 <br>
 
-**EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft
+**EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft 9Not to be confused with [Minecraft Education](https://minecraft.fandom.com/wiki/Minecraft_Education))
 <br>
 
 **Mod:** Requires a Mod from ["Mods & Extra Files"](../Java/Mods%20%26%20Extra%20Files) that can let you either play the version or obtain certain unobtainables
