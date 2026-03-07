@@ -29,16 +29,16 @@
 - Sand and Gravel do not fall into liquids.
 - Dandelions and Poppys block liquids.
 
-### **Classic 0.0.19a_04**
+### Classic 0.0.19a_04
 - Sponges would not become wet when absorbing water.
 
-### **Classic 0.0.23a_01**
+### Classic 0.0.23a_01
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
 
 
 ## Indev
   
-**Indev 20100124-3**
+### Indev 20100124-3
 - [The Indev House](https://minecraft.wiki/w/Starting_House) will spawn upon loading the world.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
     - [Bedrock](https://minecraft.wiki/w/Bedrock)
@@ -54,44 +54,44 @@
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
-**Indev 20100128-2**
+### Indev 20100128-2
 - Indev house chests would now contain 100 count items.
 
-**Indev 20100201-2**
+### Indev 20100201-2
 - Sponges would soak up water and lava spawners, allowing for discontinued configurations of the water and lava.
 
-**Indev 20100206-2**
+### Indev 20100206-2
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
 - Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
 
-**Indev 20100219**
+### Indev 20100219
 -  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
 
 ## Infdev
 
-**Infdev 20100227-1** 
+### Infdev 20100227-1
 - [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
 - Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
   
   <img src="https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a" alt="Brick Square Frustum" width="50%" height="50%"> 
 
-**Infdev 20100227-2** 
+### Infdev 20100227-2
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
 - As a side effect of the height change, these pyramids no longer generate with a 1x1 hole in place of a tip.
 
 
-**Infdev 20100316** 
+### Infdev 20100316 
 > [!Caution]
 > This version requires the [Infdev 20100316 saving mod](../Java/Mods%20%26%20Extra%20Files/Mods/Inf-20100316%20Saving%20Mod.jar) to save and quit the game; you can find it in the Links folder. \
 > Opening containers in this version would crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316)</sup>
 - The Farlands generate, however they are a flat wall and unreachable by normal means. <sup>[More...](https://minecraft.fandom.com/wiki/Far_Lands)</sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
-**Infdev 20100327**
+### Infdev 20100327
 - Caves could carve into brick pyramids.
 
-**Infdev 20100327**
+### Infdev 20100327
 - Brick pyramids removed.
 
 **Infdev 20100607**
