@@ -86,6 +86,7 @@ ________________________________________________________________________________
 - Brick pyramids removed.
 
 **Infdev 20100607**
+- Signs added to the game.
 - Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
 - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
@@ -155,7 +156,7 @@ ________________________________________________________________________________
 - Cacti can be placed on and next to any block.
   
 **Alpha 1.0.11**
-- Placing a door next to cacti would create a half door.
+- Placing a door next to cacti would create a half door. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=door%20after%20placement-,Cactus,-From%20Alpha%20v1.0.11)</sup>
 - Buckets of Milk stack to 64.
 
 **Alpha 1.1.1**
