@@ -267,7 +267,7 @@
 - Pulling a detector rail with a minecart on it will leave it powered until ticked.
 - Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block would leave it floating.
 
-  <details>
+<details>
   <summary> <strong>Liquid Transmutation Block list</strong> (Click to expand) </summary>
   
 | Numeric ID | Block ID | Does it work? |
@@ -397,6 +397,7 @@
 | 122 | dragon_egg | ![Static Badge](https://img.shields.io/badge/%20-No-red) |
 | 123 | redstone_lamp | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |
 | 124 | lit_redstone_lamp | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |
+
 </details>
 
   
