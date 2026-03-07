@@ -44,8 +44,8 @@ ________________________________________________________________________________
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot
 
-**Infdev 20100316** > <span title="This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. Opening Chests in this version will crash the game.">>[!Caution]</span>
-> [!Caution]
+**Infdev 20100316** 
+> [!Caution] <span title="This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. Opening Chests in this version will crash the game."></span>
 > This version requires the Infdev 20100316 saving mod to save and quit the game you can find it in the Links folder
 > Opening Chests in this version would crash the game
 - The Farlands would generate except they are extremely far out, they are a flat wall and they are unreachable by normal means
