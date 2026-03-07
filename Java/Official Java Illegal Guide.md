@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 [**Zero Stack Item:**](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items) Zero stack items, also known as understacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than or equal to 0. These items behave like normal items in the sense that they can be taken out of and put into containers as well as dropped, but will "absorb" any items of the same type if they are stacked. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type. This can be repeated multiple times, though it will subtract 1 from the zero stack's count each time. Once you reload the world (if it's in your inventory) or any container a zero stack item is in, if its count is less than -128 it will become an overstacked item.
 
-**Overstacked Item:** Overstacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
+[**Overstacked Item:**](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items) Overstacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
 _____________________________________________________________________________________________________________________________________
 
 **Classic 0.0.14a_08**
@@ -53,13 +53,13 @@ ________________________________________________________________________________
 
 **Indev 20100206-2**
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
-- Tilling Dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock.
+- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[See More](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
 
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot.
 
 **Infdev 20100227-1** 
-- Brick Pyramids generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
+- [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
 - Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
   ![Infdev_20100227-1419](https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a)
