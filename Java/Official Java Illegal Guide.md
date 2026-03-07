@@ -179,7 +179,7 @@
 - Lava only flows 4 blocks in the nether.
 
 ### Alpha 1.2.2
-- Nether Portals can be summoned by pressing F4, which can be used to get to the Farlands and to create illegal block formations.
+- Nether Portals can be summoned by pressing <kbd>F4</kbd>, which can be used to get to the Farlands and to create illegal block formations.
 - By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#:~:text=References-,Boat%20%26%20Nether%20Portal,-This%20method%20works)</sup>
 - Signs can be placed on the [Portal block](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
 
@@ -791,46 +791,46 @@
 - Support blocks could be placed on Stonecutters
 - Redstone components would not update when unloaded allowing for the creation of many permanently powered components.
 
-**18w46a**
+### 18w46a
 - Void End Rings would generate from this version to the current version. The edge of these rings is always aligned to an 8×8 grid and can cause "cuts" (completely smooth, flat surfaces) when intersecting with outer end islands. Other structures, such as the small circular end islands, chorus plants, gateways and end cities are not cut off when crossing the border, but also do not generate inside the void ring. The first ring that generates starts at 370,728 and ends at 524,288
 
-**18w47a**
+### 18w47a
 - Currently chests that generate in ocean ruins have the block data of structure blocks, which is normally unobtainable. These chests cannot be opened, however they can visually connect to create a double chest. The structure block data, while unobservable, has the signature of ladyagnes.
 - Normally, Multishot and Piercing cannot be obtained on the same crossbow. However, from 18w47a (a 1.14 snapshot) to 20w29a (a 1.16.2 snapshot), pillagers from raids could rarely spawn with crossbows with both enchantments or duplicate enchantments.
 - From 18w47a (1.14 snapshot) to 24w12a (1.20.5 snapshot), every ominous banner generated as a part of the pillager outpost structure will display patterns, unlike the ones obtained from killing patrol captains.
 
-**18w48a**
+### 18w48a
 - Villagers that generate in the new villages are missing their tier one trade. This allows for a wide variety of discontinued trades.
 - Currently chests that generate inside a blacksmith have an incorrect loot table. This loot table will be unobtainable in future versions.
 - Support blocks could be placed on Chorus Flowers
 - Combining two Curse books in a grindstone will give you an overstacked amount of curse books. The grindstone will give you two curse books and this can be repeated until 64
 
-**18w50a**
+### 18w50a
 - By update suppressing a container and then placing items within that container, a technique known as item shadowing can be performed, which allows for duplicate item references. Along with item duplication, this allows for the same item to be placed inside an enchantment table at the same time, allowing for duplicate enchantments on any item that can be placed in an enchanting table. Note this is not the first version this is obtainable, however it is the last.
 - There are now different biome variants of villagers. Currently the biome variant of a librarian villager does not affect the trade, however this will change in future versions, essentially causing all librarians to have discontinued enchanted book trades. Certain book trades will be discontinued across all variants, and certain book trades are only discontinued on specific biome variants.
 - By placing containers in this version and then leaving them unloaded until 24w39a, the containers will become locked. Locked containers are normally unobtainable.
 - Bells can have invalid states by attaching it to a noteblock and then tuning the noteblock, and by attaching it to an observer and then breaking the observer.
 - Smelting Coal Ore, Diamond Ore, Emerald Ore, Gold Ore, Iron Ore, Lapis Lazuli Ore, or Redstone Ore in a blast furnace add recipe values that will be changed in future versions. These stored recipes are completely unobservable, and will be removed if an item is ever taken out of the blast furnace output slot manually, however hoppers can be used to remove items from the output slot and stack multiple recipes.
 
-**18w50a - 18w49a**
+### 18w50a - 18w49a
 - Downgrading A Blast Furnace from 18w50a to 18w49a will cause the Blast Furnace UI to work like a Furnace allowing for invalid items that are not ore in the blast furnace output slot
 - Downgrading A Smoker from 18w50a to 18w49a will cause the Smoker UI to work like a Furnace allowing for invalid items that is not meat in the smoker output slot
 
-**19w02a**
+### 19w02a
 - Multiple protection types can be applied to enchanted books and armor, allowing for various assortments of normally unobtainable enchantment combinations. This also affects villager trades, allowing for villagers trading enchanted armor with invalid enchantments.
 - Currently more than six banner patterns can be applied to banners within a loom, due to banner previews not updating correctly. This will be discontinued in future versions.
 - Vines can be placed and supported by campfires
 
-**19w07a**
+### 19w07a
 - Added Foxes. Foxes can currently have armor dispensed onto them, allowing for armored foxes which are normally not obtainable.
 - Armored foxes can wear armor with thorns, and thus can kill the player and increase the killed by fox statistic, which is normally unobtainable
 - Foxes currently spawn with high health of 20 hp, which will change to 10 hp in future versions.
 
-**19w08a**
+### 19w08a
 - Waterlogged campfires can be ignited with fire charges, allowing for waterlogged lit campfires, which are normally not obtainable.
 - Extinguished campfires no longer drop food items.
 
-**19w11a**
+### 19w11a
 - Armorer and Cartographer trades have been completely reworked, and will be discontinued in future versions, either by trade, amount, tier the trade is in, or based off of the biome variant
 - Farmer villagers sell short duration suspicious stews as their expert tier trade. These durations will later be increased, allowing for several different discontinued trades. These suspicious stews are also discontinued themselves, allowing for the same amount of discontinued items. Additionally, different duration values of the already future discontinued speed suspicious stew are also obtainable through this method. The saturation stew obtained this method actually has a longer duration than normally possible.
 - Fletcher villagers can sell tipped arrows as their master tier trade. This includes the arrow of luck, which is normally unobtainable. This allows for both a discontinued trade and a discontinued item.
@@ -838,22 +838,22 @@
 - Librarian villagers can sell 3 bookshelves for 6 emeralds, which will later become an unobtainable amount trade
 - Zombie Villagers who spawn from abandoned villagers will have their speed set to 0.5 instead of 0.23 and will have the CanPickUpLoot tag
 
-**19w11a - 18w48b (Downgrading)**
+### 19w11a - 18w48b (Downgrading)
 - Downgrading villagers to this point removes their profession, career, and career level, converting all of their trades to tier 0, and converting the profession to a farmer. This allows for any trade existing on any villager in 19w11a (including old trades updated to 19w11a) is obtainable on a farmer profession villager. This farmer profession can be any one of the four farmer careers; farmer, fisherman, shepherd, or fletcher. By repeating downgrade, theoretically infinite trades can be obtained on this one villager by constantly converting the tier to 0.
 - Downgrading a blast furnace or a smoker that contains a recipe that can be smelted within a furnace causes the recipe to smelt within the blast furnace/smoker. This occurs for any furnace recipe, not just those that work within a blast furnace/smoker, allowing for a variety of invalid items in the output slots of these two blocks.
 - Downgrading a blast furnace or a smoker and using a hopper to input items for valid furnace recipes will add the furnace recipes under recipes used. Every single furnace recipe tag is discontinued on a smoker and blast furnace, allowing for a large assortment of discontinued blocks.This stored recipe is completely unobservable, and will be removed if an item is ever taken out of the  output slot manually, however hoppers can be used to remove items from the output slot and stack multiple recipes.
 
-**19w12b**
+### 19w12b
 - If a villager sleeping in a bed is woken up by a zombie, the bed maintains the occupied state, despite having no entities within it. This will not be obtainable in future versions.
 
-**19w13a**
+### 19w13a
 - Villagers will give the player gifts after a raid victory, including tipped arrows. One of these tipped arrows has an invalid potion effect of "speed", allowing for an uncraftable tipped arrow variant.
 - Vindicators that spawn in raids spawn holding wooden or stone axes instead of iron axes, which are both normally unobtainable items held by the vindicator
 
-**19w13b-1**
+### 19w13b-1
 - Overhauled the trading GUI. All trades are on a sidebar on the left. This gui allows for overstacking by shift clicking an available trade if the buy item stacks to less than 64.
 
-**3D Shareware v1.34**
+### 3D Shareware v1.34
 - The maximum level of multishot is increased to 12. This allows for enchanted books and crossbows to have multishot levels 2-12, all of which are normally unobtainable. These high enchantments can be obtained through various means, including the "MOREDAKKA" command, bonus barrels, and combining lower multishot levels in anvils. These enchantments also extend to villager trades, allowing for a multishot 12 crossbow trade in the master tier of fletcher villagers, and multishot 2-12 enchanted book trades on various librarian tiers. The bonus barrel crossbows will always be named "BFC9000".
 - Luck Potions and Uncraftable Potions can generate inside the bonus barrels, both of which are normally unobtainable
 - Tipped Arrows of Luck and Uncraftable Tipped Arrows can generate inside the bonus barrels, both of which are normally unobtainable
@@ -864,41 +864,41 @@
 - Barrels generate randomly throughout the world, in all three dimensions, and have a custom loot table of "bonus_barrel". This loot table is normally unobtainable.
 - Mobs that spawn with 3d Shareware cheat codes do not have the "Modifiers" NBT attached to their data
 
-**1.14-Prerelease 2**
+### 1.14-Prerelease 2
 - Renamed the illager banner to ominous banner. Any ominous banners that generate on pillager outposts have the incorrect translation tag, and say "block.minecraft.illager_banner". These banners will not be obtainable in future versions.
 - If a villager sleeping in a bed is struck by lightning and converts to a witch, the bed maintains the occupied state, despite having no entities within it. This will not be obtainable in future versions.
 
-**1.14**
+### 1.14
 - Ender Dragons can be teleported to the overworld. This is accomplished by placing end stone blocks at certain nodes in the end, freezing the dragon, and then pushing it through an end portal. The ender dragon in the overworld will not be obtainable in future versions.
 - By placing a sign and pasting in text over 65,536 characters, the chunk fails to save and regenerates entirely. This allows for many discontinued block configurations. The text can be pasted on if the font size is small, possible by using the small font datapack in resources.
 - Expert level farmer villager will sell Speed Suspicious Stew that would last 8 seconds which is not normally obtainable trade or item
 
-**1.14.1-Prerelease 1**
+### 1.14.1-Prerelease 1
 - Removing an enchantment from an enchanted book inside of a grindstone removes the enchantment, but maintains a custom name of "enchanted book", however it still loses the repair cost tag. This is an unobtainable variant of named book due to the missing repair cost tag.
 
-**1.14.1-Prerelease 2**
+### 1.14.1-Prerelease 2
 - Campfires can not be lit by flame arrows. Firing a flame arrow into a waterlogged campfire lights it, allowing for waterlogged lit campfires which are normally not obtainable.
 
-**Combat Test 3**
+### Combat Test 3
 - Added the chopping enchantment. This enchantment can exist on enchanted books and on axes, and will not be obtainable in future versions. This also extends to villager trades, allowing for librarians and weaponsmiths trading chopping enchanted equipment. The chopping enchantment will be removed in future versions, however this still allows for a variant of trade where an unenchanted item is being sold instead of the enchanted item, as well as no nbt enchanted books.
 
 ## Java 1.15 - Buzzy Bees
 
-**19w34a**
+### 19w34a
 - Bee nests always have some form of nbt data when mined. This can be removed by stacking two bee nests with identical nbt data together and then shift clicking one into an enchantment table. No nbt bee nests are not normally obtainable.
 - Currently a leashed bee can enter a bee hive/bee nest, allowing for a leashed bee within the nbt data. This is normally not obtainable.
 
-**19w36a**
+### 19w36a
 - This version introduced new gamerules. These included drowningDamage, fallDamage, fireDamage, and doInsomnia. These rules are normally defaulted to true, however updating your world to this version causes them to be set to false, which allows for 4 discontinued gamestates. These cause the player to take no drowning, fire, or fall damage. This also prevents phantoms from spawning, causing phantoms to become a discontinued feature. Phantom membranes are still obtainable through cats.
 
-**Combat Test 4**
+### Combat Test 4
 - All sword enchantments can be applied to an axe in this version, including previously unobtainable looting, fire aspect, sweeping edge, and knockback, allowing for a large assortment of discontinued enchantments. This also extends to villager trades, allowing for weaponsmiths selling sword enchantments on axes.
 - Snowballs stack to 64, allowing for overstacked snowballs in this version
 - Added the chopping enchantment. This enchantment can exist on enchanted books and on axes, and will not be obtainable in future versions. This also extends to villager trades, allowing for librarians and weaponsmiths trading chopping enchanted equipment. The chopping enchantment will be removed in future versions, however this still allows for a variant of trade where an unenchanted item is being sold instead of the enchanted item, as well as no nbt enchanted books.
 
 ## Java 1.16 - Nether Update
 
-**20w06a**
+### 20w06a
 - Currently the crimson and warped items can be used a fuel within furnaces. This will be changed in future versions, meaning these items will no longer be obtainable in a furnace fuel slot.
 - Placing noteblocks on crimson and warped planks sets the noteblock instrument to harp. In later versions this instrument will be base, allowing for discontinued instruments.
 - Lava can currently spread soul fire to any flammable block, which is normally not obtainable. This allows for a large variety of discontinued block combinations.
@@ -906,41 +906,41 @@
 - Nether sprouts can float, and thus be placed onto any block. This will not be obtainable in future versions.
 - Lava can currently be placed on soul soil, and adjacent to blue ice without creating a basalt. This will be an unobtainable block configuration in future versions.
 
-**20w07a**
+### 20w07a
 - Currently, if a piglin enters the overworld, it becomes a zombified piglin. This conversion has a rare chance for the entity to become an adult zombified piglin jockey, which will not be obtainable in future versions.
 - Currently piglins and hoglins that are within 16 blocks of a player do not despawn. This allows for persistence required 1b piglins and hoglins without names, which are normally not obtainable.
 - Piglins that are holding a crossbow will drop their crossbow to pick up golden items. Normally a piglin needs to be holding a weapon, thus allowing for discontinued piglin variants.
 - Baby piglins can currently pick up both soul torches and soul lanterns, however piglins are supposed to be afraid of soul items. In future versions, baby piglins will not be able to pick up soul items.
 - Baby piglins can currently pick up leather, and in future versions baby piglins will also no longer be allowed to pick up leather.
 
-**20w09a**
+### 20w09a
 - Crimson and warped signs are now obtainable through crafting. These signs can be placed within the fuel slot of furnaces, which will not be possible in future versions.
 - Crying obsidian is currently pushable by pistons. By pushing crying obsidian into the world border, a block 36 of crying obsidian can be created, which will not be obtainable in future versions.
 - Moving a powered target using a piston will cause that target to permanently keep it's signal strength. The signal strength will remain even after the projectile is removed
 
-**20w10a**
+### 20w10a
 - Added Crimson and Warped Stripped and Regular Hyphae Blocks, which are obtainable through crafting. These blocks can be used as furnace fuel, which will not be obtainable in future versions.
 - If a creeper is duplicated, and then one duplicate is stored and another is exploded adjacent to a fireball, the owner of the fireball will change to be that of the creeper. The fireball can be made stationary by pushing it with a piston into a cobweb in order to preserve it.
 - Walls do not connect to Soul Sand in this version
 
-**20w11a**
+### 20w11a
 - Enchanting boots with soul speed and running on soul soil will cause durability to decrease on the boots. There is no check, allowing for negative durability boots, which are normally not obtainable.
 - Currently, there is a chance that bartering with a piglin will give the player an enchanted book that is enchanted with soul speed. This enchantment tag is not actually a stored enchantment tag, and is instead applied to the enchanted book as if it was a piece of equipment. This is normally not obtainable.
 - Currently soul sand can be ignited with regular fire, which will not be obtainable in future versions
 
-**20w12a**
+### 20w12a
 - Polished basalt can currently be obtained by smelting normal basalt. This allows for polished basalt in the output slot of a furnace. This will later be changed, no longer allowing for polished basalt in the output slot of a furnace.
 - Smelting polished basalt in a furnace will add the recipe "minecraft:polished_basalt" to the stored recipes, which will not be a valid furnace recipe in future versions. This stored recipe is completely unobservable, and will be removed if an item is ever taken out of the furnace output slot manually, however hoppers can be used to remove items from the output slot and stack multiple recipes.
 
-**20w13a**
+### 20w13a
 - Currently there is a chance striders will spawn with NoGravity:1b, meaning they float. These striders will not be obtainable in future versions.
 - Striders can spawn on top of other striders. Currently there is no upper bound, allowing for 4+ strider stacks, which will be unobtainable in future versions.
 - Striders can currently spawn with zombified piglins holding golden swords. This will be changed in future versions so the zombified piglins only hold warped fungi on a stick.
 - Right-clicking a compass on a lodestone will change it to lodestone compass without the LodestoneTracked Tag
 
-**20w14∞**
+### 20w14∞
 > [!Note]
-> In order to play your world in this version, world save insertion must be used. This requires first removing the world save from the world saves folder. From here, select create world and create a world with the same folder name as the world save. Then, while still in the create world screen, drag the world save into the saves folder, and select create world. This forces the world to load without removing the level.dat or level.dat_old files.
+> The only way to play this version is via [world save insertion](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion). This forces the world to load without removing the level.dat or level.dat_old files.
 - In several dimensions, including the "~N" dimension, player heads generate, which are normally not obtainable.  They can then be mined, drop as items, and thus be brought to the overworld.
 - In certain biomes in certain dimensions, zombie horses can spawn as passive mobs. A specific example is the biome "_generated:1913198024" in dimension "zz" around 381, -411. In this location, the area would have to have a sufficient light level and have grass blocks for spawning. Zombie horses can then spawn, as well as baby zombie horses, which can both then be brought to the overworld. Baby zombie horses can also be put into a boat, and then grown up and become an oversized mob in a boat.
 - In several dimensions, including the "aaaaaaaaaaaaa" dimension, giants spawn. These giants can be pushed into a large nether portal or into an end portal, and thus be brought into the overworld. Giants are normally not obtainable in the world. there are also left hand variants of Giants that spawn.
