@@ -23,31 +23,33 @@
 
 ## Badges
 
-![Static Badge](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
+![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
+&nbsp; ![Item NBT](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
+&nbsp; &nbsp; ![Item Count](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Name-cc2f59) - This refers to illegal item names.
+&nbsp; &nbsp; ![Name](https://img.shields.io/badge/Name-cc2f59) - This refers to illegal item names.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Equipment-cca12f) - This refers to illegal equipment.
+&nbsp; ![Equipment](https://img.shields.io/badge/Equipment-cca12f) - This refers to illegal equipment.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Enchant-922fcc) - This refers to illegal/incompatible enchantments on items.
+&nbsp; &nbsp; ![Enchantment](https://img.shields.io/badge/Enchantment-922fcc) - This refers to illegal/incompatible enchantments on items.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
+&nbsp; &nbsp; ![Repair Cost](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
+&nbsp; &nbsp; ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
 
-![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
+![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
+&nbsp; ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
-![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block configuration.
+![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
+&nbsp; ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
 
-![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
+&nbsp; ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
+
+![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
 
@@ -55,29 +57,38 @@
 
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
+&nbsp; ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
+&nbsp; ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
-![Static Badge](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
+![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
+&nbsp; ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
-&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
+&nbsp; &nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 
-![Static Badge](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
+![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
+&nbsp; ![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
+&nbsp; ![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
+&nbsp; ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
 
-![Static Badge](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
+![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
 
-![Static Badge](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical manipulation methods.
+![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
 
-![Static Badge](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+&nbsp; ![Redstone Behavior](https://img.shields.io/badge/Redstone%20Behavior-b92316) - This refers to illegal redstone behavior.
+
+&nbsp; ![Command](https://img.shields.io/badge/Command-6a3095) - This refers to command-based exploits or glitches.
+
+&nbsp; ![Packet](https://img.shields.io/badge/Packet-2e1540) - This refers to illegal or version-specific behavior related to packets.
+
+&nbsp; ![Static Badge](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
+
+![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+
 
 
 # Timeline
