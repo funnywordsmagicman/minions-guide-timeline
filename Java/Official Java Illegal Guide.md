@@ -275,7 +275,7 @@
 - Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 
 <details>
-  <summary>Moving Piston Merge Transmutation Block List</summary>
+  <summary> **Moving Piston Merge Transmutation Block List** (Click to expand) </summary>
   
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
