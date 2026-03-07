@@ -14,7 +14,7 @@ ________________________________________________________________________________
 **Mod:** Requires a Mod from "Mods & Extra Files" that can let you either play the version or obtain certain unobtainables
 <br>
 
-**Zero Stack:** Zero stack refers to items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than 0. These items behave like normal items in the sense that they can be taken out of and put into containers, but will "absorb" any items of the same nbt data. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type
+**Zero Stack:** Zero stack refers to items that have a <span style="text-decoration=underline;" title="NBT tag referring to the number of items in a stack">count</span> less than 0. These items behave like normal items in the sense that they can be taken out of and put into containers, but will "absorb" any items of the same nbt data. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type
 _____________________________________________________________________________________________________________________________________
 
 **Classic 0.0.14a_08**
