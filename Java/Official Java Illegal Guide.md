@@ -25,14 +25,14 @@
 
 ## Classic
 
-**Classic 0.0.14a_08**
+### **Classic 0.0.14a_08**
 - Sand and Gravel do not fall into liquids.
 - Dandelions and Poppys block liquids.
 
-**Classic 0.0.19a_04**
+### **Classic 0.0.19a_04**
 - Sponges would not become wet when absorbing water.
 
-**Classic 0.0.23a_01**
+### **Classic 0.0.23a_01**
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
 
 
