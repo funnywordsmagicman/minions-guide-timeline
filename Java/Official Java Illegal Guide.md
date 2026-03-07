@@ -94,21 +94,22 @@ ________________________________________________________________________________
 - Monoliths would generate in flat terrain and they would spawn without bedrock underneath allowing for illegal terrain generation. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup> 
 
 **Infdev 20100615**
-- Water and Lava can flow next to each other without forming stone
-- Lava will flow 8 blocks in the overworld which will later update to 3 blocks making it an illegal block formations
-- Water and Lava do not update correctly, allowing for water and lava in different flow states without a source block
-- Caves do not generate in this version allowing for an area with no caves
-- In this version no Bedrock will spawn at the bottom of the world. These chunks can be loaded by left unpopulated, if these chunks are then repopulated in later versions then not only will no bedrock generate but the world will generate new stone types and biomes.
+- Water and Lava can flow beside each other without creating stone. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava)</sup>
+- Lava flows 8 blocks in the overworld. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld)</sup>
+- Water and Lava do not update correctly, leading to water and lava in different flowing states without a source block.
+- Caves do not generate in this version. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation)</sup>
+- In this version, no bedrock will spawn at the bottom of the world. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks)</sup>
 
 **Infdev 20100616-1**
-- Holes in the Bedrock can generate when lava pools generate at the bottom of the world
+- Lava pool generation can sometimes create holes through bedrock.
 
 **Infdev 20100617-2**
-- The bottom most layer of the world is made of stone and bedrock allowing for holes within the bedrock
+- The bottom-most layer of the world is made from part bedrock and part stone.
 
 **Infdev 20100625-2**
-- Added Spawners which can be mined up by hand and will drop as an item, also Infinite Water Source items would convert to a Spawner as well
-- Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. Reloading a sign-spawner will crash and potentially soft lock the world in this version. This is fixed in the next version, but the spawner maintains the sign data.
+- Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
+- Any Water Spawners from previous versions are converted to spawners in this version.
+- Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data)</sup>
 - Placing Doors one block under a block will cause the upper half to break the block up above it making it possible for bedrock removal
 - Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves are solid).
 - Placing an inclined rail, and then breaking the support block, the game wouldn't update the inclined rail to a flat rail giving you an inclined rail without connections
