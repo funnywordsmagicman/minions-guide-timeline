@@ -91,7 +91,9 @@ ________________________________________________________________________________
 - By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
 **Infdev 20100611**
-- Monoliths would generate in flat terrain without bedrock underneath. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup> <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
+- Monoliths would generate in flat terrain without bedrock underneath. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
+  <br>
+  <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
 **Infdev 20100615**
@@ -111,6 +113,7 @@ ________________________________________________________________________________
 - Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
 - Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data)</sup>
+<br><img width="901" height="829" alt="Sign_Spawner_20100627" src="https://github.com/user-attachments/assets/3b54b953-0626-4a13-902b-beb00a3e179c" /><br>
 - Placing Doors one block under a block will cause the upper half to break the block up above it making it possible for bedrock removal
 - Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves are solid).
 - Placing an inclined rail, and then breaking the support block, the game wouldn't update the inclined rail to a flat rail giving you an inclined rail without connections
