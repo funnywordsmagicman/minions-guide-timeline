@@ -34,7 +34,7 @@ ________________________________________________________________________________
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
     - Bedrock
     - Grass
-    - Water Spawner
+    - [Water Spawner]("https://minecraft.wiki/w/Water_Spawner")
     - Lava Spawner
     - All 16 colors of Cloth
     - Sponges
