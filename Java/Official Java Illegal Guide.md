@@ -36,11 +36,11 @@ ________________________________________________________________________________
     - [Grass](https://minecraft.wiki/w/Grass)
     - [Water Spawner](https://minecraft.wiki/w/Water_Spawner)
     - [Lava Spawner](https://minecraft.wiki/w/Lava_Spawner)
-    - All 16 colors of Cloth
-    - Sponges
-    - Coal Ore
-    - Obsidian
-    - Leaves
+    - All 16 colors of [Cloth](https://mcdf.wiki.gg/wiki/Java_Edition:Cloth)
+    - [Sponges](https://minecraft.fandom.com/wiki/Sponge)
+    - [Coal Ore](https://minecraft.fandom.com/wiki/Coal_Ore)
+    - [Obsidian](https://minecraft.fandom.com/wiki/Obsidian)
+    - [Leaves](https://minecraft.fandom.com/wiki/Leaves)
 - Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6.
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
