@@ -1435,6 +1435,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 - In snapshot 25w36a/b, by placing an unwaxed copper rod of any oxidation level but the default one next to blocks that are able to interact with redstone and having it get struck by lightning will cause the blocks to power forever (as long as no block updates are caused). Exceptions include: repeaters, comparators, pistons and sticky pistons.
 
 # Footnotes
-| ![snapshots](1280px-List_of_Java_Edition_snapshots" src="https://github.com/user-attachments/assets/c2cdfdc0-93df-438d-a5e1-7ee531f758ea)
+| ![1280px-List_of_Java_Edition_snapshots](https://github.com/user-attachments/assets/c2cdfdc0-93df-438d-a5e1-7ee531f758ea)
 | :--:|
 | *A timeline of snapshots from 2011-2026.*
+
