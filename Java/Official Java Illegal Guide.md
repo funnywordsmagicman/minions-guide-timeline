@@ -275,10 +275,130 @@
 - Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 - <details>
   <summary>Moving Piston Merge Transmutation Block List</summary>
-| Numeric ID | Block ID	| Does it Work?	| Special Design Needed? |
-|            |          |               |                        |
-|------------|----------|---------------|------------------------|
-|            |          |               |                        |
+  
+| Numeric ID | Block ID | Does it Work? | Special Design Needed? |
+|---|---|---|---|
+| 0 | stone | Yes |  |
+| 1 | grass | Yes |  |
+| 2 | dirt | Yes |  |
+| 3 | cobblestone | Yes |  |
+| 4 | planks | Yes |  |
+| 5 | sapling | No |  |
+| 6 | bedrock | No |  |
+| 7 | flowing_water | No |  |
+| 8 | water | No |  |
+| 9 | flowing_lava | No |  |
+| 10 | lava | No |  |
+| 11 | sand | Yes |  |
+| 12 | gravel | Yes |  |
+| 13 | gold_ore | Yes |  |
+| 14 | iron_ore | Yes |  |
+| 15 | coal_ore | Yes |  |
+| 16 | log | Yes |  |
+| 17 | leaves | No |  |
+| 18 | sponge | Yes |  |
+| 19 | glass | Yes |  |
+| 20 | lapis_ore | Yes |  |
+| 21 | lapis_block | Yes |  |
+| 22 | dispenser | No |  |
+| 23 | sandstone | Yes |  |
+| 24 | noteblock | No |  |
+| 25 | bed | No |  |
+| 26 | golden_rail | Yes | Rail design |
+| 27 | detector_rail | Yes | Rail design |
+| 28 | sticky_piston | Yes | Piston design |
+| 29 | web | No |  |
+| 30 | tallgrass | No |  |
+| 31 | deadbush | No |  |
+| 32 | piston | Yes | Piston design |
+| 33 | piston_head | No |  |
+| 34 | wool | Yes |  |
+| 35 | piston_extension | No |  |
+| 36 | yellow_flower | No |  |
+| 37 | red_flower | No |  |
+| 38 | brown_mushroom | No |  |
+| 39 | red_mushroom | No |  |
+| 40 | gold_block | Yes |  |
+| 41 | iron_block | Yes |  |
+| 42 | double_stone_slab | Yes |  |
+| 43 | stone_slab | Yes |  |
+| 44 | brick_block | Yes |  |
+| 45 | tnt | Yes | No redstone power design |
+| 46 | bookshelf | Yes |  |
+| 47 | mossy_cobblestone | Yes |  |
+| 48 | obsidian | No |  |
+| 49 | torch | No |  |
+| 50 | fire | No |  |
+| 51 | mob_spawner | No |  |
+| 52 | wooden_stairs | Yes |  |
+| 53 | chest | No |  |
+| 54 | redstone_wire | No |  |
+| 55 | diamond_ore | Yes |  |
+| 56 | diamond_block | Yes |  |
+| 57 | crafting_table | Yes |  |
+| 58 | wheat | No |  |
+| 59 | farmland | Yes |  |
+| 60 | furnace | Yes | Furnace design |
+| 61 | lit_furnace | Yes | Furnace design |
+| 62 | standing_sign | No |  |
+| 63 | wooden_door | No |  |
+| 64 | ladder | No |  |
+| 65 | rail | Yes | Rail design |
+| 66 | stone_stairs | Yes |  |
+| 67 | wall_sign | No |  |
+| 68 | lever | No |  |
+| 69 | stone_pressure_plate | No |  |
+| 70 | iron_door | No |  |
+| 71 | wooden_pressure_plate | No |  |
+| 72 | redstone_ore | ??? [test] |  |
+| 73 | lit_redstone_ore | Yes |  |
+| 74 | unlit_redstone_torch | No |  |
+| 75 | redstone_torch | No |  |
+| 76 | stone_button | No |  |
+| 77 | snow_layer | No |  |
+| 78 | ice | Yes |  |
+| 79 | snow | Yes |  |
+| 80 | cactus | No |  |
+| 81 | clay | Yes |  |
+| 82 | reeds | No |  |
+| 83 | jukebox | No |  |
+| 84 | fence | Yes |  |
+| 85 | pumpkin | No |  |
+| 86 | netherrack | Yes |  |
+| 87 | soul_sand | Yes |  |
+| 88 | glowstone | Yes |  |
+| 89 | portal | No |  |
+| 90 | lit_pumpkin | No |  |
+| 91 | cake | No |  |
+| 92 | unpowered_repeater | No |  |
+| 93 | powered_repeater | No |  |
+| 94 | stained_glass | Yes |  |
+| 95 | trapdoor | Yes | Trapdoor design |
+| 96 | monster_egg | Yes |  |
+| 97 | stonebrick | Yes |  |
+| 98 | brown_mushroom_block | Yes |  |
+| 99 | red_mushroom_block | Yes |  |
+| 100 | iron_bars | Yes |  |
+| 101 | glass_pane | Yes |  |
+| 102 | melon_block | No |  |
+| 103 | pumpkin_stem | No |  |
+| 104 | melon_stem | No |  |
+| 105 | vine | No |  |
+| 106 | fence_gate | Yes | No redstone power design |
+| 107 | brick_stairs | Yes |  |
+| 108 | stone_brick_stairs | Yes |  |
+| 109 | mycelium | Yes |  |
+| 110 | waterlily | No |  |
+| 111 | nether_brick | Yes |  |
+| 112 | nether_brick_fence | Yes |  |
+| 113 | nether_brick_stairs | Yes |  |
+| 114 | nether_wart | No |  |
+| 115 | enchanting_table | No |  |
+| 116 | brewing_stand | No |  |
+| 117 | cauldron | Yes |  |
+| 118 | end_portal | No |  |
+| 119 | end_portal_frame | No |  |
+| 120 | end_stone | Yes |  |
 
   </details>
 
