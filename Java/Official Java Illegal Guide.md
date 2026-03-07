@@ -20,51 +20,56 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________
 
 **Classic 0.0.14a_08**
-- Sand and Gravel do not fall into liquids allowing for sand and gravel floating above water
-- Dandelions and Poppys would block water and lava sources
+- Sand and Gravel do not fall into liquids.
+- Dandelions and Poppys block liquids.
 
 **Classic 0.0.19a_04**
-- Sponges would not update to a Wet Sponge when used, allowing for weird, unobtainable positions and states of water
+- Sponges would not become wet when absorbing water.
 
 **Classic 0.0.23a_01**
-- By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places, allowing for non-updated water sources.
-
+- By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
+  
 **Indev 20100124-3**
 - The Indev House will spawn upon loading the world.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
     - Bedrock
     - Grass
-    - Water Sources
-    - Lava Sources
+    - Water Spawner
+    - Lava Spawner
     - All 16 colors of Cloth
     - Sponges
     - Coal Ore
     - Obsidian
     - Leaves
-- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. These items are useful for duplication and overstacking. A 0 Stack item is a the most well known duplication method and java illegal, once you have it you can right click in your inventory and it will give you and infinite amount of diamonds. Every time you right click the 0 stack item, the item count will start going into the negatives allowing for negative durability stacked items, and once it reaches -129 it will overlap and the item count will become +127. This method of 0 stack items works all the way to Alpha 1.2.6
-- As chests were a full cube from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. The action of "shift clicking" was not implemented in these versions, so to place the blocks onto the chest, they must be placed on a block next to them that cannot support them allowing for support blocks on chests
-- Torches could be placed Underwater
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6.
+- As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
+- Torches could be placed underwater.
 
 **Indev 20100128-2**
-- Indev Chests would spawn with 100 count items.
+- Indev house chests would now contain 100 count items.
 
 **Indev 20100201-2**
-- Sponges would soak up infinite lava and infinite water allowing for discontinued configurations of the water and lava
+- Sponges would soak up water and lava spawners, allowing for discontinued configurations of the water and lava.
 
 **Indev 20100206-2**
-- Golden Hoes have a higher durability which is later lowered allowing for negative durability hoes if you lower the durability of the hoe in this current version
-- Tilling Dirt underneath a block and then placing seeds on the farmland will remove the block above making it possible for bedrock removal
+- Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
+- Tilling Dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock.
 
 **Indev 20100219**
--  Any item can be placed in the furnace fuel and output slot
+-  Any item can be placed in the furnace fuel and output slot.
+
+**Infdev 20100227-1** 
+- Brick Pyramids generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
+- Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
+- In some occasions, brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
+  ![Infdev_20100227-1419](https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a)
 
 **Infdev 20100316** 
 > [!Caution]
 > This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. \
 > Opening Chests in this version would crash the game.
-- The Farlands would generate except they are extremely far out, they are a flat wall and they are unreachable by normal means
-- The Player would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version. 
-- Brick Pyramids would spawn throughout the world, making it the only method of obtaining bricks, download the file in the "Mods & Extra Files" folder to help you find brick pyramids
+- The Farlands generate, however they are a flat wall and unreachable by normal means.
+- Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version. 
 
 **Infdev 20100607**
 - Top Half Doors can be created by placing two signs and placing a door on top
