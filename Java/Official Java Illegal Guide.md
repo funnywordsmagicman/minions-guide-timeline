@@ -44,7 +44,7 @@ ________________________________________________________________________________
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot
 
-**Infdev 20100316**
+**Infdev 20100316** <abbr title="This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. Opening Chests in this version will crash the game.">Caution</abbr>
 > [!Caution]
 > This version requires the Infdev 20100316 saving mod to save and quit the game you can find it in the Links folder
 > Opening Chests in this version would crash the game
