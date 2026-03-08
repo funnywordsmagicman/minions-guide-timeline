@@ -6,7 +6,7 @@
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
 <br>
 
-**Downgrading:** ![Downgrading] from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
+**Downgrading:** [Downgrading] from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
 <br>
 
 **EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education](https://minecraft.fandom.com/wiki/Minecraft_Education))
