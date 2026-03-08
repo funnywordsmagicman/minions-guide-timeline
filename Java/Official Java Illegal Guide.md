@@ -267,7 +267,7 @@
 ### Beta 1.3-2
 > [!Caution]
 > Backspacing too many times after pasting control characters can crash the game.
-- Petrified Oak Slabs added.
+- [Petrified Oak Slabs] added.
 - World names can contain the section symbol § and have formatted names.
 - Whenever a player spawns, they will be given a [Debug Inventory] consisting of:
     - 64 torches
@@ -277,11 +277,11 @@
     - 1 bed
     - 63 beds
 - Redstone torches float if placed against non-full blocks adjacent to full ones.
-- Placing a bed next to a cactus would result in the half closest to the cactus breaking.
-- You can paste ASCII Control Codes and the DEL Character into the world name.
+- Placing a bed next to a cactus would result in the half closest to the cactus breaking. <sup>[\[29\]][29]</sup>
+- You can paste ASCII Control Codes and the DEL Character into the world name. <sup>[\[30\]][30]</sup>
 
 ### Beta 1.4-1
-- Locked Chests can generate throughout the world if your computer time is set to April 1st, 2011. They drop when exploded.
+- [Locked Chests][Locked Chest] can generate throughout the world if your computer time is set to April 1st, 2011. They drop when exploded.
 
 ### Beta 1.6 Test Build 3
 > [!Note]
@@ -313,16 +313,16 @@
   - [Locked Chest]
   - [Shrub]
   - [Bedrock]
-- Melting Ice in the nether won't dissolve the water making it possible to have water in the nether
-- Entering a Nether Portal while in the crafting grid will cause all items in the crafting grid to get thrown out and become 0 stacked items, 0 stack items can be subtracted to become negative stack items by Q-ing them and can be overflowed to become overstacked items
-- Update Suppresion now works by using budding redstone updates, you can find the world download in the "Mods & Extra Files" Folder for the Update Suppresor Model for this version
-- Maps would not snap to a grid, meaning unobtainable map variants can be obtained
+- Melting ice in the nether won't evaporate the source block. <sup>[\[31\]][31]</sup>
+- Entering a Nether Portal while in the crafting grid will cause all items in the crafting grid to be thrown out twice, with one instance of the items being [understacked][Understacked Items]. <sup>[\[32\]][32]</sup>
+- Update Suppresion now works by using budding redstone updates. <sup>[See files...][1.6 Suppressor]</sup>
+- Maps would not snap to a grid. <sup>[\[33\]][33]</sup>
 
 ### Beta 1.6.0
-- Any equipment with damage greater than zero will become a zero stack when dropped. This only works on equipment that has durability. 
+- Any equipment with damage greater than zero will become a [zero stack][Understacked Items] when dropped. This only works on equipment with durability. <sup>[\[34\]][34]</sup>
 
 ### Beta 1.7
-- [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation:~:text=Liquid%20Transmutation,-From%20Beta%201.7) is possible through building a piston and water based contraption.
+- [Block Transmutation][Liquid Transmutation] is possible through building a piston and water based contraption.
 - Pulling a detector rail with a minecart on it will leave it powered until ticked.
 - Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block would leave it floating.
 
@@ -2196,6 +2196,9 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Powered Redstone Repeater]: https://mcdf.wiki.gg/wiki/Java_Edition:Powered_Redstone_Repeater_(Item)
 [Locked Chest]: https://mcdf.wiki.gg/wiki/Java_Edition:Locked_Chest
 [Shrub]: https://mcdf.wiki.gg/wiki/Java_Edition:Shrub
+[Petrified Oak Slabs]: https://mcdf.wiki.gg/wiki/Java_Edition:Petrified_Oak_Slab
+[1.6 Suppressor]: ../Java/Mods/Worlds/Update%20Suppresor%201.6%20Test%20Build%203.zip
+[Liquid Transmutation]: https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Liquid_Transmutation
 
 <!-- Links 2 -->
 [1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference
@@ -2226,7 +2229,12 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [26]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Egg_Stack
 [27]: https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#Old_Versions
 [28]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#Boat_&_Nether_Portal
-
+[29]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Bed_(Block)#Cactus_Breaking
+[30]: https://mcdf.wiki.gg/wiki/Java_Edition:Formatted_World_Name
+[31]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_in_the_Nether#Ice_Melting
+[32]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Nether_Portal_+_Crafting_Table
+[33]: https://mcdf.wiki.gg/wiki/Java_Edition:Offset_Map_File
+[34]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Damaged_Equipment_Drop
 
 
 
