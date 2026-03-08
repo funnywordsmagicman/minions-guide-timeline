@@ -242,7 +242,7 @@
 - Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[\[27\]][27]</sup>
 - Lava only flows 4 blocks in the nether.
 
-### Alpha 1.2.2
+### Alpha 1.2.2 ![Debug]
 - Nether Portals can be summoned by pressing <kbd>F4</kbd>, which can be used to get to the Farlands and to create illegal block formations.
 - By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[\[28\]][28]</sup>
 - Signs can be placed on [nether portal blocks][Nether Portal].
@@ -265,7 +265,7 @@
 > In order to access this version, the world save folder will have to be renamed to World(1-5). During this downgrade, the level.dat and level.dat_old files must be removed (either by deletion or moving them to another location) temporarily. The level.dat and level.dat_old files have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version.
 - This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version.
 
-### Beta 1.3-2
+### Beta 1.3-2 ![Debug]
 > [!Caution]
 > Backspacing too many times after pasting control characters can crash the game.
 - [Petrified Oak Slabs] added.
@@ -284,7 +284,7 @@
 ### Beta 1.4-1
 - [Locked Chests][Locked Chest] can generate throughout the world if your computer time is set to April 1st, 2011. They drop when exploded.
 
-### Beta 1.6 Test Build 3
+### Beta 1.6 Test Build 3 ![Debug]
 > [!Note]
 > Level.dat regeneration is required in order to access debug chests in existing worlds.
 - Upon level.dat creation, [debug chests][Debug Chests] would generate at the world spawn.
@@ -616,7 +616,7 @@
 ### Beta 1.9 Prerelease 3 - Beta 1.9 Prerelease 2
 - Downgrading potions from Beta 1.9 Prerelease 3 to Beta 1.9 Prerelease 2 will make it possible to overstack the potions allowing for overstacked potions
 
-### Beta 1.9 Prerelease 3-1
+### Beta 1.9 Prerelease 3-1 ![Debug]
 > [!Note]
 > Certain multiplayer exclusive chunks can be generated, but require file manipulation. Regions from a newly generated multiplayer world can be copied into pre-existing worlds. This works by taking a region file, changing the name to not conflict with previously existing region files, and adding it into a pre-existing world.
 - The player would spawn with debug items including a stack of bookshelves, enchanting tables, end portals, and end portal frames. Hovering your cursor over the end portals will crash your game due to a missing tooltip
@@ -1627,7 +1627,7 @@
 - Striders can currently spawn with zombified piglins holding golden swords. This will be changed in future versions so the zombified piglins only hold warped fungi on a stick.
 - Right-clicking a compass on a lodestone will change it to lodestone compass without the LodestoneTracked Tag
 
-### 20w14∞
+### 20w14∞ ![Debug]
 > [!Note]
 > The only way to play this version is via [world save insertion](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion). This forces the world to load without removing the level.dat or level.dat_old files.
 - In several dimensions, including the "~N" dimension, player heads generate, which are normally not obtainable.  They can then be mined, drop as items, and thus be brought to the overworld.
