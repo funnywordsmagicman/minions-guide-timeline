@@ -1,7 +1,7 @@
 
 # Official Java Illegal Occurences Guide
 
-<img alt="Java Edition.png" src="/images/thumb/Java_Edition.png/236px-Java_Edition.png?7fa458" decoding="async" loading="lazy" width="236" height="24" data-file-width="1019" data-file-height="104">
+<img alt="Java Edition.png" src="https://mcdf.wiki.gg/images/thumb/Java_Edition.png/236px-Java_Edition.png?7fa458" decoding="async" loading="lazy" width="236" height="24" data-file-width="1019" data-file-height="104">
 
 ## Key Words
 
