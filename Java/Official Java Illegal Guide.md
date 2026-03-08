@@ -1180,7 +1180,7 @@
 - Currently overstacked armor can be dispensed onto an armor stand, which will be discontinued in future versions. This was removed in 24w09a so you will have to keep the armor stand in unloaded chunks till 1.20.5 Prerelease 1
 - Currently placed armor stands have minor poses. In future versions armor stands will have no poses, making these discontinued armor stand variants.
 
-### **15w14a
+### 15w14a
 > [!Note]
 > In order to update to this version, the world folder must be renamed to "existence.af15"
 - Attempting to trade with a villager does not give the proper item, but instead gives a paper renamed "Thanks for your donation". This paper is a discontinued item since it is renamed without a repair cost.
