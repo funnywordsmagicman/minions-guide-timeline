@@ -86,20 +86,20 @@
 
 ## Classic
 
-### Classic 0.0.14a_08
+### Classic 0.0.14a_08 ![Block Configuration] ![Physics]
 - Sand and Gravel do not fall into liquids.
 - Dandelions and Poppys block liquids.
 
-### Classic 0.0.19a_04
-- Sponges would not become wet when absorbing water.
+### Classic 0.0.19a_04 ![Block Configuration] ![Technical]
+- Sponges would not become wet when absorbing water. 
 
-### Classic 0.0.23a_01
+### Classic 0.0.23a_01 ![Block Configuration] ![Physics]
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
 
 
 ## Indev
   
-### Indev 20100124-3
+### Indev 20100124-3 ![Debug] ![Structure] ![Item Count]
 - [The Indev House] will spawn upon loading the world.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
     - [Bedrock]
@@ -115,10 +115,10 @@
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
-### Indev 20100128-2
+### Indev 20100128-2 ![Debug] ![Structure] ![Item Count]
 - Indev house chests would now contain 100 count items.
 
-### Indev 20100201-2
+### Indev 20100201-2 ![Block Configuration] ![Technical]
 - Sponges would soak up water and lava spawners, allowing for discontinued configurations of the water and lava.
 
 ### Indev 20100206-2
