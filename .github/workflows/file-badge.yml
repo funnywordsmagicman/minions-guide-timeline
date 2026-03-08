@@ -1,4 +1,4 @@
-name: Update Meaningful File Edit Badge
+name: Update File Badge JSON
 
 on:
   schedule:
@@ -15,46 +15,34 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get last meaningful edit for file
+      - name: Get last commit timestamp for file
         run: |
           FILE="Java/Official Java Illegal Guide.md"
-      
-          UPDATED=$(git log -1 -w --format=%cI -- "$FILE")
-      
-          NOW=$(date -u +%s)
-          UPDATED_SEC=$(date -d "$UPDATED" +%s)
-          DIFF=$((NOW - UPDATED_SEC))
-      
-          if [ $DIFF -lt 3600 ]; then
-            MSG="$((DIFF/60))m ago"
-            COLOR="brightgreen"
-          elif [ $DIFF -lt 86400 ]; then
-            MSG="$((DIFF/3600))h ago"
-            COLOR="green"
-          elif [ $DIFF -lt 6048000 ]; then
-            MSG="$((DIFF/86400))d ago"
-            COLOR="yellow"
-          elif [ $DIFF -lt 2628000 ]; then
-            MSG="$((DIFF/604800))w ago"
-            COLOR="orange"
-          else 
-            MSG="$((DIFF/2628000))mo ago"
-            COLOR="red"
+          
+          # Get last commit timestamp in ISO format
+          UPDATED=$(git log -1 --format=%cI -- "$FILE")
+
+          # Fallback to current UTC if somehow empty
+          if [ -z "$UPDATED" ]; then
+            UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
-      
+
+          # Format nicely for badge
+          MSG=$(date -u -d "$UPDATED" +"%Y-%m-%d %H:%M UTC")
+
+          # Create badge JSON
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
             \"label\": \"Last Guide Update\",
             \"message\": \"$MSG\",
-            \"color\": \"$COLOR\"
+            \"color\": \"green\"
           }" > badge/file-last-edit.json
-    
+
       - name: Commit and push badge
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add badge/file-last-edit.json
-          git commit -m "Update meaningful file edit badge" || exit 0
+          git commit -m "Update meaningful file edit badge" || echo "No changes to commit"
           git push
-          
