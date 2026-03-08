@@ -48,52 +48,25 @@
 - ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
   - ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
     -![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
-
-<br>
-
-![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
-
-&nbsp; ![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
-
-&nbsp; ![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
-
-&nbsp; ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
-
-<br>
-
-![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
-
-<br>
-
-![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
-
-&nbsp; ![Redstone Behavior](https://img.shields.io/badge/Redstone%20Behavior-b92316) - This refers to illegal redstone behavior.
-
-&nbsp; ![Command](https://img.shields.io/badge/Command-6a3095) - This refers to command-based exploits or glitches.
-
-&nbsp; ![Packet](https://img.shields.io/badge/Packet-2e1540) - This refers to illegal or version-specific behavior related to packets.
-
-&nbsp; ![Physics](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
-
-&nbsp; ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
-
-&nbsp; &nbsp; ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
-
-&nbsp; ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to illegal or glitched lighting.
-
-&nbsp; ![Sound](https://img.shields.io/badge/Sound-6e789f) - This refers to illegal or glitched sounds.
-
-&nbsp; ![Rendering](https://img.shields.io/badge/Rendering-587550) - This refers to illegal or glitched rendering/graphics.
-
-&nbsp; ![Input](https://img.shields.io/badge/Input-756650) - This refers to illegal, glitched, or debug input/controls.
-
-&nbsp; ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
-
-&nbsp; ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
-
-<br>
-
-![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+- ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
+  - ![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
+  - ![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
+  - ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
+- ![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
+- ![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
+  - ![Redstone Behavior](https://img.shields.io/badge/Redstone%20Behavior-b92316) - This refers to illegal redstone behavior.
+  - ![Command](https://img.shields.io/badge/Command-6a3095) - This refers to command-based exploits or glitches.
+  - ![Packet](https://img.shields.io/badge/Packet-2e1540) - This refers to illegal or version-specific behavior related to packets.
+  - ![Physics](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
+  - ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
+  - ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
+  - ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to illegal or glitched lighting.
+  - ![Sound](https://img.shields.io/badge/Sound-6e789f) - This refers to illegal or glitched sounds.
+  - ![Rendering](https://img.shields.io/badge/Rendering-587550) - This refers to illegal or glitched rendering/graphics.
+  - ![Input](https://img.shields.io/badge/Input-756650) - This refers to illegal, glitched, or debug input/controls.
+  - ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
+  - ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
+- ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
 
 # Timeline
