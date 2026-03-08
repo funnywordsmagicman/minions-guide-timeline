@@ -121,10 +121,10 @@
 
 ### Indev 20100206-2
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
-- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
+- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[^2]</sup>
 
 ### Indev 20100219
--  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
+-  Any item can be placed in the furnace fuel and output slot. <sup>[^3]</sup>
 
 ## Infdev
 
@@ -143,8 +143,8 @@
 ### Infdev 20100316 
 > [!Caution]
 > This version requires the [Infdev 20100316 saving mod] to save and quit the game; you can find it in the Links folder. \
-> Opening containers in this version would crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316)</sup>
-- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup>[More...](https://minecraft.fandom.com/wiki/Far_Lands)</sup>
+> Opening containers in this version would crash the game. <sup>[^4]</sup>
+- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup>[^5]</sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
 ### Infdev 20100327
@@ -2165,3 +2165,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 
 <!-- Links 2 -->
 [^1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31
+[^2]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206
+[^3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition
+[^4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316
+[^5]: https://minecraft.fandom.com/wiki/Far_Lands
