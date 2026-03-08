@@ -27,21 +27,21 @@
   - ![Item NBT] - This refers to illegal item NBT data.
     - ![Item Count] - This refers to illegal item counts.
     - ![Name] - This refers to illegal item names.
-  - ![Equipment](https://img.shields.io/badge/Equipment-cca12f) - This refers to illegal equipment.
-    - ![Enchantment](https://img.shields.io/badge/Enchantment-922fcc) - This refers to illegal/incompatible enchantments on items.
-    - ![Repair Cost](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
-    - ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
-- ![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
-  - ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
-  - ![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
-  - ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
-- ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
-  - ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
-  - ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
-- ![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
-  - ![Chunk Loading](https://img.shields.io/badge/Chunk%20Loading-d4a6f5) - This refers to chunk loading errors or anomalies.
-  - ![Biome](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
-  - ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
+  - ![Equipment] - This refers to illegal equipment.
+    - ![Enchantment] - This refers to illegal/incompatible enchantments on items.
+    - ![Repair Cost] - This refers to illegal repair costs on items.
+    - ![Durability] - This refers to illegal equipment durability.
+- ![Entity] - This refers to illegal entities.
+  - ![Trade] - This refers to illegal villager trades.
+  - ![Mob AI] - This refers to illegal or bugged entity behavior.
+  - ![Static Badge] - This refers to illegal or bugged entity NBT data or attributes.
+- ![Block] - This refers to illegal blocks.
+  - ![Block Configuration] - This refers to illegal block configurations.
+  - ![Block NBT] - This refers to illegal block NBT data.
+- ![Terrain] - This refers to illegal terrain generation.
+  - ![Chunk Loading] - This refers to chunk loading errors or anomalies.
+  - ![Biome] - This refers to illegal biomes.
+  - ![Structure] - This refers to illegal structure generation.
 - ![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
   - ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
   - ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
@@ -2082,40 +2082,40 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Equipment]: https://img.shields.io/badge/Equipment-cca12f
 [Enchantment]: https://img.shields.io/badge/Enchantment-922fcc
 [Repair Cost]: https://img.shields.io/badge/Repair%20Cost-cc632f
-![Durability](https://img.shields.io/badge/Durability-cc822f)
-![Entity](https://img.shields.io/badge/-Entity-502673)
-![Trade](https://img.shields.io/badge/Trade-734D26)
-![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15)
-![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c)
-![Block](https://img.shields.io/badge/-Block-134386)
-![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea)
-![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66)
-![Terrain](https://img.shields.io/badge/-Terrain-736226)
-![Chunk Loading](https://img.shields.io/badge/Chunk%20Loading-d4a6f5)
-![Biome](https://img.shields.io/badge/-Biome-732637)
-![Structure](https://img.shields.io/badge/Structure-CCA12F)
-![Player Data](https://img.shields.io/badge/-Player%20Data-267359)
-![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b)
-![Effect](https://img.shields.io/badge/Effect-865613)
-![File](https://img.shields.io/badge/File-4D4D4D)
-![World State](https://img.shields.io/badge/-World%20State-861356)
-![Cheats](https://img.shields.io/badge/Cheats-ea4b7e)
-![Duplication](https://img.shields.io/badge/Duplication-220E08)
-![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5)
-![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E)
-![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC)
-![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC)
-![Technical](https://img.shields.io/badge/Technical-2FCC72)
-![Redstone Behavior](https://img.shields.io/badge/Redstone%20Behavior-b92316)
-![Command](https://img.shields.io/badge/Command-6a3095)
-![Packet](https://img.shields.io/badge/Packet-2e1540)
-![Physics](https://img.shields.io/badge/Physics-7effda)
-![Corruption](https://img.shields.io/badge/Corruption-feaa37)
-![Coordinate](https://img.shields.io/badge/Coordinate-755250)
-![Lighting](https://img.shields.io/badge/Lighting-e2f4a7)
-![Sound](https://img.shields.io/badge/Sound-6e789f)
-![Rendering](https://img.shields.io/badge/Rendering-587550)
-![Input](https://img.shields.io/badge/Input-756650)
-![Networking](https://img.shields.io/badge/Networking-a6f5d4)
-![UI](https://img.shields.io/badge/UI-505d75)
-![Dangerous](https://img.shields.io/badge/Dangerous-6a2822)
+[Durability]: https://img.shields.io/badge/Durability-cc822f
+[Entity]: https://img.shields.io/badge/-Entity-502673
+[Trade]: https://img.shields.io/badge/Trade-734D26
+[Mob AI]: https://img.shields.io/badge/Mob%20AI-401c15
+[Entity Data]: https://img.shields.io/badge/Entity%20Data-a8838c
+[Block]: https://img.shields.io/badge/-Block-134386
+[Block Configuration]: https://img.shields.io/badge/Block%20Configuration-584bea
+[Block NBT]: https://img.shields.io/badge/Block%20NBT-2FCC66
+[Terrain]: https://img.shields.io/badge/-Terrain-736226
+[Chunk Loading]: https://img.shields.io/badge/Chunk%20Loading-d4a6f5
+[Biome]: https://img.shields.io/badge/-Biome-732637
+[Structure]: https://img.shields.io/badge/Structure-CCA12F
+[Player Data]: https://img.shields.io/badge/-Player%20Data-267359
+[Gamemode]: https://img.shields.io/badge/Gamemode-7eea4b
+[Effect]: https://img.shields.io/badge/Effect-865613
+[File]: https://img.shields.io/badge/File-4D4D4D
+[World State]: https://img.shields.io/badge/-World%20State-861356
+[Cheats]: https://img.shields.io/badge/Cheats-ea4b7e
+[Duplication]: https://img.shields.io/badge/Duplication-220E08
+[Item Dupe]: https://img.shields.io/badge/-Item%20Dupe-0D8CA5
+[Block Dupe]: https://img.shields.io/badge/-Block%20Dupe-5E5E5E
+[Entity Dupe]: https://img.shields.io/badge/Entity%20Dupe-522FCC
+[Fast Travel]: https://img.shields.io/badge/Fast%20Travel-A12FCC
+[Technical]: https://img.shields.io/badge/Technical-2FCC72
+[Redstone Behavior]: https://img.shields.io/badge/Redstone%20Behavior-b92316
+[Command]: https://img.shields.io/badge/Command-6a3095
+[Packet]: https://img.shields.io/badge/Packet-2e1540
+[Physics]: https://img.shields.io/badge/Physics-7effda
+[Corruption]: https://img.shields.io/badge/Corruption-feaa37
+[Coordinate]: https://img.shields.io/badge/Coordinate-755250
+[Lighting]: https://img.shields.io/badge/Lighting-e2f4a7
+[Sound]: https://img.shields.io/badge/Sound-6e789f
+[Rendering]: https://img.shields.io/badge/Rendering-587550
+[Input]: https://img.shields.io/badge/Input-756650
+[Networking]: https://img.shields.io/badge/Networking-a6f5d4
+[UI]: https://img.shields.io/badge/UI-505d75
+[Dangerous]: https://img.shields.io/badge/Dangerous-6a2822
