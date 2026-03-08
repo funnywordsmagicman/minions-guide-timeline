@@ -87,17 +87,17 @@
 ## Indev
   
 ### Indev 20100124-3
-- [The Indev House](https://minecraft.wiki/w/Starting_House) will spawn upon loading the world.
+- [The Indev House] will spawn upon loading the world.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
-    - [Bedrock](https://minecraft.wiki/w/Bedrock)
-    - [Grass](https://minecraft.wiki/w/Grass)
-    - [Water Spawner](https://minecraft.wiki/w/Water_Spawner)
-    - [Lava Spawner](https://minecraft.wiki/w/Lava_Spawner)
-    - [Cloth](https://mcdf.wiki.gg/wiki/Java_Edition:Cloth) (All 16 colors)
-    - [Sponges](https://minecraft.fandom.com/wiki/Sponge)
-    - [Coal Ore](https://minecraft.fandom.com/wiki/Coal_Ore)
-    - [Obsidian](https://minecraft.fandom.com/wiki/Obsidian)
-    - [Leaves](https://minecraft.fandom.com/wiki/Leaves)
+    - [Bedrock]
+    - [Grass]
+    - [Water Spawner]
+    - [Lava Spawner]
+    - [Cloth]
+    - [Sponges]
+    - [Coal Ore]
+    - [Obsidian]
+    - [Leaves]
 - Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31)</sup>
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
@@ -118,7 +118,7 @@
 ## Infdev
 
 ### Infdev 20100227-1
-- [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
+- [Brick Pyramids] generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
 - Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
   
@@ -131,9 +131,9 @@
 
 ### Infdev 20100316 
 > [!Caution]
-> This version requires the [Infdev 20100316 saving mod](../Java/Mods%20%26%20Extra%20Files/Mods/Inf-20100316%20Saving%20Mod.jar) to save and quit the game; you can find it in the Links folder. \
+> This version requires the [Infdev 20100316 saving mod] to save and quit the game; you can find it in the Links folder. \
 > Opening containers in this version would crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316)</sup>
-- The Farlands generate, however they are a flat wall and unreachable by normal means. <sup>[More...](https://minecraft.fandom.com/wiki/Far_Lands)</sup>
+- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup>[More...](https://minecraft.fandom.com/wiki/Far_Lands)</sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
 ### Infdev 20100327
@@ -145,8 +145,8 @@
 ### Infdev 20100607
 > [!Caution]
 > - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
-- [Signs](https://minecraft.fandom.com/wiki/Sign) added to the game.
-- Top Half Doors can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
+- [Signs] added to the game.
+- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607)</sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement)</sup> 
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
@@ -2136,3 +2136,18 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Understacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items
 [Overstacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items
 [level.dat Regeneration]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented
+[The Indev House]: https://minecraft.wiki/w/Starting_House
+[Bedrock]: https://minecraft.wiki/w/Bedrock
+[Grass]: https://minecraft.wiki/w/Grass
+[Water Spawner]: https://minecraft.wiki/w/Water_Spawner
+[Lava Spawner]: https://minecraft.wiki/w/Lava_Spawner
+[Cloth]: https://mcdf.wiki.gg/wiki/Java_Edition:Cloth
+[Sponges]: https://minecraft.fandom.com/wiki/Sponge
+[Coal Ore]: https://minecraft.fandom.com/wiki/Coal_Ore
+[Obsidian]: https://minecraft.fandom.com/wiki/Obsidian
+[Leaves]: https://minecraft.fandom.com/wiki/Leaves
+[Brick Pyramids]: https://minecraft.fandom.com/wiki/Brick_pyramid
+[Infdev 20100316 saving mod]: ../Java/Mods%20%26%20Extra%20Files/Mods/Inf-20100316%20Saving%20Mod.jar
+[The Farlands]: https://minecraft.fandom.com/wiki/Far_Lands
+[Signs]: https://minecraft.fandom.com/wiki/Sign
+[Half Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)
