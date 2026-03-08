@@ -1,3 +1,6 @@
+![235px-Main_Page_Logo_(2021_Update)](https://github.com/user-attachments/assets/ffcf942f-b833-4504-88b4-9e9aab5e049f)
+![Status](https://img.shields.io/badge/Last%20Updated-3%2F7%2F2026-green)
+
 
 <div align=center width="100%">
 <img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px>
