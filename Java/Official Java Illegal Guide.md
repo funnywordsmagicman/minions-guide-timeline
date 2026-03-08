@@ -121,7 +121,7 @@
 
 ### Indev 20100206-2
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
-- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[^2]</sup>
+- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[\[2/]][2]</sup>
 
 ### Indev 20100219
 -  Any item can be placed in the furnace fuel and output slot. <sup>[^3]</sup>
