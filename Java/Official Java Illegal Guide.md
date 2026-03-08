@@ -3,6 +3,7 @@
 <td align=left>
  
 ![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=600)
+
 </td>
 
 <td width="100%"></td>
