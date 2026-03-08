@@ -66,7 +66,7 @@
   - ![Input](https://img.shields.io/badge/Input-756650) - This refers to illegal, glitched, or debug input/controls.
   - ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
   - ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
-- ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+- ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk. 
 
 
 # Timeline
