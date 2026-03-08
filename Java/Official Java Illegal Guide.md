@@ -2076,12 +2076,12 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 | *A timeline of snapshots from 2011-2026.*
 
 [Item]: https://img.shields.io/badge/-Item-287326
-![Item NBT]: https://img.shields.io/badge/Item%20NBT-2FCC66
-![Item Count]: https://img.shields.io/badge/-Item%20Count-BB1BA1
-![Name]: https://img.shields.io/badge/Name-cc2f59
-![Equipment]: https://img.shields.io/badge/Equipment-cca12f
-![Enchantment]: https://img.shields.io/badge/Enchantment-922fcc
-![Repair Cost]: https://img.shields.io/badge/Repair%20Cost-cc632f
+[Item NBT]: https://img.shields.io/badge/Item%20NBT-2FCC66
+[Item Count]: https://img.shields.io/badge/-Item%20Count-BB1BA1
+[Name]: https://img.shields.io/badge/Name-cc2f59
+[Equipment]: https://img.shields.io/badge/Equipment-cca12f
+[Enchantment]: https://img.shields.io/badge/Enchantment-922fcc
+[Repair Cost]: https://img.shields.io/badge/Repair%20Cost-cc632f
 ![Durability](https://img.shields.io/badge/Durability-cc822f)
 ![Entity](https://img.shields.io/badge/-Entity-502673)
 ![Trade](https://img.shields.io/badge/Trade-734D26)
