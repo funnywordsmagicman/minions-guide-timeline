@@ -16,28 +16,28 @@ jobs:
       - name: Fetch latest meaningful edit
         run: |
           FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
-
+      
           JSON=$(curl -s "$FEED")
-
+      
+          # debug
           echo "$JSON" | jq '.query.recentchanges[:5]'
-
+      
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
-            | select(
-                has("minor") | not 
-                and ((.bot // false) == false)
+            | select((.minor // "") == "" | not and ((.bot // false) == false))
             | .timestamp
           ' | head -n1)
-
-          # fallback if no qualifying edit
+      
+          echo "UPDATED: $UPDATED"
+      
           if [ -z "$UPDATED" ]; then
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
-
+      
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
-
+      
           if [ $DIFF -lt 60 ]; then
             MSG="${DIFF}s ago"
             COLOR="brightgreen"
@@ -51,7 +51,7 @@ jobs:
             MSG="$((DIFF/86400))d ago"
             COLOR="red"
           fi
-
+      
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
