@@ -2,7 +2,7 @@ name: Update Meaningful Wiki Edit Badge
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/1000 * * * *"
   workflow_dispatch:
 
 permissions:
