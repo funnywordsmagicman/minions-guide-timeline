@@ -80,7 +80,8 @@
   - ![Networking] - This refers to single-player or server related exploits or glitches.
   - ![UI] - This refers to bugs related to container and inventory UI.
 - ![Dangerous] - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk.
-- ![Debug] - This refers to debug features, although they may not be discontinued. 
+- ![Debug] - This refers to debug features, although they may not be discontinued.
+- ![Mods] - This refers to versions that require mods to function.
 
 
 # Timeline
@@ -2137,6 +2138,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [UI]: https://img.shields.io/badge/UI-505d75?style=plastic
 [Dangerous]: https://img.shields.io/badge/Dangerous-6a2822?style=plastic
 [Debug]: https://img.shields.io/badge/-Debug-336699?style=plastic
+[Mods]: https://img.shields.io/badge/-Mods-778833?style=plastic
 [Yes]: https://img.shields.io/badge/-Yes-Brightgreen
 [No]: https://img.shields.io/badge/-No-red
 [X]: https://img.shields.io/badge/-X-grey
