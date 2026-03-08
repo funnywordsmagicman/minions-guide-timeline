@@ -1,1 +1,66 @@
+name: Update Meaningful Edit Badge
 
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Get last meaningful edit for file
+        run: |
+          FILE="Java/Official Java Illegal Guide.md"
+      
+          UPDATED=""
+      
+          for COMMIT in $(git log --format=%H -- "$FILE"); do
+            if ! git show -w --quiet "$COMMIT" -- "$FILE"; then
+              UPDATED=$(git show -s --format=%cI "$COMMIT")
+              break
+            fi
+          done
+      
+          if [ -z "$UPDATED" ]; then
+            UPDATED=$(git log -1 --format=%cI -- "$FILE")
+          fi
+      
+          NOW=$(date -u +%s)
+          UPDATED_SEC=$(date -d "$UPDATED" +%s)
+          DIFF=$((NOW - UPDATED_SEC))
+      
+          if [ $DIFF -lt 60 ]; then
+            MSG="${DIFF}s ago"
+            COLOR="brightgreen"
+          elif [ $DIFF -lt 3600 ]; then
+            MSG="$((DIFF/60))m ago"
+            COLOR="yellow"
+          elif [ $DIFF -lt 86400 ]; then
+            MSG="$((DIFF/3600))h ago"
+            COLOR="orange"
+          else
+            MSG="$((DIFF/86400))d ago"
+            COLOR="red"
+          fi
+      
+          mkdir -p badge
+          echo "{
+            \"schemaVersion\": 1,
+            \"label\": \"Guide Last Update\",
+            \"message\": \"$MSG\",
+            \"color\": \"$COLOR\"
+          }" > badge/file-last-edit.json
+    
+      - name: Commit and push badge
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add badge/file-last-edit.json
+          git commit -m "Update meaningful file edit badge" || exit 0
+          git push
+          
