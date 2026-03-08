@@ -3,7 +3,7 @@
 <div align=center>
 <img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px> &nbsp; &nbsp; &nbsp; &nbsp;
 <br>
-<img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
+<img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px"> &nbsp; &nbsp; &nbsp;
 </div>
 
 <details>
