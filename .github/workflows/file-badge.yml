@@ -25,17 +25,20 @@ jobs:
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
       
-          if [ $DIFF -lt 60 ]; then
-            MSG="${DIFF}s ago"
+          if [ $DIFF -lt 3600 ]; then
+            MSG="${DIFF/60}m ago"
             COLOR="brightgreen"
-          elif [ $DIFF -lt 3600 ]; then
-            MSG="$((DIFF/60))m ago"
-            COLOR="yellow"
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
-            COLOR="orange"
-          else
+            COLOR="green"
+          elif [ $DIFF -lt 6048000 ]; then
             MSG="$((DIFF/86400))d ago"
+            COLOR="yellow"
+          elif [ $DIFF -lt 2628000 ]; then
+            MSG="$((DIFF/604800))w ago"
+            COLOR="orange"
+          else 
+            MSG="$((DIFF/2628000))mo ago"
             COLOR="red"
           fi
       
