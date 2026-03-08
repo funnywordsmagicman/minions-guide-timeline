@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/ffcf942f-b833-4504-88b4-9e9aab5e049f">
 
-![Status](https://img.shields.io/badge/Last%20Updated-3%2F7%2F2026-green)
+![Last Wiki Edit](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/USERNAME/REPO/main/badge/wiki-last-edit.json)
 
 
 <div align=center width="100%">
