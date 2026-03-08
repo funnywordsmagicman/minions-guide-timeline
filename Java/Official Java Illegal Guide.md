@@ -1,8 +1,8 @@
 
 <div align=center width="100%">
-  <img src="https://github.com/user-attachments/assets/cc9ca9bd-162d-45c6-86a4-c1b7653ba606" width="400px">
+  <img src="https://github.com/user-attachments/assets/cc9ca9bd-162d-45c6-86a4-c1b7653ba606" width="600px">
 
-  # Illegal Occurences Guide
+  # **Illegal Occurences Guide**
 </div>
 
 # Illegal Occurences Guide
