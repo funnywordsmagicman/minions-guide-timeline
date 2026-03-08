@@ -1,6 +1,7 @@
 
 <div align=center width="100%">
-<img src="https://github.com/user-attachments/assets/cc9ca9bd-162d-45c6-86a4-c1b7653ba606" width="400px">
+<img alt="223-2231832_this-is-the-new-logo-for-the-java" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" />
+62d-45c6-86a4-c1b7653ba606" width="400px">
 <br>
 <img src="../Java/images/illegal-logo" width="700px">
 </div>
