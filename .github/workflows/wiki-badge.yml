@@ -5,70 +5,74 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Fetch latest meaningful edit
+      - name: Generate badge JSON
         run: |
-          FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
-      
+          FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=timestamp|flags&format=json"
+
           JSON=$(curl -s "$FEED")
-      
-          # debug
-          echo "$JSON" | jq '.query.recentchanges[:5]'
-          echo "UPDATED: $UPDATED"
-      
+
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
             | select((.minor? | not) and (.bot? | not) and (.new? | not))
             | .timestamp
           ' | head -n1)
-      
-          echo "UPDATED: $UPDATED"
-      
+
           if [ -z "$UPDATED" ]; then
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
-      
+
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
-      
+
           if [ $DIFF -lt 3600 ]; then
             MSG="$((DIFF/60))m ago"
             COLOR="brightgreen"
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
             COLOR="green"
-          elif [ $DIFF -lt 6048000 ]; then
+          elif [ $DIFF -lt 604800 ]; then
             MSG="$((DIFF/86400))d ago"
             COLOR="yellow"
           elif [ $DIFF -lt 2628000 ]; then
             MSG="$((DIFF/604800))w ago"
             COLOR="orange"
-          else 
+          else
             MSG="$((DIFF/2628000))mo ago"
             COLOR="red"
           fi
-      
-          mkdir -p badge
+
+          mkdir public
+
           echo "{
             \"schemaVersion\": 1,
             \"label\": \"Last Major Edit\",
             \"message\": \"$MSG\",
             \"color\": \"$COLOR\"
-          }" > badge/wiki-last-edit.json
+          }" > public/wiki-last-edit.json
 
-      - name: Commit and push badge
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add badge/wiki-last-edit.json
-          git commit -m "Update meaningful edit badge" || exit 0
-          git push
-          
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
