@@ -45,7 +45,7 @@ jobs:
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Guide Last Update\",
+            \"label\": \"Last Guide Update\",
             \"message\": \"$MSG\",
             \"color\": \"$COLOR\"
           }" > badge/file-last-edit.json
