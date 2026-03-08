@@ -190,16 +190,16 @@
 ### Infdev 20100625-2
 - Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
-- Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data)</sup>
+- Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[\[16\]][16]</sup>
 
 <br>
 <img width="40%" height="40%" alt="Sign_Spawner_20100627" src="https://github.com/user-attachments/assets/3b54b953-0626-4a13-902b-beb00a3e179c" />
 <br> <br>
 
 
-- Placing doors under other blocks will replace them with its upper half. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#:~:text=YouTube-,Infdev%20Door/Sign%20Placement,-From%20Infdev%2020100607)</sup>
-- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid). <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Full_Block_Leaves)</sup>
-- Placing an inclined rail and breaking the support block would leave the inclined rail without connections. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Inclined_Rail_without_Connection)</sup>
+- Placing doors under other blocks will replace them with its upper half. <sup>[\[17\]][17]</sup>
+- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid). <sup>[\[18\]][18]</sup>
+- Placing an inclined rail and breaking the support block would leave the inclined rail without connections. <sup>[\[19\]][19]</sup>
 
 ## Alpha
 
@@ -217,16 +217,16 @@
 
 ### Alpha 1.0.4
 > [!Note]
-> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type, the level.dat will have to be regenerated. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented)</sup>.
+> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type, the level.dat will have to be regenerated. <sup>[\[20\]][20]</sup>.
 - [Snow Layers](https://minecraft.fandom.com/wiki/Snow) were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
   
 ### Alpha 1.0.5-2
 - Added [Block Replacement Bypass](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass), which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
-- Snowballs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=the%20healing%20items.-,Alpha%20Snowball%20Stack,-When%20snowballs%20were)</sup>
+- Snowballs stack to 64. <sup>[\[21\]][21]</sup>
 
 ### Alpha 1.0.6
-- Cacti can be placed on and next to any block. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Cactus_Next_to_Invalid_Block)</sup>
+- Cacti can be placed on and next to any block. <sup>[\[22\]][22]</sup>
   
 ### Alpha 1.0.11
 - Placing a door next to cacti would create a half door. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=door%20after%20placement-,Cactus,-From%20Alpha%20v1.0.11)</sup>
