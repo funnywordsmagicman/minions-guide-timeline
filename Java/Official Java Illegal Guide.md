@@ -1,5 +1,3 @@
-<img src="https://github.com/user-attachments/assets/ffcf942f-b833-4504-88b4-9e9aab5e049f">
-
 ![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf)
 
 <div align=center width="100%">
