@@ -2,7 +2,7 @@
 
 ![Last Najor Edit](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json)
 
-![test](https://img.shields.io/badge/1-1-green?logo=data:image/svg+xml,base64,aHR0cHM6Ly9tY2RmLndpa2kuZ2cvaW1hZ2VzL3RodW1iL01haW5fUGFnZV9Mb2dvXyUyODIwMjFfVXBkYXRlJTI5LnBuZy8yMzVweC1NYWluX1BhZ2VfTG9nb18lMjgyMDIxX1VwZGF0ZSUyOS5wbmc_MTUxYzg1)
+![test](https://img.shields.io/badge/1-1-green.svg?logo=data:image/svg+xml,base64,aHR0cHM6Ly9tY2RmLndpa2kuZ2cvaW1hZ2VzL3RodW1iL01haW5fUGFnZV9Mb2dvXyUyODIwMjFfVXBkYXRlJTI5LnBuZy8yMzVweC1NYWluX1BhZ2VfTG9nb18lMjgyMDIxX1VwZGF0ZSUyOS5wbmc_MTUxYzg1)
 
 ![test](https://img.shields.io/badge/play-station-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
 
