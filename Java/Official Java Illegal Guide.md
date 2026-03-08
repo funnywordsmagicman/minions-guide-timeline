@@ -100,7 +100,7 @@
 ## Indev
   
 ### Indev 20100124-3 ![Debug] ![Structure] ![Item Count]
-- [The Indev House] will spawn upon loading the world.
+- [The Indev House] will generate upon level.dat creation.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
     - [Bedrock]
     - [Grass]
