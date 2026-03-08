@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "label": "Last Non-Minor Edit",
-  "message": "1h ago",
-  "color": "yellow"
+  "label": "Last Human Edit",
+  "message": "0s ago",
+  "color": "brightgreen"
 }
