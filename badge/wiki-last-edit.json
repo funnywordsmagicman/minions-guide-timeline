@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "label": "Last Wiki Edit",
-  "message": "6h ago",
-  "color": "blue"
+  "label": "Last Major Edit",
+  "message": "2h ago",
+  "color": "yellow"
 }
