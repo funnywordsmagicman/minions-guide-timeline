@@ -603,7 +603,7 @@
 - Giant mushrooms grow without checking for unbreakable blocks above them. <sup>[\[37\]][37]</sup>
 - Updating a chest from Beta 1.7.3 and before will leave a pitch black chest, due to the fact that they were previously full blocks.
 
-### Beta 1.9 Prerelease 1 [Debug]
+### Beta 1.9 Prerelease 1 ![Debug]
 - Jumping gives XP. 
 
 ### Beta 1.9 Prerelease 2 (MOD)
