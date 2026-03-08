@@ -19,18 +19,7 @@ jobs:
         run: |
           FILE="Java/Official Java Illegal Guide.md"
       
-          UPDATED=""
-      
-          for COMMIT in $(git log --format=%H -- "$FILE"); do
-            if ! git show -w --quiet "$COMMIT" -- "$FILE"; then
-              UPDATED=$(git show -s --format=%cI "$COMMIT")
-              break
-            fi
-          done
-      
-          if [ -z "$UPDATED" ]; then
-            UPDATED=$(git log --follow --format=%H -- "$FILE")
-          fi
+          UPDATED=$(git log -1 -w --format=%cI -- "$FILE")
       
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
