@@ -109,7 +109,7 @@
     - [Coal Ore]
     - [Obsidian]
     - [Leaves]
-- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. [^1]
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[1]</sup>
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
@@ -121,10 +121,10 @@
 
 ### Indev 20100206-2
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
-- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. [^2]
+- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[^2]</sup>
 
 ### Indev 20100219
--  Any item can be placed in the furnace fuel and output slot. [^3]
+-  Any item can be placed in the furnace fuel and output slot. <sup>[^3]</sup>
 
 ## Infdev
 
@@ -142,8 +142,8 @@
 ### Infdev 20100316 
 > [!Caution]
 > This version requires the [Infdev 20100316 saving mod] to save and quit the game; you can find it in the Links folder. \
-> Opening containers in this version would crash the game. [^4]
-- [The Farlands] generate, however they are a flat wall and unreachable by normal means. [^5]
+> Opening containers in this version would crash the game. <sup>[4]</sup>
+- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup>[^5]</sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
 ### Infdev 20100327
@@ -154,26 +154,26 @@
 
 ### Infdev 20100607
 > [!Caution]
-> - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. [^6]
+> - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[6]</sup>
 - [Signs] added to the game.
-- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. [^7]
-- Placing a Door one block below the height limit will result in the Bottom Half Door. [^8]
-- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. [^9] 
-- By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." [^10]
+- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[7]</sup>
+- Placing a Door one block below the height limit will result in the Bottom Half Door. <sup>[8]</sup>
+- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[9]</sup> 
+- By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[10]</sup>
   
 ### Infdev 20100611
-- Monoliths would generate in flat terrain without bedrock underneath. [^11] <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
+- Monoliths would generate in flat terrain without bedrock underneath. <sup>[11]</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
 ### Infdev 20100615
-- Water and lava can flow beside each other without creating stone. [^12]
-- Lava flows 8 blocks in the overworld. [^13]
+- Water and lava can flow beside each other without creating stone. <sup>[12]</sup>
+- Lava flows 8 blocks in the overworld. <sup>[13]<s/up>
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
-- Caves do not generate in this version. [^14]
-- In this version, no bedrock will spawn at the bottom of the world. [^15]
+- Caves do not generate in this version. <sup>[14]</sup>
+- In this version, no bedrock will spawn at the bottom of the world. <sup>[15]</sup>
 
 ### Infdev 20100616-1
 - Lava pool generation can sometimes create holes through bedrock.
@@ -2163,21 +2163,21 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Half Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)
 
 <!-- Links 2 -->
-[^1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31
-[^2]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206
-[^3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition
-[^4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316
-[^5]: https://minecraft.fandom.com/wiki/Far_Lands
-[^6]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash
-[^7]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607
-[^8]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607
-[^9]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement
-[^10]: https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign
-[^11]: https://mcdf.wiki.gg/wiki/Java_Edition:Monolith
-[^12]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava
-[^13]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld
-[^14]: https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation
-[^15]: https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks
+[1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31
+[2]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206
+[3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition
+[4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316
+[5]: https://minecraft.fandom.com/wiki/Far_Lands
+[6]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash
+[7]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607
+[8]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607
+[9]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement
+[10]: https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign
+[11]: https://mcdf.wiki.gg/wiki/Java_Edition:Monolith
+[12]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava
+[13]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld
+[14]: https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation
+[15]: https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks
 
 
 
