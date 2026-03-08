@@ -124,7 +124,7 @@
 - Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[\[2\]][2]</sup>
 
 ### Indev 20100219
--  Any item can be placed in the furnace fuel and output slot. <sup>[^3]</sup>
+-  Any item can be placed in the furnace fuel and output slot. <sup><sup>[\[3\]][3]</sup></sup>
 
 ## Infdev
 
@@ -142,8 +142,8 @@
 ### Infdev 20100316 
 > [!Caution]
 > This version requires the [Infdev 20100316 saving mod] to save and quit the game; you can find it in the Links folder. \
-> Opening containers in this version would crash the game. <sup>[4]</sup>
-- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup>[^5]</sup>
+> Opening containers in this version would crash the game. <sup><sup>[\[4\]][4]</sup></sup>
+- [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup><sup>[\[5\]][5]</sup></sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
 ### Infdev 20100327
@@ -154,10 +154,10 @@
 
 ### Infdev 20100607
 > [!Caution]
-> - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[6]</sup>
+> - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup><sup>[\[6\]][6]</sup></sup>
 - [Signs] added to the game.
-- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup>[7]</sup>
-- Placing a Door one block below the height limit will result in the Bottom Half Door. <sup>[8]</sup>
+- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup><sup>[\[7\]][7]</sup></sup>
+- Placing a Door one block below the height limit will result in the Bottom Half Door. <sup>[\[8\]][8]</sup>
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[9]</sup> 
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[10]</sup>
   
