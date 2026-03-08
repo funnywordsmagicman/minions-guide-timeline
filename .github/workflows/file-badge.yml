@@ -37,12 +37,12 @@ jobs:
             \"label\": \"Last Guide Update\",
             \"message\": \"$MSG\",
             \"color\": \"brightgreen\"
-          }" > badge/file-last-edit.json
+          }" > Java/badge/file-last-edit.json
 
       - name: Commit and push badge
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add badge/file-last-edit.json
+          git add Java/badge/file-last-edit.json
           git commit -m "Update meaningful file edit badge" || echo "No changes to commit"
           git push
