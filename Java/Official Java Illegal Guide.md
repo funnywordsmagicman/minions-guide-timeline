@@ -174,7 +174,7 @@
 - Lava flows 8 blocks in the overworld. <sup>[\[13\]][13]</sup>
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
 - Caves do not generate in this version. <sup>[\[14\]][14]</sup>
-- In this version, no bedrock will spawn at the bottom of the world. <sup>[\[15\]][15]</sup>
+- In this version, no bedrock generates at the bottom of the world. <sup>[\[15\]][15]</sup>
 
 ### Infdev 20100616-1
 - Lava pool generation can sometimes create holes through bedrock.
@@ -2162,16 +2162,23 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [The Farlands]: https://minecraft.fandom.com/wiki/Far_Lands
 [Signs]: https://minecraft.fandom.com/wiki/Sign
 [Half Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)
+[Spawner]: https://minecraft.fandom.com/wiki/Monster_Spawner
+[Gear]: https://minecraft.fandom.com/wiki/Gear
+[Winter Mode]: https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type
+[Snow Layers]: https://minecraft.fandom.com/wiki/Snow
+[Block Replacement Bypass]: https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass
+[Nether Portal]: https://minecraft.fandom.com/wiki/Nether_Portal_(block)
+[1-tick]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference:~:text=at%20succeeding%20the-,1%20tick,-window.%20If%20the
 
 <!-- Links 2 -->
-[1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31
-[2]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206
-[3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition
-[4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316
+[1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference
+[2]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement
+[3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#Placing_Output_Slot
+[4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#Infdev
 [5]: https://minecraft.fandom.com/wiki/Far_Lands
-[6]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash
-[7]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607
-[8]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607
+[6]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash
+[7]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#Sign
+[8]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#Placement_at_Build_Limit
 [9]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement
 [10]: https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign
 [11]: https://mcdf.wiki.gg/wiki/Java_Edition:Monolith
@@ -2179,6 +2186,19 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [13]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld
 [14]: https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation
 [15]: https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks
+[16]: https://mcdf.wiki.gg/wiki/Java_Edition:Monster_Spawner_with_Sign_Data
+[17]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Infdev_Door/Sign_Placement
+[18]: https://mcdf.wiki.gg/wiki/Java_Edition:Full_Block_Leaves
+[19]: https://mcdf.wiki.gg/wiki/Java_Edition:Inclined_Rail_without_Connection
+[20]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration
+[21]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Alpha_Snowball_Stack
+[22]: https://mcdf.wiki.gg/wiki/Java_Edition:Cactus_Next_to_Invalid_Block
+[23]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#Cactus
+[24]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack
+[25]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Fishing_Rod_Stack
+[26]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Egg_Stack
+[27]: https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#Old_Versions
+[28]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#Boat_&_Nether_Portal
 
 
 
