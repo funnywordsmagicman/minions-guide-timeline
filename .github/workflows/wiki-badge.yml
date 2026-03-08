@@ -45,9 +45,15 @@ jobs:
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
             COLOR="green"
-          elif [ $DIFF -lt 86400 ]; then
+          elif [ $DIFF -lt 6048000 ]; then
             MSG="$((DIFF/86400))d ago"
             COLOR="yellow"
+          elif [ $DIFF -lt 2628000 ]; then
+            MSG="$((DIFF/604800))w ago"
+            COLOR="orange"
+          else 
+            MSG="$((DIFF/2628000))mo ago"
+            COLOR="orange"
           fi
       
           mkdir -p badge
