@@ -138,7 +138,7 @@
   
   <img src="https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a" alt="Brick Square Frustum" width="50%" height="50%"> 
 
-### Infdev 20100227-2
+### Infdev 20100227-2 ![Debug] ![Structure]
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
 - As a side effect of the height change, these pyramids no longer generate with a 1x1 hole in place of a tip.
 
