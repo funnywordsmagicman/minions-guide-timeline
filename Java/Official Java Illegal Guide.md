@@ -2,7 +2,7 @@
 <div align=center width="100%">
 <img alt="223-2231832_this-is-the-new-logo-for-the-java" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px>
 <br>
-# <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
+<img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
 
 ## Key Words
