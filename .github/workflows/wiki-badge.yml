@@ -41,12 +41,12 @@ jobs:
             \"label\": \"Last Wiki Update\",
             \"message\": \"$MSG\",
             \"color\": \"brightgreen\"
-          }" > badge/wiki-last-edit.json
+          }" > Java/badge/wiki-last-edit.json
 
       - name: Commit and push badge
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add badge/wiki-last-edit.json
+          git add Java/badge/wiki-last-edit.json
           git commit -m "Update wiki last edit json" || echo "No changes to commit"
           git push
