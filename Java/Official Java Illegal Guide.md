@@ -23,21 +23,21 @@
 
 ## Badges
 
-![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
+> ![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
-  &nbsp; ![Item NBT](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
+>> ![Item NBT](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
 
-  &nbsp; &nbsp; ![Item Count](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
+>>> ![Item Count](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
 
-  &nbsp; &nbsp; ![Name](https://img.shields.io/badge/Name-cc2f59) - This refers to illegal item names.
+>>> ![Name](https://img.shields.io/badge/Name-cc2f59) - This refers to illegal item names.
 
-  &nbsp; ![Equipment](https://img.shields.io/badge/Equipment-cca12f) - This refers to illegal equipment.
+>>> ![Equipment](https://img.shields.io/badge/Equipment-cca12f) - This refers to illegal equipment.
 
-  &nbsp; &nbsp; ![Enchantment](https://img.shields.io/badge/Enchantment-922fcc) - This refers to illegal/incompatible enchantments on items.
+>>> ![Enchantment](https://img.shields.io/badge/Enchantment-922fcc) - This refers to illegal/incompatible enchantments on items.
 
-  &nbsp; &nbsp; ![Repair Cost](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
+>>> ![Repair Cost](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
 
-  &nbsp; &nbsp; ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
+>>> ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
 
 <br>
 
