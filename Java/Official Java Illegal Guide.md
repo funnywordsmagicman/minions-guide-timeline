@@ -1,8 +1,8 @@
 
 # Official Java Illegal Occurences Guide
-
-![236px-Java_Edition](https://github.com/user-attachments/assets/cc9ca9bd-162d-45c6-86a4-c1b7653ba606)
-
+<p align=center>
+<img src="https://github.com/user-attachments/assets/cc9ca9bd-162d-45c6-86a4-c1b7653ba606">
+</p>
 
 ## Key Words
 
