@@ -9,10 +9,10 @@
 **Downgrading:** [Downgrading] from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
 <br>
 
-**EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education](https://minecraft.fandom.com/wiki/Minecraft_Education))
+**EDU:** [MinecraftEDU] is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education]
 <br>
 
-**Mod:** Requires a Mod from ["Mods & Extra Files"](../Java/Mods%20%26%20Extra%20Files) that can let you either play the version or obtain certain unobtainables
+**Mod:** Requires a Mod from ["Mods & Extra Files"] that can let you either play the version or obtain certain unobtainables
 <br>
 
 [**Zero Stack Item:**](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items) Zero stack items, also known as understacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than or equal to 0. These items behave like normal items in the sense that they can be taken out of and put into containers as well as dropped, but will "absorb" any items of the same type if they are stacked. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type. This can be repeated multiple times, though it will subtract 1 from the zero stack's count each time. Once you reload the world (if it's in your inventory) or any container a zero stack item is in, if its count is less than -128 it will become an overstacked item.
@@ -2130,3 +2130,6 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 <!-- Links -->
 
 [Downgrading]: https://minecraft.fandom.com/wiki/Tutorials/Downgrading
+[MinecraftEDU]: https://minecraft.fandom.com/wiki/MinecraftEdu 
+[Minecraft Education]: https://minecraft.fandom.com/wiki/Minecraft_Education
+["Mods & Extra Files"]: ../Java/Mods%20%26%20Extra%20Files
