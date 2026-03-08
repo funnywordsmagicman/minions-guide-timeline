@@ -50,6 +50,7 @@
 - ![Block] - This refers to illegal blocks.
   - ![Block Configuration] - This refers to illegal block configurations.
   - ![Block NBT] - This refers to illegal block NBT data.
+  - ![Block Destruction] - This refers to block destruction methods.
 - ![Terrain] - This refers to illegal terrain generation.
   - ![Chunk Loading] - This refers to chunk loading errors or anomalies.
   - ![Biome] - This refers to illegal biomes.
@@ -65,7 +66,6 @@
   - ![Block Dupe] - This refers to block duplication methods.
   - ![Entity Dupe] - This refers to entity duplication methods.
 - ![Fast Travel] - This refers to fast travel methods.
-- ![Block Destruction] - This refers to block destruction methods.
 - ![Technical] - This refers to technical behavior or manipulation methods.
   - ![Redstone Behavior] - This refers to illegal redstone behavior.
   - ![Command] - This refers to command-based exploits or glitches.
@@ -143,20 +143,20 @@
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
 - As a side effect of the height change, these pyramids no longer generate with a 1x1 hole in place of a tip.
 
-### Infdev 20100316 
+### Infdev 20100316 ![Mods] ![Dangerous] ![Item Count] ![Terrain]
 > [!Caution]
-> This version requires the [Infdev 20100316 saving mod] to save and quit the game; you can find it in the Links folder. \
+> This version requires the [Infdev 20100316 saving mod] to save and quit the game. \
 > Opening containers in this version would crash the game. <sup><sup>[\[4\]][4]</sup></sup>
 - [The Farlands] generate, however they are a flat wall and unreachable by normal means. <sup><sup>[\[5\]][5]</sup></sup>
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time the world is loaded.
 
-### Infdev 20100327
+### Infdev 20100327 ![Debug] ![Terrain] ![Structure] 
 - Caves could carve into brick pyramids.
 
-### Infdev 20100327
+### Infdev 20100327 ![Structure]
 - Brick pyramids removed.
 
-### Infdev 20100607
+### Infdev 20100607 ![Dangerous] ![Block Configuration] ![Block NBT]
 > [!Caution]
 > - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup><sup>[\[6\]][6]</sup></sup>
 - [Signs] added to the game.
@@ -165,32 +165,32 @@
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup><sup>[\[9\]][9]</sup></sup> 
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[\[10\]][10]</sup>
   
-### Infdev 20100611
+### Infdev 20100611 ![Terrain] 
 - Monoliths would generate in flat terrain without bedrock underneath. <sup>[\[11\]][11]</sup> <sup>[See files...][External Links]</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
-### Infdev 20100615
+### Infdev 20100615 ![Block Configuration] ![Terrain]
 - Water and lava can flow beside each other without creating stone. <sup>[\[12\]][12]</sup>
 - Lava flows 8 blocks in the overworld. <sup>[\[13\]][13]</sup>
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
 - Caves do not generate in this version. <sup>[\[14\]][14]</sup>
 - In this version, no bedrock generates at the bottom of the world. <sup>[\[15\]][15]</sup>
 
-### Infdev 20100616-1
+### Infdev 20100616-1 ![Terrain]
 - Lava pool generation can sometimes create holes through bedrock.
 
-### Infdev 20100617-2
+### Infdev 20100617-2 ![Terrain]
 - The bottom-most layer of the world is made from part bedrock and part stone.
 
-### Infdev 20100624
+### Infdev 20100624 ![Dangerous] ![Entity Data]
 > [!Caution]
 > The game will crash if there are any loaded chunks with water spawners due to the removal of their id.
 - Sheep now drop white cloth instead of light gray.
 
-### Infdev 20100625-2
+### Infdev 20100625-2 ![Block] ![Item] ![Block NBT] ![Block Destruction]
 - Added [spawners][Spawner], which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
 - Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[\[16\]][16]</sup>
