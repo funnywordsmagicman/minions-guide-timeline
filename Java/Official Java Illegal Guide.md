@@ -1,8 +1,18 @@
+<table width="100%">
+<tr>
+<td align=left>
+ 
+![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=600)
+</td>
 
-| | |
-|:-|:-:|
-| ![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=600) | <div align=right>  ![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600) </div> |
+<td width="100%"></td>
+<td align="right">
 
+![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600) 
+
+</td>
+</tr>
+</table>
 
  ![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600)
 
