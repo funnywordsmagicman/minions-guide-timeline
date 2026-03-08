@@ -5,7 +5,7 @@
 <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
 
-<h1 style="display:none;">Test</h1>
+# Illegal Features Guide
 
 ## Key Words
 
