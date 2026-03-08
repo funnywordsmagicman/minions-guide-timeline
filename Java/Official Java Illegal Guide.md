@@ -3,6 +3,8 @@
 
 ![test12](https://mcdfupdate.theparanoidsheep.workers.dev)
 
+![test12](https://mcdfupdate.theparanoidsheep.workers.dev)
+
 ![test123](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&style=plastic&logo=mcdf&t=111)
 
 <div align=center>
