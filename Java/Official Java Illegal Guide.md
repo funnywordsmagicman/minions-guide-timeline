@@ -1,4 +1,4 @@
-<div class="flex items-center space-x-2"> 
+<div style="float: right;"> 
  
  ![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=600)
  ![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600)
