@@ -162,18 +162,18 @@
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." [^10]
   
 ### Infdev 20100611
-- Monoliths would generate in flat terrain without bedrock underneath. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
+- Monoliths would generate in flat terrain without bedrock underneath. [^11] <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
 ### Infdev 20100615
-- Water and lava can flow beside each other without creating stone. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava)</sup>
-- Lava flows 8 blocks in the overworld. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld)</sup>
+- Water and lava can flow beside each other without creating stone. [^12]
+- Lava flows 8 blocks in the overworld. [^13]
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
-- Caves do not generate in this version. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation)</sup>
-- In this version, no bedrock will spawn at the bottom of the world. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks)</sup>
+- Caves do not generate in this version. [^14]
+- In this version, no bedrock will spawn at the bottom of the world. [^15]
 
 ### Infdev 20100616-1
 - Lava pool generation can sometimes create holes through bedrock.
@@ -2168,13 +2168,17 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [^3]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition
 [^4]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316
 [^5]: https://minecraft.fandom.com/wiki/Far_Lands
-[^6]: https://mcdf.wiki.gg/wiki/Java_Edition:Monolith
-[^7]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava
-[^8]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld
-[^9]: https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation
-[^10]: https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks
-[^11]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash
-[^12]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607
-[^13]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607
-[^14]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement
-[^15]: https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign
+[^6]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash
+[^7]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=in%20Infdev%202010607-,Sign,-From%20Infdev%2020100607
+[^8]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607
+[^9]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement
+[^10]: https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign
+[^11]: https://mcdf.wiki.gg/wiki/Java_Edition:Monolith
+[^12]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava
+[^13]: https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld
+[^14]: https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation
+[^15]: https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks
+
+
+
+
