@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
   pages: write
   id-token: write
 
@@ -52,7 +51,7 @@ jobs:
             COLOR="red"
           fi
 
-          mkdir public
+          mkdir -p public
 
           echo "{
             \"schemaVersion\": 1,
@@ -61,18 +60,8 @@ jobs:
             \"color\": \"$COLOR\"
           }" > public/wiki-last-edit.json
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-
-    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+        with:
+          # The path to deploy is the public folder
+          path: public
