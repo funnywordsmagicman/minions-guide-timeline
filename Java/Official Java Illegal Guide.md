@@ -65,6 +65,7 @@
   - ![Block Dupe] - This refers to block duplication methods.
   - ![Entity Dupe] - This refers to entity duplication methods.
 - ![Fast Travel] - This refers to fast travel methods.
+- ![Destruction] - This refers to block destruction methods.
 - ![Technical] - This refers to technical behavior or manipulation methods.
   - ![Redstone Behavior] - This refers to illegal redstone behavior.
   - ![Command] - This refers to command-based exploits or glitches.
@@ -121,7 +122,7 @@
 ### Indev 20100201-2 ![Block Configuration] ![Technical]
 - Sponges would soak up water and lava spawners.
 
-### Indev 20100206-2 ![Block Configuration] ![Durability]
+### Indev 20100206-2 ![Destruction] ![Durability]
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
 - Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[\[2\]][2]</sup>
 
@@ -2120,6 +2121,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Block Dupe]: https://img.shields.io/badge/-Block%20Dupe-5E5E5E?style=plastic
 [Entity Dupe]: https://img.shields.io/badge/Entity%20Dupe-522FCC?style=plastic
 [Fast Travel]: https://img.shields.io/badge/Fast%20Travel-A12FCC?style=plastic
+[Destruction]: https://img.shields.io/badge/-Block%20Destruction-993333?style=plastic
 [Technical]: https://img.shields.io/badge/Technical-2FCC72?style=plastic
 [Redstone Behavior]: https://img.shields.io/badge/Redstone%20Behavior-b92316?style=plastic
 [Command]: https://img.shields.io/badge/Command-6a3095?style=plastic
