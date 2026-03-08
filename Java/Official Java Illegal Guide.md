@@ -156,24 +156,24 @@
 > [!Caution]
 > - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup><sup>[\[6\]][6]</sup></sup>
 - [Signs] added to the game.
-- Top [Half Door]s can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup><sup>[\[7\]][7]</sup></sup>
+- Top [Half Doors][Half Door] can be created by placing a sign on a non-opaque block, then placing a door beside it. <sup><sup>[\[7\]][7]</sup></sup>
 - Placing a Door one block below the height limit will result in the Bottom Half Door. <sup>[\[8\]][8]</sup>
-- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[9]</sup> 
-- By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[10]</sup>
+- Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup><sup>[\[9\]][9]</sup></sup> 
+- By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[\[10\]][10]</sup>
   
 ### Infdev 20100611
-- Monoliths would generate in flat terrain without bedrock underneath. <sup>[11]</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
+- Monoliths would generate in flat terrain without bedrock underneath. <sup>[\[11\]][11]</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
 
 
 ### Infdev 20100615
-- Water and lava can flow beside each other without creating stone. <sup>[12]</sup>
-- Lava flows 8 blocks in the overworld. <sup>[13]<s/up>
+- Water and lava can flow beside each other without creating stone. <sup>[\[12\]][12]</sup>
+- Lava flows 8 blocks in the overworld. <sup>[\[13\]][13]</sup>
 - Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
-- Caves do not generate in this version. <sup>[14]</sup>
-- In this version, no bedrock will spawn at the bottom of the world. <sup>[15]</sup>
+- Caves do not generate in this version. <sup>[\[14\]][14]</sup>
+- In this version, no bedrock will spawn at the bottom of the world. <sup>[\[15\]][15]</sup>
 
 ### Infdev 20100616-1
 - Lava pool generation can sometimes create holes through bedrock.
