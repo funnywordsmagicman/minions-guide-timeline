@@ -188,7 +188,7 @@
 - Sheep now drop white cloth instead of light gray.
 
 ### Infdev 20100625-2
-- Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
+- Added [spawners][Spawner], which can be mined by hand and will drop as an item.
 - Any Water Spawners from previous versions are converted to spawners in this version.
 - Spawners currently have the same block id as signs. If a sign is loaded near a spawner, the spawner will receive sign metadata. <sup>[\[16\]][16]</sup>
 
@@ -204,7 +204,7 @@
 ## Alpha
 
 ### Alpha 1.0.1_01 - Infdev 20100630-2 (Downgrading)
-- Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
+- Downgrading redstone that is placed on or against a block will convert it to a [gear][Gear] in Infdev 20100630-2.
   
   <br>
   <img width="50%" height="50%" src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
@@ -217,34 +217,34 @@
 
 ### Alpha 1.0.4
 > [!Note]
-> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type, the level.dat will have to be regenerated. <sup>[\[20\]][20]</sup>.
-- [Snow Layers](https://minecraft.fandom.com/wiki/Snow) were added, but can only be obtained in the Winter Type Map.
+> In order to access the [Winter Mode] world type, the level.dat will have to be regenerated. <sup>[\[20\]][20]</sup>.
+- [Snow Layers] were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
   
 ### Alpha 1.0.5-2
-- Added [Block Replacement Bypass](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass), which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
+- Added [Block Replacement Bypass], which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
 - Snowballs stack to 64. <sup>[\[21\]][21]</sup>
 
 ### Alpha 1.0.6
 - Cacti can be placed on and next to any block. <sup>[\[22\]][22]</sup>
   
 ### Alpha 1.0.11
-- Placing a door next to cacti would create a half door. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=door%20after%20placement-,Cactus,-From%20Alpha%20v1.0.11)</sup>
-- Buckets of Milk stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=into%20newer%20versions.-,Milk%20Bucket%20Stack,-When%20milk%20buckets)</sup>
+- Placing a door next to cacti would create a half door. <sup>[\[23\]][23]</sup>
+- Buckets of Milk stack to 64. <sup>[\[24\]][24]</sup>
 
 ### Alpha 1.1.1
-- Fishing Rods stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=value%20of%2016.-,Fishing%20Rod%20Stack,-For%20a%20long)</sup>
-- Eggs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=v1.0.17_01%20are%20lost.-,Egg%20Stack,-Eggs%20could%20stack)</sup>
+- Fishing Rods stack to 64. <sup>[\[25\]][25]</sup>
+- Eggs stack to 64. <sup>[\[26\]][26]</sup>
 
 ### Alpha 1.2.0
 - Zombie Pigmen added.
-- Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
+- Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[\[27\]][27]</sup>
 - Lava only flows 4 blocks in the nether.
 
 ### Alpha 1.2.2
 - Nether Portals can be summoned by pressing <kbd>F4</kbd>, which can be used to get to the Farlands and to create illegal block formations.
-- By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#:~:text=References-,Boat%20%26%20Nether%20Portal,-This%20method%20works)</sup>
-- Signs can be placed on [nether portal blocks](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
+- By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[\[28\]][28]</sup>
+- Signs can be placed on [nether portal blocks][Nether Portal].
 
 ### Alpha 1.2.6
 - Lava Lakes cut through bedrock if they generate at the bottom of the world.
@@ -253,7 +253,7 @@
 
 ### Beta 1.0
 - Destroyed containers now force close their gui.
-  - The Destroyed Container GUI Reference dupe is still possible due to a [1-tick window](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference:~:text=YouTube-,The%20second%20method,-works%20from%20Beta) before the close.
+  - The Destroyed Container GUI Reference dupe is still possible due to a [1-tick window][1-tick] before the close.
 - The player can't store items in the inventories' crafting fields anymore.
 
 ### Beta 1.2_02-launcher
