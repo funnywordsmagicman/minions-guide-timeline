@@ -109,7 +109,7 @@
     - [Coal Ore]
     - [Obsidian]
     - [Leaves]
-- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[^1]</sup>
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. [^1]
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
@@ -138,7 +138,6 @@
 ### Infdev 20100227-2
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
 - As a side effect of the height change, these pyramids no longer generate with a 1x1 hole in place of a tip.
-
 
 ### Infdev 20100316 
 > [!Caution]
