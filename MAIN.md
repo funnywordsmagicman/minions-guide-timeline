@@ -11,7 +11,7 @@
 
 <br>
 
-## Licensing
+### Licensing
 
 &emsp; &emsp; [MCDF Logo (2021 Revision)](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
    
