@@ -10,6 +10,8 @@
 2. Creating a Pull request
 3. Messaging me either by my [MCDF Wiki User Page][User Page] or by my [Discord] about any missing illegal features or formatting errors.
 
+<br>
+
 By contributing to this repository, you agree that your contributions may be distributed under the repository’s license and that you have the right to submit the content.
 
 [Discontinued Features]: https://mcdf.wiki.gg/#:~:text=What%20are%20Discontinued%20Features%3F
