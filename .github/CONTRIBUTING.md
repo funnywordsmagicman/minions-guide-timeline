@@ -1,9 +1,11 @@
 # Contributing
 
-Helping out the guide in any way would be greatly appreciated but you must follow certain guidellines
-**You can contribute in one of these ways**
-1. Creating an Issue, more about in this document [Pull Request, Issue Guidelines].github/pull_request_template.md
-2. Creating a pull request, more about this in the document .github/pull_request_template.md
-3. Messaging gMini0n either by Youtube comments or by email about any Illegal that has not been added into the guide
+Helping out with the guide in any way would be greatly appreciated, but you must follow certain guidellines.
 
-**Any Contribution would be very helpful**
+**You can contribute in one of these ways**
+1. Creating an Issue
+2. Creating a Pull request
+3. Messaging me either by my [MCDF Wiki User Page][User Page] or by my [Discord] about any missing illegal features or formatting errors.
+
+[User Page]: https://mcdf.wiki.gg/wiki/User_talk:Funnywordsmagicman?action=edit&redlink=1
+[Discord]: https://discord.com/users/949030359041970186
