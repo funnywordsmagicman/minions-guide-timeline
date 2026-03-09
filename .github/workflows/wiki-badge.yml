@@ -2,7 +2,7 @@ name: Update Wiki Badge JSON
 
 on:
   schedule:
-    - cron: "3-59/10 * * * *"   # avoids common queue spikes
+    - cron: "6-59/10 * * * *"   # avoids common queue spikes
   workflow_dispatch:
 
 concurrency:
