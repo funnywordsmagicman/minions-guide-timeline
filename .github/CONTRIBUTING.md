@@ -2,8 +2,8 @@
 
 **Guidelines**
 1. Keep any suggestions or contributions related to <ins>discontinued or illegal</ins> features.
-2. Don't troll or grief. 
-3. [Discontinued features] requiring non-vanilla (excluding Edu and other versions obtained by Mojang) versions of minecraft are not permitted.
+2. [Discontinued features] requiring non-vanilla (excluding Edu and other versions obtained by Mojang) versions of minecraft are not permitted.
+3. Don't troll or grief.
 
 **How to reach me:**
 1. Creating an Issue
