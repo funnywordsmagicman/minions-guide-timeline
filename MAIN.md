@@ -5,11 +5,14 @@
 
 <br>
 
-## IMPORTANT
+## IMPORTANT/LICENSING
 
 &emsp; This repo is not an official asset owned by Mojang, nor is it officially endorsed. This is a NON-COMMERCIAL and personal project, and has no corporate affiliation.
 
+<br>
+
 &emsp; &emsp; MCDF Logo (2021 Revision)
+
    Source: mcdf.wiki.gg
    
    License (for wiki content): Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
