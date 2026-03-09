@@ -267,7 +267,7 @@
 > In order to access this version, the world save folder will have to be renamed to World(1-5). During this downgrade, the level.dat and level.dat_old files must be removed (either by deletion or moving them to another location) temporarily. The level.dat and level.dat_old files have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version.
 - This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version.
 
-### Beta 1.3-2 ![Debug]
+### Beta 1.3-2 ![Debug] ![World State] ![Dangerous] ![Block Configuration]
 > [!Caution]
 > Backspacing too many times after pasting control characters can crash the game.
 - [Petrified Oak Slabs] added.
@@ -283,10 +283,10 @@
 - Placing a bed next to a cactus would result in the half closest to the cactus breaking. <sup>[\[29\]][29]</sup>
 - You can paste ASCII Control Codes and the DEL Character into the world name. <sup>[\[30\]][30]</sup>
 
-### Beta 1.4-1
+### Beta 1.4-1 ![Block] ![Item]
 - [Locked Chests][Locked Chest] can generate throughout the world if your computer time is set to April 1st, 2011. They drop when exploded.
 
-### Beta 1.6 Test Build 3 ![Debug]
+### Beta 1.6 Test Build 3 ![Debug] ![Item] ![Block Configuration] ![Item Dupe] ![Item Count] ![Item NBT]
 > [!Note]
 > Level.dat regeneration is required in order to access debug chests in existing worlds.
 - Upon level.dat creation, [debug chests][Debug Chests] would generate at the world spawn.
@@ -321,8 +321,8 @@
 - Update Suppresion now works by using budding redstone updates. <sup>[See files...][1.6 Suppressor]</sup>
 - Maps would not snap to a grid. <sup>[\[33\]][33]</sup>
 
-### Beta 1.6.0
-- Any equipment with damage greater than zero will become a [zero stack][Understacked Items] when dropped. This only works on equipment with durability. <sup>[\[34\]][34]</sup>
+### Beta 1.6.0 ![Durability] ![Equipment] ![Item Count] ![Item Dupe]
+- Any equipment with damage less than zero will become a [zero stack][Understacked Items] when dropped. This only works on equipment with durability. <sup>[\[34\]][34]</sup>
 
 ### Beta 1.7
 - [Block Transmutation][Liquid Transmutation] is possible through building a piston and water based contraption.
