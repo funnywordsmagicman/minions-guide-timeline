@@ -18,7 +18,7 @@ jobs:
       - name: Get last commit timestamp for file
         run: |
           FILE="Java/Official Java Illegal Guide.md"
-          
+
           # Get last commit timestamp in ISO format
           UPDATED=$(git log -1 --format=%cI -- "$FILE")
 
@@ -27,11 +27,28 @@ jobs:
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
 
-          # Format nicely for badge
-          MSG=$(date -u -d "$UPDATED" +"%Y-%m-%d %H:%M UTC")
+          # Calculate difference in seconds
+          NOW=$(date -u +%s)
+          UPDATED_SEC=$(date -d "$UPDATED" +%s)
+          DIFF=$((NOW - UPDATED_SEC))
 
-          # Create badge JSON
-          mkdir -p badge
+          # Convert diff into human-readable format
+          if [ $DIFF -lt 3600 ]; then
+            MSG="$((DIFF/60))m ago"
+          elif [ $DIFF -lt 86400 ]; then
+            MSG="$((DIFF/3600))h ago"
+          elif [ $DIFF -lt 604800 ]; then
+            MSG="$((DIFF/86400))d ago"
+          elif [ $DIFF -lt 2628000 ]; then
+            MSG="$((DIFF/604800))w ago"
+          else
+            MSG="$((DIFF/2628000))mo ago"
+          fi
+
+          echo "Last edit message: $MSG"
+
+          # Create badge JSON with fixed color
+          mkdir -p Java/badge
           echo "{
             \"schemaVersion\": 1,
             \"label\": \"Last Guide Update\",
