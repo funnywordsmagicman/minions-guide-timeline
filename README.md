@@ -17,6 +17,14 @@
 
 &emsp; Information in this repository may change with Minecraft updates and may not always reflect the latest version of the game.
 
+&emsp; Information in this repository applies to specific Minecraft versions and may not function the same way in future updates.
+
+&emsp; This repository may reference external websites or resources. Maintainers of this repository are not responsible for the content or availability of those resources.
+
+&emsp; All information in this repository is provided “as is” without guarantees of accuracy or completeness.
+
+&emsp; This repository exists for documentation and preservation of unusual or unobtainable Minecraft mechanics.
+
 <br>
 
 ### Terminology
