@@ -9,10 +9,13 @@
 
 &emsp; This repo is not an official asset owned by Mojang, nor is it officially endorsed. This is a NON-COMMERCIAL and personal project, and has no corporate affiliation.
 
-       MCDF Logo (2021 Revision)
+&emsp; &emsp; MCDF Logo (2021 Revision)
    Source: mcdf.wiki.gg
+   
    License (for wiki content): Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   
    Attribution: “MCDF Logo (2021 Revision), taken from mcdf.wiki.gg, licensed under CC BY-SA 4.0.”
+   
    Note: This image is a derivative of assets owned by Mojang AB (the original Minecraft logo). Use of the image does not transfer rights to Mojang’s intellectual property. Commercial use may require permission from Mojang.
 
 <br><br> 
