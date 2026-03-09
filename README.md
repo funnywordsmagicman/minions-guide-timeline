@@ -37,7 +37,7 @@
 
 &emsp; Outside of the [Credits] page, I've decided to add some credits of my own.
 
-&emsp; Obviously, big credits to the [MCDF Wiki]. I believe all, with the possible exception of a little information, comes from the MCDF wiki. If it's not from there, its either from individual contributors (big thanks as well) or from the [Minecraft Wiki]/[Minecraft Fandom].
+&emsp; Obviously, big thanks to the [MCDF Wiki]. I believe all, with the possible exception of a little information, comes from the MCDF wiki. If it's not from there, its either from individual contributors (big thanks as well) or from the [Minecraft Wiki]/[Minecraft Fandom].
 
 &emsp; I didn't start this encyclopedia. If you want to see the original version of this encyclopedia, see [Mini0n's Discontinued Feature Guide].
 Nearly all of the information currently available in this repository comes from their original guide.  Credits to [gMini0n-YT].
