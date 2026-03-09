@@ -1,53 +1,14 @@
-# Mini0n-s-Discontinued-Feature-Guide
+# Minecraft Illegal Features Encyclopedia
 
-## Second Release
+## Credits
 
-# All Editions
-- Added More Illegals and improved the Separated Illegal Guides
-- Added more Mods, Linkks, and Data Packs
+I didn't start this encyclopedia. If you want to see the original version of this encyclopedia, see [Mini0n's Discontinued Feature Guide].
+Nearly all of the information currently available in this repository comes from their original guide.  Credits to [gMini0n-YT].
 
-## Bedrock
--  Added more Illegals
+Besides that, I took it upon myself to 'clean up' this guide. Most of the changes you'll find (if you can somehow find your way through the countless versions of every single page) are purely visual, though I did add some information that I felt should be included. I tried to keep files tidy, so you'll find most link references at the bottom of any page.
 
-## Java
-- Added a Java Illegal Guide
-- Added the Mods Folder
-- Added a lot of Mods and Datapacks
-- Added World Folders
-- Added 3 different World Downloads
-- Added A Java External links file
-- Added 8 different Separated Illegal Guides
-- Added two tutorials for Classic to Indev Conversion and Indev to Infdev Conversion
-- Linked Youtube Tutorials
-- Added the Official Java Illegal Guide
-
-## .github
-- Added an Issue and a Pull Request Template
-- Added a Code of Conduct
-- Added a Contributing Tutorial
-- Added Security Tutorial
-- Added Apache 2.0 License
+<!-- ↑ Such as in this page! Take a look at the bottom of the page- it might seem unnecessary to have EVERY reference down there, but I like it. -->
 
 
-# Official Release
-- Created Mini0n's Discontinued Feature Guide
-- Added Links Folder
-- Added 1.16.1.2 Illegal Command Glitch
-- Added Chunk Regeneration Graph
-- Added External Links.md
-- Added Smooth Purpur Locations Picture
-- Added Update Suppressed Regen Guide Text File
-- Added All Separate Illegal Guides
-- Added ArmoredFoxesV4
-- Added Bedrock-Chunk-Boarders-Pack
-- Added CoordinatesUnlocker Pack
-- Added Cross Dimension Chunk Template
-- Added Damage Indicator Pack
-- Added Discontinued Feature Tweaks by p3sw
-- Added Mansion X-Ray Pack
-- Added MobHeadVi by Sir Kellogs Pack
-- Added the Trading helper Pack
-- Added the Anvil Limit Renamer Remover Minecraft Pack
-- Added README File
-- Added Credits File
-- Added Discontinued Feature Guide
+[Mini0n's Discontinued Feature Guide]: https://github.com/gMini0n-YT/Mini0n-s-Discontinued-Feature-Guide
+[gMini0n-YT]: https://github.com/gMini0n-YT
