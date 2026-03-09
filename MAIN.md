@@ -13,19 +13,21 @@
 
 &emsp; &emsp; MCDF Logo (2021 Revision)
 
-   Source: [mcdf.wiki.gg](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
+   [mcdf.wiki.gg](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
    
-   License (for wiki content): Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
    
-   Attribution: “MCDF Logo (2021 Revision), taken from mcdf.wiki.gg, licensed under CC BY-SA 4.0.”
+   MCDF Logo (2021 Revision), taken from mcdf.wiki.gg, licensed under CC BY-SA 4.0.
    
    Note: This image is a derivative of assets owned by Mojang AB (the original Minecraft logo). Use of the image does not transfer rights to Mojang’s intellectual property. Commercial use may require permission from Mojang.
 
 <br>
 
 &emsp; &emsp; Minecraft Java Edition logo
+
    © Mojang AB / Microsoft. 
-   Used for informational / non-commercial purposes.
+   
+   Note: This image is used for informational / non-commercial purposes.
 <br><br> 
 ## Credits
 
