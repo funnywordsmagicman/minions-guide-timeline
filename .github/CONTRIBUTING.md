@@ -13,6 +13,7 @@
 <br>
 
 By contributing to this repository, you agree that your contributions may be distributed under the repository’s license and that you have the right to submit the content.
+If you discover any legal issues, please contact me ASAP.
 
 [Discontinued Features]: https://mcdf.wiki.gg/#:~:text=What%20are%20Discontinued%20Features%3F
 [User Page]: https://mcdf.wiki.gg/wiki/User_talk:Funnywordsmagicman?action=edit&redlink=1
