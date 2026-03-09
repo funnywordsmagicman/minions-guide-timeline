@@ -7,7 +7,7 @@
 
 ## Important
 
-### Legal and/or Corporate Affiliation
+### Legal Disclaimer
 
 &emsp; This repository is not an official asset of Mojang AB and is not endorsed by, or affiliated, with Mojang or Microsoft.
 
@@ -21,7 +21,7 @@
 
 &emsp; This repository may reference external websites or resources. Maintainers of this repository are not responsible for the content or availability of those resources.
 
-&emsp; All information in this repository is provided “as is” without guarantees of accuracy or completeness.
+&emsp; All information in this repository is provided without guarantees of accuracy or completeness.
 
 &emsp; This repository exists for documentation and preservation of unusual or unobtainable Minecraft mechanics.
 
