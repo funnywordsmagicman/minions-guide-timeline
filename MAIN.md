@@ -11,7 +11,7 @@
 
 &emsp; This is a personal, non-commercial project intended for educational or informational purposes.
 
-&emsp; All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property are granted.
+&emsp; All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property have been granted.
 
 <br>
 
