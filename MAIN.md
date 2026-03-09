@@ -11,9 +11,7 @@
 
 <br>
 
-&emsp; &emsp; MCDF Logo (2021 Revision)
-
-   [mcdf.wiki.gg](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
+&emsp; &emsp; [MCDF Logo (2021 Revision)](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
    
    Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
    
@@ -23,7 +21,7 @@
 
 <br>
 
-&emsp; &emsp; Minecraft Java Edition logo
+&emsp; &emsp; [Minecraft Java Edition logo](https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/icon_javaeditionlogo.jpg)
 
    © Mojang AB / Microsoft. 
    
