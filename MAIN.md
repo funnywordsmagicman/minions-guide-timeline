@@ -21,6 +21,11 @@
    
    Note: This image is a derivative of assets owned by Mojang AB (the original Minecraft logo). Use of the image does not transfer rights to Mojang’s intellectual property. Commercial use may require permission from Mojang.
 
+<br>
+
+&emsp; &emsp; Minecraft Java Edition logo
+   © Mojang AB / Microsoft. 
+   Used for informational / non-commercial purposes.
 <br><br> 
 ## Credits
 
