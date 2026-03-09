@@ -27,7 +27,7 @@
 
 &emsp; Use of Minecraft-related assets follows the guidelines provided by Mojang AB.
 
-See: [https://www.minecraft.net/en-us/terms#brand]
+See: https://www.minecraft.net/en-us/terms#brand
 
 <br>
 
