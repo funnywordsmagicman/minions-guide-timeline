@@ -25,6 +25,10 @@
 
 &emsp; This repository exists for documentation and preservation of unusual or unobtainable Minecraft mechanics.
 
+&emsp; Use of Minecraft-related assets follows the guidelines provided by Mojang AB.
+
+See: [https://www.minecraft.net/en-us/terms#brand]
+
 <br>
 
 ### Terminology
