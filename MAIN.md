@@ -4,7 +4,7 @@
 
 ## Credits
 
-  Outside of the [Credits] page, I've decided to add some credits of my own.
+&emsp; Outside of the [Credits] page, I've decided to add some credits of my own.
 
   Obviously, big credits to the [MCDF Wiki]. I believe all, with the possible exception of a little information, comes from the MCDF wiki. If it's not from there, its either from individual contributors (big thanks as well) or from the [Minecraft Wiki]/[Minecraft Fandom].
 
