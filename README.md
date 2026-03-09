@@ -15,6 +15,8 @@
 
 &emsp; All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property have been granted.
 
+&emsp; Information in this repository may change with Minecraft updates and may not always reflect the latest version of the game.
+
 <br>
 
 ### Terminology
@@ -39,9 +41,10 @@
 
 &emsp; &emsp; [Minecraft Java Edition logo](https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/icon_javaeditionlogo.jpg)
 
-   © Mojang AB / Microsoft. 
+&emsp; © Mojang AB / Microsoft. 
    
-   **Note:** This image is used for informational / non-commercial purposes.
+&emsp; **Note:** This image is used for informational / non-commercial purposes.
+
 <br><br> 
 ## Credits
 
